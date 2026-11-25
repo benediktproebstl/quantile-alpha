@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# secrets and local data: never commit a FRED key or downloaded market data
+.env
+*.pkl
+qa_cache/
+
+# operating system
+.DS_Store

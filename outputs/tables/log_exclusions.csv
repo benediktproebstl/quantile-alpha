@@ -1,0 +1,1180 @@
+trade_month,ticker,name,status,reason_out
+2015-12,GOOG,Alphabet Inc. (Class C),secondary share class,
+2015-12,CBRE,CBRE Group,no share count on Yahoo,
+2015-12,HPE,Hewlett Packard Enterprise,listed too recently for the signal,
+2015-12,JCI,Johnson Controls,ticker reused: Yahoo series belongs to another issuer,
+2015-12,KHC,Kraft Heinz,listed too recently for the signal,
+2015-12,NWS,News Corp (Class B),secondary share class,
+2015-12,PYPL,PayPal,listed too recently for the signal,
+2015-12,SPGI,S&P Global,no share count on Yahoo,
+2015-12,SW,Smurfit Westrock,listed too recently for the signal,
+2015-12,TPR,"Tapestry, Inc.",no share count on Yahoo,
+2015-12,WELL,Welltower,no share count on Yahoo,
+2015-12,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2015-12,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2015-12,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2015-12,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2015-12,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2015-12,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2015-12,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2015-12,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2015-12,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2015-12,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2015-12,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2015-12,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2015-12,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2015-12,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2015-12,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2015-12,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2015-12,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2015-12,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2015-12,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2015-12,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2015-12,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2015-12,XLNX,Xilinx,no Yahoo price history (delisted or unknown symbol),Advanced Micro Devices acquired Xilinx.
+2015-12,LEG,Leggett & Platt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2015-12,HBI,Hanesbrands,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2015-12,KSU,Kansas City Southern,no Yahoo price history (delisted or unknown symbol),Canadian Pacific acquired Kansas City Southern.
+2015-12,ALXN,Alexion Pharmaceuticals,no Yahoo price history (delisted or unknown symbol),AstraZeneca acquired Alexion Pharmaceuticals.
+2015-12,FLIR,FLIR Systems,no Yahoo price history (delisted or unknown symbol),Teledyne Technologies acquired FLIR Systems.
+2015-12,VAR,Varian Medical Systems,no Yahoo price history (delisted or unknown symbol),Siemens Healthineers acquired Varian Medical Systems.
+2015-12,TIF,Tiffany & Co,no Yahoo price history (delisted or unknown symbol),LVMH Moet Hennessy-Louis Vuitton SE acquired Tiffany & Co.
+2015-12,NBL,Noble Energy,no Yahoo price history (delisted or unknown symbol),Chevron acquired Noble Energy.
+2015-12,ETFC,E-Trade,no Yahoo price history (delisted or unknown symbol),Morgan Stanley acquired E*Trade.
+2015-12,JWN,Nordstrom,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2015-12,CPRI,Capri Holdings,no share count on Yahoo,Market capitalization changes.
+2015-12,AGN,Allergan,no Yahoo price history (delisted or unknown symbol),Allergan was acquired by AbbVie.
+2015-12,RTN,Raytheon Company,no Yahoo price history (delisted or unknown symbol),United Technologies corporate spin-off of Otis and Carrier and acquired Raytheon Company.
+2015-12,XEC,Cimarex Energy,no Yahoo price history (delisted or unknown symbol),"Gardner Denver acquired Ingersoll Rand's industrial businesses then changed its name to the ""new"" Ingersoll Rand Inc."
+2015-12,STI,SunTrust Banks,ticker reused: Yahoo series starts after the membership began,BB&T acquired SunTrust to form Truist Financial.
+2015-12,VIAB,Viacom,no Yahoo price history (delisted or unknown symbol),CBS acquired Viacom to form ViacomCBS.
+2015-12,CELG,Celgene,no Yahoo price history (delisted or unknown symbol),Bristol-Myers Squibb acquired Celgene.
+2015-12,JEF,Jefferies Financial Group,no share count on Yahoo,SPB completed the corporate spin-off of Jefferies Financial Group.
+2015-12,TSS,TSYS,no Yahoo price history (delisted or unknown symbol),Global Payments acquired TSS.
+2015-12,APC,Anadarko Petroleum,no Yahoo price history (delisted or unknown symbol),Occidental Petroleum acquired Anadarko Petroleum.
+2015-12,RHT,Red Hat,no Yahoo price history (delisted or unknown symbol),IBM acquired Red Hat.
+2015-12,LLL,L3 Technologies,no Yahoo price history (delisted or unknown symbol),L3 was acquired by Harris Corporation.
+2015-12,TFCFA,21st Century Fox,no Yahoo price history (delisted or unknown symbol),21st Century Fox's Class A shares changed ticker from FOXA to TFCFA effective March 19; the company was removed from the index on March 20.
+2015-12,TFCF,21st Century Fox,secondary share class,21st Century Fox's Class B shares changed ticker from FOX to TFCF effective March 19; the company was removed from the index on March 20.
+2015-12,NFX,Newfield Exploration,no Yahoo price history (delisted or unknown symbol),Encana acquired Newfield Exploration.
+2015-12,SCG,SCANA,no Yahoo price history (delisted or unknown symbol),Dominion Energy acquired SCANA.
+2015-12,ESRX,Express Scripts,no Yahoo price history (delisted or unknown symbol),Cigna acquired Express Scripts.
+2015-12,COL,Rockwell Collins,no Yahoo price history (delisted or unknown symbol),UTX acquired Rockwell Collins.
+2015-12,AET,Aetna,no Yahoo price history (delisted or unknown symbol),CVS acquired Aetna.
+2015-12,SRCL,Stericycle,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2015-12,CA,CA Technologies,no Yahoo price history (delisted or unknown symbol),CA was acquired by Broadcom.
+2015-12,ANDV,Andeavor,no Yahoo price history (delisted or unknown symbol),ANDV was acquired by Marathon Petroleum.
+2015-12,XL,XL Group,no Yahoo price history (delisted or unknown symbol),XL was acquired by Axa.
+2015-12,GGP,GGP Inc.,no Yahoo price history (delisted or unknown symbol),GGP was acquired by Brookfield Property Partners.
+2015-12,DPS,Dr Pepper Snapple Group,no share count on Yahoo,DPS was acquired by Keurig Green Mountain.
+2015-12,TWX,Time Warner,no Yahoo price history (delisted or unknown symbol),AT&T acquired Time Warner.
+2015-12,MON,Monsanto,no Yahoo price history (delisted or unknown symbol),Bayer acquired Monsanto.
+2015-12,WYN,Wyndham Worldwide,no share count on Yahoo,Wyndham Worldwide completed the corporate spin-off of Wyndham Hotels & Resorts.
+2015-12,PDCO,Patterson Companies,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2015-12,CHK,Chesapeake Energy,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2015-12,SNI,Scripps Networks Interactive,no Yahoo price history (delisted or unknown symbol),Discovery Communications acquired Scripps Networks Interactive.
+2015-12,BCR,CR Bard,no Yahoo price history (delisted or unknown symbol),Becton Dickinson acquired CR Bard.
+2015-12,LVLT,Level 3 Communications,no Yahoo price history (delisted or unknown symbol),CenturyLink acquired Level 3 Communications.
+2015-12,SPLS,Staples,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Staples.
+2015-12,DD,DuPont,ticker reused: Yahoo series belongs to another issuer,The Dow Chemical Company acquired DuPont.
+2015-12,WFM,Whole Foods Market,no Yahoo price history (delisted or unknown symbol),Amazon acquired Whole Foods Market.
+2015-12,BBBY,Bed Bath & Beyond,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2015-12,MNK,Mallinckrodt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2015-12,RAI,Reynolds American,no Yahoo price history (delisted or unknown symbol),British American Tobacco (NYSE MKT:BTI) acquired Reynolds American.
+2015-12,BHI,Baker Hughes,no share count on Yahoo,Baker Hughes merged with GE Oil & Gas to form a new company.
+2015-12,YHOO,Yahoo!,no Yahoo price history (delisted or unknown symbol),Verizon acquired Yahoo operations; remainder of Yahoo became Altaba.
+2015-12,MJN,Mead Johnson,no Yahoo price history (delisted or unknown symbol),Reckitt Benckiser acquired Mead Johnson Nutrition.
+2015-12,TGNA,Tegna,no Yahoo price history (delisted or unknown symbol),TGNA completed the corporate spin-off of Cars.com.
+2015-12,DNB,Dun & Bradstreet,no Yahoo price history (delisted or unknown symbol),Gartner acquired CEB.
+2015-12,SWN,Southwestern Energy,no Yahoo price history (delisted or unknown symbol),"HPE completed the corporate spin-off of Everett, merged with CSC to form DXC Technology."
+2015-12,FTR,Frontier Communications,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2015-12,HAR,Harman International,no Yahoo price history (delisted or unknown symbol),Samsung Electronics acquired Harman International Industries.
+2015-12,LLTC,Linear Technology,no Yahoo price history (delisted or unknown symbol),Analog Devices acquired Linear Technology.
+2015-12,ENDP,Endo International,no Yahoo price history (delisted or unknown symbol),Regency Centers acquired EQY.
+2015-12,SE,Spectra Energy,ticker reused: Yahoo series starts after the membership began,SE was acquired by ENB
+2015-12,STJ,St Jude Medical,no Yahoo price history (delisted or unknown symbol),Abbott Laboratories acquired St. Jude Medical.
+2015-12,LM,Legg Mason,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2015-12,DO,Diamond Offshore Drilling,no Yahoo price history (delisted or unknown symbol),Siris Capital Group acquired Polycom.
+2015-12,HOT,Starwood Hotels and Resorts,no Yahoo price history (delisted or unknown symbol),MAR acquired Starwood Hotels
+2015-12,EMC,EMC Corporation,ticker reused: Yahoo series starts after the membership began,Dell acquired EMC.
+2015-12,TYC,Tyco International,no Yahoo price history (delisted or unknown symbol),TYC acquired JCI and retained JCI ticker.
+2015-12,CPGX,Columbia Pipeline Group,no Yahoo price history (delisted or unknown symbol),CPGX was acquired by TRP.
+2015-12,GAS,AGL Resources,no Yahoo price history (delisted or unknown symbol),AGL Resources was acquired by Southern Company.
+2015-12,TE,TECO Energy,ticker reused: Yahoo series starts after the membership began,TECO Energy was acquired by EMA.
+2015-12,CVC,Cablevision Systems,no Yahoo price history (delisted or unknown symbol),Cablevision Systems was acquired by Altice.
+2015-12,BXLT,Baxalta,no Yahoo price history (delisted or unknown symbol),SHPG acquired Baxalta.
+2015-12,CCE,Coca-Cola Enterprises,no share count on Yahoo,Coca-Cola Enterprises merged with European bottlers.
+2015-12,ARG,Airgas,no Yahoo price history (delisted or unknown symbol),Airgas was acquired by Air Liquide.
+2015-12,TWC,Time Warner Cable,no Yahoo price history (delisted or unknown symbol),Time Warner Cable was acquired by Charter.
+2015-12,SNDK,SanDisk,ticker reused: Yahoo series starts after the membership began,Sandisk was acquired by Western Digital.
+2015-12,ADT,ADT,ticker reused: Yahoo series starts after the membership began,ADT was acquired by Apollo.
+2015-12,CAM,Cameron International,ticker reused: Yahoo series starts after the membership began,Schlumberger acquired Cameron.
+2015-12,POM,Pepco Holdings,ticker reused: Yahoo series starts after the membership began,Exelon acquired Pepco.
+2015-12,ESV,Ensco,no Yahoo price history (delisted or unknown symbol),Centene acquired Health Net.
+2015-12,GMCR,Keurig Green Mountain,no Yahoo price history (delisted or unknown symbol),JAB Holding Company acquired Keurig Green Mountain.
+2015-12,PCL,Plum Creek Timber,ticker reused: Yahoo series starts after the membership began,Weyerhaeuser acquired Plum Creek Timber.
+2015-12,PCP,Precision Castparts Corporation,no Yahoo price history (delisted or unknown symbol),nan
+2015-12,BRCM,Broadcom Corporation,no Yahoo price history (delisted or unknown symbol),nan
+2015-12,ACE,Chubb,no Yahoo price history (delisted or unknown symbol),ACE Ltd acquired Chubb and retained the CB ticker.
+2015-12,ALTR,Altera,no Yahoo price history (delisted or unknown symbol),Altera was acquired by Intel.
+2015-12,CMCSK,Comcast Series K,secondary share class,CMCSK shares were no longer listed.
+2015-12,CSC,Computer Sciences Corporation,no share count on Yahoo,CSC completed the corporate spin-off off CSRA.
+2016-03,GOOG,Alphabet Inc. (Class C),secondary share class,
+2016-03,CBRE,CBRE Group,no share count on Yahoo,
+2016-03,HPE,Hewlett Packard Enterprise,listed too recently for the signal,
+2016-03,JCI,Johnson Controls,ticker reused: Yahoo series belongs to another issuer,
+2016-03,KHC,Kraft Heinz,listed too recently for the signal,
+2016-03,NWS,News Corp (Class B),secondary share class,
+2016-03,PYPL,PayPal,listed too recently for the signal,
+2016-03,SW,Smurfit Westrock,listed too recently for the signal,
+2016-03,TPR,"Tapestry, Inc.",no share count on Yahoo,
+2016-03,WELL,Welltower,no share count on Yahoo,
+2016-03,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2016-03,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2016-03,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2016-03,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2016-03,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2016-03,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2016-03,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2016-03,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2016-03,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2016-03,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-03,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2016-03,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-03,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2016-03,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-03,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2016-03,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2016-03,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2016-03,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2016-03,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2016-03,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2016-03,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2016-03,XLNX,Xilinx,no Yahoo price history (delisted or unknown symbol),Advanced Micro Devices acquired Xilinx.
+2016-03,LEG,Leggett & Platt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-03,HBI,Hanesbrands,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-03,KSU,Kansas City Southern,no Yahoo price history (delisted or unknown symbol),Canadian Pacific acquired Kansas City Southern.
+2016-03,ALXN,Alexion Pharmaceuticals,no Yahoo price history (delisted or unknown symbol),AstraZeneca acquired Alexion Pharmaceuticals.
+2016-03,FLIR,FLIR Systems,no Yahoo price history (delisted or unknown symbol),Teledyne Technologies acquired FLIR Systems.
+2016-03,VAR,Varian Medical Systems,no Yahoo price history (delisted or unknown symbol),Siemens Healthineers acquired Varian Medical Systems.
+2016-03,CXO,Concho Resources,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Concho Resources.
+2016-03,TIF,Tiffany & Co,no Yahoo price history (delisted or unknown symbol),LVMH Moet Hennessy-Louis Vuitton SE acquired Tiffany & Co.
+2016-03,NBL,Noble Energy,no Yahoo price history (delisted or unknown symbol),Chevron acquired Noble Energy.
+2016-03,ETFC,E-Trade,no Yahoo price history (delisted or unknown symbol),Morgan Stanley acquired E*Trade.
+2016-03,JWN,Nordstrom,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-03,CPRI,Capri Holdings,no share count on Yahoo,Market capitalization changes.
+2016-03,AGN,Allergan,no Yahoo price history (delisted or unknown symbol),Allergan was acquired by AbbVie.
+2016-03,RTN,Raytheon Company,no Yahoo price history (delisted or unknown symbol),United Technologies corporate spin-off of Otis and Carrier and acquired Raytheon Company.
+2016-03,XEC,Cimarex Energy,no Yahoo price history (delisted or unknown symbol),"Gardner Denver acquired Ingersoll Rand's industrial businesses then changed its name to the ""new"" Ingersoll Rand Inc."
+2016-03,STI,SunTrust Banks,ticker reused: Yahoo series starts after the membership began,BB&T acquired SunTrust to form Truist Financial.
+2016-03,VIAB,Viacom,no Yahoo price history (delisted or unknown symbol),CBS acquired Viacom to form ViacomCBS.
+2016-03,CELG,Celgene,no Yahoo price history (delisted or unknown symbol),Bristol-Myers Squibb acquired Celgene.
+2016-03,JEF,Jefferies Financial Group,no share count on Yahoo,SPB completed the corporate spin-off of Jefferies Financial Group.
+2016-03,TSS,TSYS,no Yahoo price history (delisted or unknown symbol),Global Payments acquired TSS.
+2016-03,APC,Anadarko Petroleum,no Yahoo price history (delisted or unknown symbol),Occidental Petroleum acquired Anadarko Petroleum.
+2016-03,RHT,Red Hat,no Yahoo price history (delisted or unknown symbol),IBM acquired Red Hat.
+2016-03,LLL,L3 Technologies,no Yahoo price history (delisted or unknown symbol),L3 was acquired by Harris Corporation.
+2016-03,TFCFA,21st Century Fox,no Yahoo price history (delisted or unknown symbol),21st Century Fox's Class A shares changed ticker from FOXA to TFCFA effective March 19; the company was removed from the index on March 20.
+2016-03,TFCF,21st Century Fox,secondary share class,21st Century Fox's Class B shares changed ticker from FOX to TFCF effective March 19; the company was removed from the index on March 20.
+2016-03,NFX,Newfield Exploration,no Yahoo price history (delisted or unknown symbol),Encana acquired Newfield Exploration.
+2016-03,SCG,SCANA,no Yahoo price history (delisted or unknown symbol),Dominion Energy acquired SCANA.
+2016-03,ESRX,Express Scripts,no Yahoo price history (delisted or unknown symbol),Cigna acquired Express Scripts.
+2016-03,COL,Rockwell Collins,no Yahoo price history (delisted or unknown symbol),UTX acquired Rockwell Collins.
+2016-03,AET,Aetna,no Yahoo price history (delisted or unknown symbol),CVS acquired Aetna.
+2016-03,SRCL,Stericycle,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-03,CA,CA Technologies,no Yahoo price history (delisted or unknown symbol),CA was acquired by Broadcom.
+2016-03,ANDV,Andeavor,no Yahoo price history (delisted or unknown symbol),ANDV was acquired by Marathon Petroleum.
+2016-03,XL,XL Group,no Yahoo price history (delisted or unknown symbol),XL was acquired by Axa.
+2016-03,GGP,GGP Inc.,no Yahoo price history (delisted or unknown symbol),GGP was acquired by Brookfield Property Partners.
+2016-03,DPS,Dr Pepper Snapple Group,no share count on Yahoo,DPS was acquired by Keurig Green Mountain.
+2016-03,TWX,Time Warner,no Yahoo price history (delisted or unknown symbol),AT&T acquired Time Warner.
+2016-03,MON,Monsanto,no Yahoo price history (delisted or unknown symbol),Bayer acquired Monsanto.
+2016-03,WYN,Wyndham Worldwide,no share count on Yahoo,Wyndham Worldwide completed the corporate spin-off of Wyndham Hotels & Resorts.
+2016-03,CSRA,CSRA,no Yahoo price history (delisted or unknown symbol),General Dynamics acquired CSRA.
+2016-03,PDCO,Patterson Companies,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-03,CHK,Chesapeake Energy,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-03,SNI,Scripps Networks Interactive,no Yahoo price history (delisted or unknown symbol),Discovery Communications acquired Scripps Networks Interactive.
+2016-03,BCR,CR Bard,no Yahoo price history (delisted or unknown symbol),Becton Dickinson acquired CR Bard.
+2016-03,LVLT,Level 3 Communications,no Yahoo price history (delisted or unknown symbol),CenturyLink acquired Level 3 Communications.
+2016-03,SPLS,Staples,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Staples.
+2016-03,DD,DuPont,ticker reused: Yahoo series belongs to another issuer,The Dow Chemical Company acquired DuPont.
+2016-03,WFM,Whole Foods Market,no Yahoo price history (delisted or unknown symbol),Amazon acquired Whole Foods Market.
+2016-03,BBBY,Bed Bath & Beyond,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-03,MNK,Mallinckrodt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-03,RAI,Reynolds American,no Yahoo price history (delisted or unknown symbol),British American Tobacco (NYSE MKT:BTI) acquired Reynolds American.
+2016-03,BHI,Baker Hughes,no share count on Yahoo,Baker Hughes merged with GE Oil & Gas to form a new company.
+2016-03,YHOO,Yahoo!,no Yahoo price history (delisted or unknown symbol),Verizon acquired Yahoo operations; remainder of Yahoo became Altaba.
+2016-03,MJN,Mead Johnson,no Yahoo price history (delisted or unknown symbol),Reckitt Benckiser acquired Mead Johnson Nutrition.
+2016-03,TGNA,Tegna,no Yahoo price history (delisted or unknown symbol),TGNA completed the corporate spin-off of Cars.com.
+2016-03,DNB,Dun & Bradstreet,no Yahoo price history (delisted or unknown symbol),Gartner acquired CEB.
+2016-03,SWN,Southwestern Energy,no Yahoo price history (delisted or unknown symbol),"HPE completed the corporate spin-off of Everett, merged with CSC to form DXC Technology."
+2016-03,FTR,Frontier Communications,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-03,HAR,Harman International,no Yahoo price history (delisted or unknown symbol),Samsung Electronics acquired Harman International Industries.
+2016-03,LLTC,Linear Technology,no Yahoo price history (delisted or unknown symbol),Analog Devices acquired Linear Technology.
+2016-03,ENDP,Endo International,no Yahoo price history (delisted or unknown symbol),Regency Centers acquired EQY.
+2016-03,SE,Spectra Energy,ticker reused: Yahoo series starts after the membership began,SE was acquired by ENB
+2016-03,STJ,St Jude Medical,no Yahoo price history (delisted or unknown symbol),Abbott Laboratories acquired St. Jude Medical.
+2016-03,LM,Legg Mason,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-03,DO,Diamond Offshore Drilling,no Yahoo price history (delisted or unknown symbol),Siris Capital Group acquired Polycom.
+2016-03,HOT,Starwood Hotels and Resorts,no Yahoo price history (delisted or unknown symbol),MAR acquired Starwood Hotels
+2016-03,EMC,EMC Corporation,ticker reused: Yahoo series starts after the membership began,Dell acquired EMC.
+2016-03,TYC,Tyco International,no Yahoo price history (delisted or unknown symbol),TYC acquired JCI and retained JCI ticker.
+2016-03,CPGX,Columbia Pipeline Group,no Yahoo price history (delisted or unknown symbol),CPGX was acquired by TRP.
+2016-03,GAS,AGL Resources,no Yahoo price history (delisted or unknown symbol),AGL Resources was acquired by Southern Company.
+2016-03,TE,TECO Energy,ticker reused: Yahoo series starts after the membership began,TECO Energy was acquired by EMA.
+2016-03,CVC,Cablevision Systems,no Yahoo price history (delisted or unknown symbol),Cablevision Systems was acquired by Altice.
+2016-03,BXLT,Baxalta,no Yahoo price history (delisted or unknown symbol),SHPG acquired Baxalta.
+2016-03,CCE,Coca-Cola Enterprises,no share count on Yahoo,Coca-Cola Enterprises merged with European bottlers.
+2016-03,ARG,Airgas,no Yahoo price history (delisted or unknown symbol),Airgas was acquired by Air Liquide.
+2016-03,TWC,Time Warner Cable,no Yahoo price history (delisted or unknown symbol),Time Warner Cable was acquired by Charter.
+2016-03,SNDK,SanDisk,ticker reused: Yahoo series starts after the membership began,Sandisk was acquired by Western Digital.
+2016-03,ADT,ADT,ticker reused: Yahoo series starts after the membership began,ADT was acquired by Apollo.
+2016-03,CAM,Cameron International,ticker reused: Yahoo series starts after the membership began,Schlumberger acquired Cameron.
+2016-03,POM,Pepco Holdings,ticker reused: Yahoo series starts after the membership began,Exelon acquired Pepco.
+2016-03,ESV,Ensco,no Yahoo price history (delisted or unknown symbol),Centene acquired Health Net.
+2016-03,GMCR,Keurig Green Mountain,no Yahoo price history (delisted or unknown symbol),JAB Holding Company acquired Keurig Green Mountain.
+2016-09,GOOG,Alphabet Inc. (Class C),secondary share class,
+2016-09,CBRE,CBRE Group,no share count on Yahoo,
+2016-09,FTV,Fortive,listed too recently for the signal,
+2016-09,JCI,Johnson Controls,ticker reused: Yahoo series belongs to another issuer,
+2016-09,NWS,News Corp (Class B),secondary share class,
+2016-09,SW,Smurfit Westrock,listed too recently for the signal,
+2016-09,TPR,"Tapestry, Inc.",no share count on Yahoo,
+2016-09,WELL,Welltower,no share count on Yahoo,
+2016-09,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2016-09,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2016-09,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2016-09,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2016-09,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2016-09,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2016-09,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2016-09,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2016-09,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2016-09,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2016-09,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2016-09,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2016-09,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2016-09,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2016-09,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2016-09,UA,Under Armour (Class C),secondary share class,Market capitalization changes.
+2016-09,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2016-09,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2016-09,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2016-09,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2016-09,XLNX,Xilinx,no Yahoo price history (delisted or unknown symbol),Advanced Micro Devices acquired Xilinx.
+2016-09,LEG,Leggett & Platt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,HBI,Hanesbrands,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,KSU,Kansas City Southern,no Yahoo price history (delisted or unknown symbol),Canadian Pacific acquired Kansas City Southern.
+2016-09,ALXN,Alexion Pharmaceuticals,no Yahoo price history (delisted or unknown symbol),AstraZeneca acquired Alexion Pharmaceuticals.
+2016-09,FLIR,FLIR Systems,no Yahoo price history (delisted or unknown symbol),Teledyne Technologies acquired FLIR Systems.
+2016-09,VAR,Varian Medical Systems,no Yahoo price history (delisted or unknown symbol),Siemens Healthineers acquired Varian Medical Systems.
+2016-09,CXO,Concho Resources,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Concho Resources.
+2016-09,TIF,Tiffany & Co,no Yahoo price history (delisted or unknown symbol),LVMH Moet Hennessy-Louis Vuitton SE acquired Tiffany & Co.
+2016-09,NBL,Noble Energy,no Yahoo price history (delisted or unknown symbol),Chevron acquired Noble Energy.
+2016-09,ETFC,E-Trade,no Yahoo price history (delisted or unknown symbol),Morgan Stanley acquired E*Trade.
+2016-09,JWN,Nordstrom,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,CPRI,Capri Holdings,no share count on Yahoo,Market capitalization changes.
+2016-09,AGN,Allergan,no Yahoo price history (delisted or unknown symbol),Allergan was acquired by AbbVie.
+2016-09,RTN,Raytheon Company,no Yahoo price history (delisted or unknown symbol),United Technologies corporate spin-off of Otis and Carrier and acquired Raytheon Company.
+2016-09,XEC,Cimarex Energy,no Yahoo price history (delisted or unknown symbol),"Gardner Denver acquired Ingersoll Rand's industrial businesses then changed its name to the ""new"" Ingersoll Rand Inc."
+2016-09,STI,SunTrust Banks,ticker reused: Yahoo series starts after the membership began,BB&T acquired SunTrust to form Truist Financial.
+2016-09,VIAB,Viacom,no Yahoo price history (delisted or unknown symbol),CBS acquired Viacom to form ViacomCBS.
+2016-09,CELG,Celgene,no Yahoo price history (delisted or unknown symbol),Bristol-Myers Squibb acquired Celgene.
+2016-09,JEF,Jefferies Financial Group,no share count on Yahoo,SPB completed the corporate spin-off of Jefferies Financial Group.
+2016-09,TSS,TSYS,no Yahoo price history (delisted or unknown symbol),Global Payments acquired TSS.
+2016-09,APC,Anadarko Petroleum,no Yahoo price history (delisted or unknown symbol),Occidental Petroleum acquired Anadarko Petroleum.
+2016-09,FL,Foot Locker,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,RHT,Red Hat,no Yahoo price history (delisted or unknown symbol),IBM acquired Red Hat.
+2016-09,LLL,L3 Technologies,no Yahoo price history (delisted or unknown symbol),L3 was acquired by Harris Corporation.
+2016-09,TFCFA,21st Century Fox,no Yahoo price history (delisted or unknown symbol),21st Century Fox's Class A shares changed ticker from FOXA to TFCFA effective March 19; the company was removed from the index on March 20.
+2016-09,TFCF,21st Century Fox,secondary share class,21st Century Fox's Class B shares changed ticker from FOX to TFCF effective March 19; the company was removed from the index on March 20.
+2016-09,NFX,Newfield Exploration,no Yahoo price history (delisted or unknown symbol),Encana acquired Newfield Exploration.
+2016-09,SCG,SCANA,no Yahoo price history (delisted or unknown symbol),Dominion Energy acquired SCANA.
+2016-09,ESRX,Express Scripts,no Yahoo price history (delisted or unknown symbol),Cigna acquired Express Scripts.
+2016-09,COL,Rockwell Collins,no Yahoo price history (delisted or unknown symbol),UTX acquired Rockwell Collins.
+2016-09,AET,Aetna,no Yahoo price history (delisted or unknown symbol),CVS acquired Aetna.
+2016-09,SRCL,Stericycle,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,CA,CA Technologies,no Yahoo price history (delisted or unknown symbol),CA was acquired by Broadcom.
+2016-09,ANDV,Andeavor,no Yahoo price history (delisted or unknown symbol),ANDV was acquired by Marathon Petroleum.
+2016-09,XL,XL Group,no Yahoo price history (delisted or unknown symbol),XL was acquired by Axa.
+2016-09,GGP,GGP Inc.,no Yahoo price history (delisted or unknown symbol),GGP was acquired by Brookfield Property Partners.
+2016-09,DPS,Dr Pepper Snapple Group,no share count on Yahoo,DPS was acquired by Keurig Green Mountain.
+2016-09,TWX,Time Warner,no Yahoo price history (delisted or unknown symbol),AT&T acquired Time Warner.
+2016-09,MON,Monsanto,no Yahoo price history (delisted or unknown symbol),Bayer acquired Monsanto.
+2016-09,WYN,Wyndham Worldwide,no share count on Yahoo,Wyndham Worldwide completed the corporate spin-off of Wyndham Hotels & Resorts.
+2016-09,CSRA,CSRA,no Yahoo price history (delisted or unknown symbol),General Dynamics acquired CSRA.
+2016-09,PDCO,Patterson Companies,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,CHK,Chesapeake Energy,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,SNI,Scripps Networks Interactive,no Yahoo price history (delisted or unknown symbol),Discovery Communications acquired Scripps Networks Interactive.
+2016-09,BCR,CR Bard,no Yahoo price history (delisted or unknown symbol),Becton Dickinson acquired CR Bard.
+2016-09,LVLT,Level 3 Communications,no Yahoo price history (delisted or unknown symbol),CenturyLink acquired Level 3 Communications.
+2016-09,SPLS,Staples,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Staples.
+2016-09,DD,DuPont,ticker reused: Yahoo series belongs to another issuer,The Dow Chemical Company acquired DuPont.
+2016-09,WFM,Whole Foods Market,no Yahoo price history (delisted or unknown symbol),Amazon acquired Whole Foods Market.
+2016-09,BBBY,Bed Bath & Beyond,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,MNK,Mallinckrodt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,RAI,Reynolds American,no Yahoo price history (delisted or unknown symbol),British American Tobacco (NYSE MKT:BTI) acquired Reynolds American.
+2016-09,BHI,Baker Hughes,no share count on Yahoo,Baker Hughes merged with GE Oil & Gas to form a new company.
+2016-09,YHOO,Yahoo!,no Yahoo price history (delisted or unknown symbol),Verizon acquired Yahoo operations; remainder of Yahoo became Altaba.
+2016-09,MJN,Mead Johnson,no Yahoo price history (delisted or unknown symbol),Reckitt Benckiser acquired Mead Johnson Nutrition.
+2016-09,TGNA,Tegna,no Yahoo price history (delisted or unknown symbol),TGNA completed the corporate spin-off of Cars.com.
+2016-09,DNB,Dun & Bradstreet,no Yahoo price history (delisted or unknown symbol),Gartner acquired CEB.
+2016-09,SWN,Southwestern Energy,no Yahoo price history (delisted or unknown symbol),"HPE completed the corporate spin-off of Everett, merged with CSC to form DXC Technology."
+2016-09,FTR,Frontier Communications,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,HAR,Harman International,no Yahoo price history (delisted or unknown symbol),Samsung Electronics acquired Harman International Industries.
+2016-09,LLTC,Linear Technology,no Yahoo price history (delisted or unknown symbol),Analog Devices acquired Linear Technology.
+2016-09,ENDP,Endo International,no Yahoo price history (delisted or unknown symbol),Regency Centers acquired EQY.
+2016-09,SE,Spectra Energy,ticker reused: Yahoo series starts after the membership began,SE was acquired by ENB
+2016-09,STJ,St Jude Medical,no Yahoo price history (delisted or unknown symbol),Abbott Laboratories acquired St. Jude Medical.
+2016-09,LM,Legg Mason,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2016-09,DO,Diamond Offshore Drilling,no Yahoo price history (delisted or unknown symbol),Siris Capital Group acquired Polycom.
+2016-09,HOT,Starwood Hotels and Resorts,no Yahoo price history (delisted or unknown symbol),MAR acquired Starwood Hotels
+2016-09,EMC,EMC Corporation,ticker reused: Yahoo series starts after the membership began,Dell acquired EMC.
+2016-09,TYC,Tyco International,no Yahoo price history (delisted or unknown symbol),TYC acquired JCI and retained JCI ticker.
+2017-03,GOOG,Alphabet Inc. (Class C),secondary share class,
+2017-03,CBRE,CBRE Group,no share count on Yahoo,
+2017-03,FTV,Fortive,listed too recently for the signal,
+2017-03,NWS,News Corp (Class B),secondary share class,
+2017-03,SW,Smurfit Westrock,listed too recently for the signal,
+2017-03,TPR,"Tapestry, Inc.",no share count on Yahoo,
+2017-03,WELL,Welltower,no share count on Yahoo,
+2017-03,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2017-03,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2017-03,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2017-03,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2017-03,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2017-03,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2017-03,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2017-03,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2017-03,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2017-03,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2017-03,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-03,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2017-03,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-03,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2017-03,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-03,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2017-03,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2017-03,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2017-03,UA,Under Armour (Class C),secondary share class,Market capitalization changes.
+2017-03,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2017-03,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2017-03,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2017-03,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2017-03,XLNX,Xilinx,no Yahoo price history (delisted or unknown symbol),Advanced Micro Devices acquired Xilinx.
+2017-03,LEG,Leggett & Platt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-03,HBI,Hanesbrands,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-03,KSU,Kansas City Southern,no Yahoo price history (delisted or unknown symbol),Canadian Pacific acquired Kansas City Southern.
+2017-03,ALXN,Alexion Pharmaceuticals,no Yahoo price history (delisted or unknown symbol),AstraZeneca acquired Alexion Pharmaceuticals.
+2017-03,FLIR,FLIR Systems,no Yahoo price history (delisted or unknown symbol),Teledyne Technologies acquired FLIR Systems.
+2017-03,VAR,Varian Medical Systems,no Yahoo price history (delisted or unknown symbol),Siemens Healthineers acquired Varian Medical Systems.
+2017-03,CXO,Concho Resources,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Concho Resources.
+2017-03,TIF,Tiffany & Co,no Yahoo price history (delisted or unknown symbol),LVMH Moet Hennessy-Louis Vuitton SE acquired Tiffany & Co.
+2017-03,NBL,Noble Energy,no Yahoo price history (delisted or unknown symbol),Chevron acquired Noble Energy.
+2017-03,ETFC,E-Trade,no Yahoo price history (delisted or unknown symbol),Morgan Stanley acquired E*Trade.
+2017-03,JWN,Nordstrom,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-03,CPRI,Capri Holdings,no share count on Yahoo,Market capitalization changes.
+2017-03,AGN,Allergan,no Yahoo price history (delisted or unknown symbol),Allergan was acquired by AbbVie.
+2017-03,RTN,Raytheon Company,no Yahoo price history (delisted or unknown symbol),United Technologies corporate spin-off of Otis and Carrier and acquired Raytheon Company.
+2017-03,ARNC,Arconic,listed too recently for the signal,Arconic separated into 2 companies - Howmet remained in the index.
+2017-03,XEC,Cimarex Energy,no Yahoo price history (delisted or unknown symbol),"Gardner Denver acquired Ingersoll Rand's industrial businesses then changed its name to the ""new"" Ingersoll Rand Inc."
+2017-03,STI,SunTrust Banks,ticker reused: Yahoo series starts after the membership began,BB&T acquired SunTrust to form Truist Financial.
+2017-03,VIAB,Viacom,no Yahoo price history (delisted or unknown symbol),CBS acquired Viacom to form ViacomCBS.
+2017-03,CELG,Celgene,no Yahoo price history (delisted or unknown symbol),Bristol-Myers Squibb acquired Celgene.
+2017-03,JEF,Jefferies Financial Group,no share count on Yahoo,SPB completed the corporate spin-off of Jefferies Financial Group.
+2017-03,TSS,TSYS,no Yahoo price history (delisted or unknown symbol),Global Payments acquired TSS.
+2017-03,APC,Anadarko Petroleum,no Yahoo price history (delisted or unknown symbol),Occidental Petroleum acquired Anadarko Petroleum.
+2017-03,FL,Foot Locker,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-03,RHT,Red Hat,no Yahoo price history (delisted or unknown symbol),IBM acquired Red Hat.
+2017-03,LLL,L3 Technologies,no Yahoo price history (delisted or unknown symbol),L3 was acquired by Harris Corporation.
+2017-03,TFCFA,21st Century Fox,no Yahoo price history (delisted or unknown symbol),21st Century Fox's Class A shares changed ticker from FOXA to TFCFA effective March 19; the company was removed from the index on March 20.
+2017-03,TFCF,21st Century Fox,secondary share class,21st Century Fox's Class B shares changed ticker from FOX to TFCF effective March 19; the company was removed from the index on March 20.
+2017-03,NFX,Newfield Exploration,no Yahoo price history (delisted or unknown symbol),Encana acquired Newfield Exploration.
+2017-03,SCG,SCANA,no Yahoo price history (delisted or unknown symbol),Dominion Energy acquired SCANA.
+2017-03,ESRX,Express Scripts,no Yahoo price history (delisted or unknown symbol),Cigna acquired Express Scripts.
+2017-03,COL,Rockwell Collins,no Yahoo price history (delisted or unknown symbol),UTX acquired Rockwell Collins.
+2017-03,AET,Aetna,no Yahoo price history (delisted or unknown symbol),CVS acquired Aetna.
+2017-03,SRCL,Stericycle,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-03,CA,CA Technologies,no Yahoo price history (delisted or unknown symbol),CA was acquired by Broadcom.
+2017-03,EVHC,Envision Healthcare,no Yahoo price history (delisted or unknown symbol),EVHC was acquired by KKR.
+2017-03,ANDV,Andeavor,no Yahoo price history (delisted or unknown symbol),ANDV was acquired by Marathon Petroleum.
+2017-03,XL,XL Group,no Yahoo price history (delisted or unknown symbol),XL was acquired by Axa.
+2017-03,GGP,GGP Inc.,no Yahoo price history (delisted or unknown symbol),GGP was acquired by Brookfield Property Partners.
+2017-03,DPS,Dr Pepper Snapple Group,no share count on Yahoo,DPS was acquired by Keurig Green Mountain.
+2017-03,TWX,Time Warner,no Yahoo price history (delisted or unknown symbol),AT&T acquired Time Warner.
+2017-03,MON,Monsanto,no Yahoo price history (delisted or unknown symbol),Bayer acquired Monsanto.
+2017-03,WYN,Wyndham Worldwide,no share count on Yahoo,Wyndham Worldwide completed the corporate spin-off of Wyndham Hotels & Resorts.
+2017-03,CSRA,CSRA,no Yahoo price history (delisted or unknown symbol),General Dynamics acquired CSRA.
+2017-03,PDCO,Patterson Companies,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-03,CHK,Chesapeake Energy,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-03,SNI,Scripps Networks Interactive,no Yahoo price history (delisted or unknown symbol),Discovery Communications acquired Scripps Networks Interactive.
+2017-03,BCR,CR Bard,no Yahoo price history (delisted or unknown symbol),Becton Dickinson acquired CR Bard.
+2017-03,LVLT,Level 3 Communications,no Yahoo price history (delisted or unknown symbol),CenturyLink acquired Level 3 Communications.
+2017-03,SPLS,Staples,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Staples.
+2017-03,DD,DuPont,ticker reused: Yahoo series belongs to another issuer,The Dow Chemical Company acquired DuPont.
+2017-03,WFM,Whole Foods Market,no Yahoo price history (delisted or unknown symbol),Amazon acquired Whole Foods Market.
+2017-03,BBBY,Bed Bath & Beyond,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-03,MNK,Mallinckrodt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-03,RAI,Reynolds American,no Yahoo price history (delisted or unknown symbol),British American Tobacco (NYSE MKT:BTI) acquired Reynolds American.
+2017-03,BHI,Baker Hughes,no share count on Yahoo,Baker Hughes merged with GE Oil & Gas to form a new company.
+2017-03,YHOO,Yahoo!,no Yahoo price history (delisted or unknown symbol),Verizon acquired Yahoo operations; remainder of Yahoo became Altaba.
+2017-03,MJN,Mead Johnson,no Yahoo price history (delisted or unknown symbol),Reckitt Benckiser acquired Mead Johnson Nutrition.
+2017-03,TGNA,Tegna,no Yahoo price history (delisted or unknown symbol),TGNA completed the corporate spin-off of Cars.com.
+2017-03,DNB,Dun & Bradstreet,no Yahoo price history (delisted or unknown symbol),Gartner acquired CEB.
+2017-03,SWN,Southwestern Energy,no Yahoo price history (delisted or unknown symbol),"HPE completed the corporate spin-off of Everett, merged with CSC to form DXC Technology."
+2017-03,FTR,Frontier Communications,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-03,HAR,Harman International,no Yahoo price history (delisted or unknown symbol),Samsung Electronics acquired Harman International Industries.
+2017-03,LLTC,Linear Technology,no Yahoo price history (delisted or unknown symbol),Analog Devices acquired Linear Technology.
+2017-03,ENDP,Endo International,no Yahoo price history (delisted or unknown symbol),Regency Centers acquired EQY.
+2017-09,GOOG,Alphabet Inc. (Class C),secondary share class,
+2017-09,CBRE,CBRE Group,no share count on Yahoo,
+2017-09,NWS,News Corp (Class B),secondary share class,
+2017-09,SW,Smurfit Westrock,listed too recently for the signal,
+2017-09,TPR,"Tapestry, Inc.",no share count on Yahoo,
+2017-09,WELL,Welltower,no share count on Yahoo,
+2017-09,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2017-09,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2017-09,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2017-09,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2017-09,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2017-09,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2017-09,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2017-09,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2017-09,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2017-09,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2017-09,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2017-09,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-09,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2017-09,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-09,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2017-09,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-09,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2017-09,DISH,Dish Network,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-09,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2017-09,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2017-09,DRE,Duke Realty,no Yahoo price history (delisted or unknown symbol),Prologis acquired Duke Realty.
+2017-09,UA,Under Armour (Class C),secondary share class,Market capitalization changes.
+2017-09,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2017-09,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2017-09,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2017-09,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2017-09,INFO,IHS Markit,ticker reused: Yahoo series starts after the membership began,S&P Global acquired IHS Markit.
+2017-09,XLNX,Xilinx,no Yahoo price history (delisted or unknown symbol),Advanced Micro Devices acquired Xilinx.
+2017-09,LEG,Leggett & Platt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-09,HBI,Hanesbrands,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-09,KSU,Kansas City Southern,no Yahoo price history (delisted or unknown symbol),Canadian Pacific acquired Kansas City Southern.
+2017-09,ALXN,Alexion Pharmaceuticals,no Yahoo price history (delisted or unknown symbol),AstraZeneca acquired Alexion Pharmaceuticals.
+2017-09,FLIR,FLIR Systems,no Yahoo price history (delisted or unknown symbol),Teledyne Technologies acquired FLIR Systems.
+2017-09,VAR,Varian Medical Systems,no Yahoo price history (delisted or unknown symbol),Siemens Healthineers acquired Varian Medical Systems.
+2017-09,CXO,Concho Resources,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Concho Resources.
+2017-09,TIF,Tiffany & Co,no Yahoo price history (delisted or unknown symbol),LVMH Moet Hennessy-Louis Vuitton SE acquired Tiffany & Co.
+2017-09,NBL,Noble Energy,no Yahoo price history (delisted or unknown symbol),Chevron acquired Noble Energy.
+2017-09,ETFC,E-Trade,no Yahoo price history (delisted or unknown symbol),Morgan Stanley acquired E*Trade.
+2017-09,JWN,Nordstrom,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-09,CPRI,Capri Holdings,no share count on Yahoo,Market capitalization changes.
+2017-09,AGN,Allergan,no Yahoo price history (delisted or unknown symbol),Allergan was acquired by AbbVie.
+2017-09,RTN,Raytheon Company,no Yahoo price history (delisted or unknown symbol),United Technologies corporate spin-off of Otis and Carrier and acquired Raytheon Company.
+2017-09,ARNC,Arconic,listed too recently for the signal,Arconic separated into 2 companies - Howmet remained in the index.
+2017-09,XEC,Cimarex Energy,no Yahoo price history (delisted or unknown symbol),"Gardner Denver acquired Ingersoll Rand's industrial businesses then changed its name to the ""new"" Ingersoll Rand Inc."
+2017-09,STI,SunTrust Banks,ticker reused: Yahoo series starts after the membership began,BB&T acquired SunTrust to form Truist Financial.
+2017-09,VIAB,Viacom,no Yahoo price history (delisted or unknown symbol),CBS acquired Viacom to form ViacomCBS.
+2017-09,CELG,Celgene,no Yahoo price history (delisted or unknown symbol),Bristol-Myers Squibb acquired Celgene.
+2017-09,JEF,Jefferies Financial Group,no share count on Yahoo,SPB completed the corporate spin-off of Jefferies Financial Group.
+2017-09,TSS,TSYS,no Yahoo price history (delisted or unknown symbol),Global Payments acquired TSS.
+2017-09,APC,Anadarko Petroleum,no Yahoo price history (delisted or unknown symbol),Occidental Petroleum acquired Anadarko Petroleum.
+2017-09,FL,Foot Locker,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-09,RHT,Red Hat,no Yahoo price history (delisted or unknown symbol),IBM acquired Red Hat.
+2017-09,LLL,L3 Technologies,no Yahoo price history (delisted or unknown symbol),L3 was acquired by Harris Corporation.
+2017-09,BHF,Brighthouse Financial,listed too recently for the signal,DowDuPont completed the corporate spin-off of Dow Inc.
+2017-09,TFCFA,21st Century Fox,no Yahoo price history (delisted or unknown symbol),21st Century Fox's Class A shares changed ticker from FOXA to TFCFA effective March 19; the company was removed from the index on March 20.
+2017-09,TFCF,21st Century Fox,secondary share class,21st Century Fox's Class B shares changed ticker from FOX to TFCF effective March 19; the company was removed from the index on March 20.
+2017-09,NFX,Newfield Exploration,no Yahoo price history (delisted or unknown symbol),Encana acquired Newfield Exploration.
+2017-09,SCG,SCANA,no Yahoo price history (delisted or unknown symbol),Dominion Energy acquired SCANA.
+2017-09,ESRX,Express Scripts,no Yahoo price history (delisted or unknown symbol),Cigna acquired Express Scripts.
+2017-09,COL,Rockwell Collins,no Yahoo price history (delisted or unknown symbol),UTX acquired Rockwell Collins.
+2017-09,AET,Aetna,no Yahoo price history (delisted or unknown symbol),CVS acquired Aetna.
+2017-09,SRCL,Stericycle,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-09,CA,CA Technologies,no Yahoo price history (delisted or unknown symbol),CA was acquired by Broadcom.
+2017-09,EVHC,Envision Healthcare,no Yahoo price history (delisted or unknown symbol),EVHC was acquired by KKR.
+2017-09,ANDV,Andeavor,no Yahoo price history (delisted or unknown symbol),ANDV was acquired by Marathon Petroleum.
+2017-09,XL,XL Group,no Yahoo price history (delisted or unknown symbol),XL was acquired by Axa.
+2017-09,GGP,GGP Inc.,no Yahoo price history (delisted or unknown symbol),GGP was acquired by Brookfield Property Partners.
+2017-09,DPS,Dr Pepper Snapple Group,no share count on Yahoo,DPS was acquired by Keurig Green Mountain.
+2017-09,TWX,Time Warner,no Yahoo price history (delisted or unknown symbol),AT&T acquired Time Warner.
+2017-09,MON,Monsanto,no Yahoo price history (delisted or unknown symbol),Bayer acquired Monsanto.
+2017-09,WYN,Wyndham Worldwide,no share count on Yahoo,Wyndham Worldwide completed the corporate spin-off of Wyndham Hotels & Resorts.
+2017-09,CSRA,CSRA,no Yahoo price history (delisted or unknown symbol),General Dynamics acquired CSRA.
+2017-09,PDCO,Patterson Companies,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-09,CHK,Chesapeake Energy,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2017-09,SNI,Scripps Networks Interactive,no Yahoo price history (delisted or unknown symbol),Discovery Communications acquired Scripps Networks Interactive.
+2017-09,BCR,CR Bard,no Yahoo price history (delisted or unknown symbol),Becton Dickinson acquired CR Bard.
+2017-09,LVLT,Level 3 Communications,no Yahoo price history (delisted or unknown symbol),CenturyLink acquired Level 3 Communications.
+2017-09,SPLS,Staples,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Staples.
+2017-09,DD,DuPont,ticker reused: Yahoo series belongs to another issuer,The Dow Chemical Company acquired DuPont.
+2018-03,GOOG,Alphabet Inc. (Class C),secondary share class,
+2018-03,CBRE,CBRE Group,no share count on Yahoo,
+2018-03,NWS,News Corp (Class B),secondary share class,
+2018-03,SW,Smurfit Westrock,listed too recently for the signal,
+2018-03,TPR,"Tapestry, Inc.",no share count on Yahoo,
+2018-03,WELL,Welltower,no share count on Yahoo,
+2018-03,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2018-03,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2018-03,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2018-03,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2018-03,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2018-03,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2018-03,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2018-03,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2018-03,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2018-03,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2018-03,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2018-03,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-03,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2018-03,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-03,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2018-03,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-03,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2018-03,DISH,Dish Network,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-03,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2018-03,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2018-03,DRE,Duke Realty,no Yahoo price history (delisted or unknown symbol),Prologis acquired Duke Realty.
+2018-03,UA,Under Armour (Class C),secondary share class,Market capitalization changes.
+2018-03,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2018-03,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2018-03,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2018-03,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2018-03,INFO,IHS Markit,ticker reused: Yahoo series starts after the membership began,S&P Global acquired IHS Markit.
+2018-03,XLNX,Xilinx,no Yahoo price history (delisted or unknown symbol),Advanced Micro Devices acquired Xilinx.
+2018-03,LEG,Leggett & Platt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-03,HBI,Hanesbrands,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-03,KSU,Kansas City Southern,no Yahoo price history (delisted or unknown symbol),Canadian Pacific acquired Kansas City Southern.
+2018-03,ALXN,Alexion Pharmaceuticals,no Yahoo price history (delisted or unknown symbol),AstraZeneca acquired Alexion Pharmaceuticals.
+2018-03,FLIR,FLIR Systems,no Yahoo price history (delisted or unknown symbol),Teledyne Technologies acquired FLIR Systems.
+2018-03,VAR,Varian Medical Systems,no Yahoo price history (delisted or unknown symbol),Siemens Healthineers acquired Varian Medical Systems.
+2018-03,CXO,Concho Resources,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Concho Resources.
+2018-03,TIF,Tiffany & Co,no Yahoo price history (delisted or unknown symbol),LVMH Moet Hennessy-Louis Vuitton SE acquired Tiffany & Co.
+2018-03,NBL,Noble Energy,no Yahoo price history (delisted or unknown symbol),Chevron acquired Noble Energy.
+2018-03,ETFC,E-Trade,no Yahoo price history (delisted or unknown symbol),Morgan Stanley acquired E*Trade.
+2018-03,JWN,Nordstrom,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-03,CPRI,Capri Holdings,no share count on Yahoo,Market capitalization changes.
+2018-03,AGN,Allergan,no Yahoo price history (delisted or unknown symbol),Allergan was acquired by AbbVie.
+2018-03,RTN,Raytheon Company,no Yahoo price history (delisted or unknown symbol),United Technologies corporate spin-off of Otis and Carrier and acquired Raytheon Company.
+2018-03,XEC,Cimarex Energy,no Yahoo price history (delisted or unknown symbol),"Gardner Denver acquired Ingersoll Rand's industrial businesses then changed its name to the ""new"" Ingersoll Rand Inc."
+2018-03,STI,SunTrust Banks,ticker reused: Yahoo series starts after the membership began,BB&T acquired SunTrust to form Truist Financial.
+2018-03,VIAB,Viacom,no Yahoo price history (delisted or unknown symbol),CBS acquired Viacom to form ViacomCBS.
+2018-03,CELG,Celgene,no Yahoo price history (delisted or unknown symbol),Bristol-Myers Squibb acquired Celgene.
+2018-03,JEF,Jefferies Financial Group,no share count on Yahoo,SPB completed the corporate spin-off of Jefferies Financial Group.
+2018-03,TSS,TSYS,no Yahoo price history (delisted or unknown symbol),Global Payments acquired TSS.
+2018-03,APC,Anadarko Petroleum,no Yahoo price history (delisted or unknown symbol),Occidental Petroleum acquired Anadarko Petroleum.
+2018-03,FL,Foot Locker,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-03,RHT,Red Hat,no Yahoo price history (delisted or unknown symbol),IBM acquired Red Hat.
+2018-03,LLL,L3 Technologies,no Yahoo price history (delisted or unknown symbol),L3 was acquired by Harris Corporation.
+2018-03,BHF,Brighthouse Financial,listed too recently for the signal,DowDuPont completed the corporate spin-off of Dow Inc.
+2018-03,TFCFA,21st Century Fox,no Yahoo price history (delisted or unknown symbol),21st Century Fox's Class A shares changed ticker from FOXA to TFCFA effective March 19; the company was removed from the index on March 20.
+2018-03,TFCF,21st Century Fox,secondary share class,21st Century Fox's Class B shares changed ticker from FOX to TFCF effective March 19; the company was removed from the index on March 20.
+2018-03,NFX,Newfield Exploration,no Yahoo price history (delisted or unknown symbol),Encana acquired Newfield Exploration.
+2018-03,SCG,SCANA,no Yahoo price history (delisted or unknown symbol),Dominion Energy acquired SCANA.
+2018-03,ESRX,Express Scripts,no Yahoo price history (delisted or unknown symbol),Cigna acquired Express Scripts.
+2018-03,COL,Rockwell Collins,no Yahoo price history (delisted or unknown symbol),UTX acquired Rockwell Collins.
+2018-03,AET,Aetna,no Yahoo price history (delisted or unknown symbol),CVS acquired Aetna.
+2018-03,SRCL,Stericycle,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-03,CA,CA Technologies,no Yahoo price history (delisted or unknown symbol),CA was acquired by Broadcom.
+2018-03,EVHC,Envision Healthcare,no Yahoo price history (delisted or unknown symbol),EVHC was acquired by KKR.
+2018-03,ANDV,Andeavor,no Yahoo price history (delisted or unknown symbol),ANDV was acquired by Marathon Petroleum.
+2018-03,XL,XL Group,no Yahoo price history (delisted or unknown symbol),XL was acquired by Axa.
+2018-03,GGP,GGP Inc.,no Yahoo price history (delisted or unknown symbol),GGP was acquired by Brookfield Property Partners.
+2018-03,DPS,Dr Pepper Snapple Group,no share count on Yahoo,DPS was acquired by Keurig Green Mountain.
+2018-03,TWX,Time Warner,no Yahoo price history (delisted or unknown symbol),AT&T acquired Time Warner.
+2018-03,MON,Monsanto,no Yahoo price history (delisted or unknown symbol),Bayer acquired Monsanto.
+2018-03,WYN,Wyndham Worldwide,no share count on Yahoo,Wyndham Worldwide completed the corporate spin-off of Wyndham Hotels & Resorts.
+2018-03,CSRA,CSRA,no Yahoo price history (delisted or unknown symbol),General Dynamics acquired CSRA.
+2018-03,PDCO,Patterson Companies,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-03,CHK,Chesapeake Energy,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-03,SNI,Scripps Networks Interactive,no Yahoo price history (delisted or unknown symbol),Discovery Communications acquired Scripps Networks Interactive.
+2018-09,GOOG,Alphabet Inc. (Class C),secondary share class,
+2018-09,NWS,News Corp (Class B),secondary share class,
+2018-09,SW,Smurfit Westrock,listed too recently for the signal,
+2018-09,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2018-09,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2018-09,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2018-09,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2018-09,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2018-09,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2018-09,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2018-09,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2018-09,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2018-09,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2018-09,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2018-09,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-09,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2018-09,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-09,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2018-09,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-09,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2018-09,DISH,Dish Network,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-09,SIVB,SVB Financial Group,no Yahoo price history (delisted or unknown symbol),"The FDIC placed SVB's main subsidiary, Silicon Valley Bank, into receivership."
+2018-09,ABMD,Abiomed,no Yahoo price history (delisted or unknown symbol),Johnson & Johnson acquired Abiomed.
+2018-09,TWTR,Twitter,no Yahoo price history (delisted or unknown symbol),Elon Musk acquired Twitter.
+2018-09,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2018-09,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2018-09,DRE,Duke Realty,no Yahoo price history (delisted or unknown symbol),Prologis acquired Duke Realty.
+2018-09,UA,Under Armour (Class C),secondary share class,Market capitalization changes.
+2018-09,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2018-09,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2018-09,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2018-09,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2018-09,INFO,IHS Markit,ticker reused: Yahoo series starts after the membership began,S&P Global acquired IHS Markit.
+2018-09,XLNX,Xilinx,no Yahoo price history (delisted or unknown symbol),Advanced Micro Devices acquired Xilinx.
+2018-09,LEG,Leggett & Platt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-09,HBI,Hanesbrands,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-09,KSU,Kansas City Southern,no Yahoo price history (delisted or unknown symbol),Canadian Pacific acquired Kansas City Southern.
+2018-09,ALXN,Alexion Pharmaceuticals,no Yahoo price history (delisted or unknown symbol),AstraZeneca acquired Alexion Pharmaceuticals.
+2018-09,FLIR,FLIR Systems,no Yahoo price history (delisted or unknown symbol),Teledyne Technologies acquired FLIR Systems.
+2018-09,VAR,Varian Medical Systems,no Yahoo price history (delisted or unknown symbol),Siemens Healthineers acquired Varian Medical Systems.
+2018-09,CXO,Concho Resources,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Concho Resources.
+2018-09,TIF,Tiffany & Co,no Yahoo price history (delisted or unknown symbol),LVMH Moet Hennessy-Louis Vuitton SE acquired Tiffany & Co.
+2018-09,NBL,Noble Energy,no Yahoo price history (delisted or unknown symbol),Chevron acquired Noble Energy.
+2018-09,ETFC,E-Trade,no Yahoo price history (delisted or unknown symbol),Morgan Stanley acquired E*Trade.
+2018-09,JWN,Nordstrom,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-09,CPRI,Capri Holdings,no share count on Yahoo,Market capitalization changes.
+2018-09,AGN,Allergan,no Yahoo price history (delisted or unknown symbol),Allergan was acquired by AbbVie.
+2018-09,RTN,Raytheon Company,no Yahoo price history (delisted or unknown symbol),United Technologies corporate spin-off of Otis and Carrier and acquired Raytheon Company.
+2018-09,XEC,Cimarex Energy,no Yahoo price history (delisted or unknown symbol),"Gardner Denver acquired Ingersoll Rand's industrial businesses then changed its name to the ""new"" Ingersoll Rand Inc."
+2018-09,STI,SunTrust Banks,ticker reused: Yahoo series starts after the membership began,BB&T acquired SunTrust to form Truist Financial.
+2018-09,VIAB,Viacom,no Yahoo price history (delisted or unknown symbol),CBS acquired Viacom to form ViacomCBS.
+2018-09,CELG,Celgene,no Yahoo price history (delisted or unknown symbol),Bristol-Myers Squibb acquired Celgene.
+2018-09,TSS,TSYS,no Yahoo price history (delisted or unknown symbol),Global Payments acquired TSS.
+2018-09,APC,Anadarko Petroleum,no Yahoo price history (delisted or unknown symbol),Occidental Petroleum acquired Anadarko Petroleum.
+2018-09,FL,Foot Locker,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-09,RHT,Red Hat,no Yahoo price history (delisted or unknown symbol),IBM acquired Red Hat.
+2018-09,LLL,L3 Technologies,no Yahoo price history (delisted or unknown symbol),L3 was acquired by Harris Corporation.
+2018-09,TFCFA,21st Century Fox,no Yahoo price history (delisted or unknown symbol),21st Century Fox's Class A shares changed ticker from FOXA to TFCFA effective March 19; the company was removed from the index on March 20.
+2018-09,TFCF,21st Century Fox,secondary share class,21st Century Fox's Class B shares changed ticker from FOX to TFCF effective March 19; the company was removed from the index on March 20.
+2018-09,NFX,Newfield Exploration,no Yahoo price history (delisted or unknown symbol),Encana acquired Newfield Exploration.
+2018-09,SCG,SCANA,no Yahoo price history (delisted or unknown symbol),Dominion Energy acquired SCANA.
+2018-09,ESRX,Express Scripts,no Yahoo price history (delisted or unknown symbol),Cigna acquired Express Scripts.
+2018-09,COL,Rockwell Collins,no Yahoo price history (delisted or unknown symbol),UTX acquired Rockwell Collins.
+2018-09,AET,Aetna,no Yahoo price history (delisted or unknown symbol),CVS acquired Aetna.
+2018-09,SRCL,Stericycle,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2018-09,CA,CA Technologies,no Yahoo price history (delisted or unknown symbol),CA was acquired by Broadcom.
+2018-09,EVHC,Envision Healthcare,no Yahoo price history (delisted or unknown symbol),EVHC was acquired by KKR.
+2018-09,ANDV,Andeavor,no Yahoo price history (delisted or unknown symbol),ANDV was acquired by Marathon Petroleum.
+2018-09,XL,XL Group,no Yahoo price history (delisted or unknown symbol),XL was acquired by Axa.
+2019-03,GOOG,Alphabet Inc. (Class C),secondary share class,
+2019-03,NWS,News Corp (Class B),secondary share class,
+2019-03,SW,Smurfit Westrock,listed too recently for the signal,
+2019-03,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2019-03,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2019-03,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2019-03,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2019-03,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2019-03,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2019-03,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2019-03,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2019-03,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2019-03,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2019-03,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2019-03,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-03,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2019-03,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-03,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2019-03,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-03,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2019-03,DISH,Dish Network,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-03,FRC,First Republic Bank,no Yahoo price history (delisted or unknown symbol),The Federal Deposit Insurance Corporation (FDIC) placed First Republic Bank into receivership.
+2019-03,SIVB,SVB Financial Group,no Yahoo price history (delisted or unknown symbol),"The FDIC placed SVB's main subsidiary, Silicon Valley Bank, into receivership."
+2019-03,ABMD,Abiomed,no Yahoo price history (delisted or unknown symbol),Johnson & Johnson acquired Abiomed.
+2019-03,TWTR,Twitter,no Yahoo price history (delisted or unknown symbol),Elon Musk acquired Twitter.
+2019-03,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2019-03,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2019-03,DRE,Duke Realty,no Yahoo price history (delisted or unknown symbol),Prologis acquired Duke Realty.
+2019-03,UA,Under Armour (Class C),secondary share class,Market capitalization changes.
+2019-03,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2019-03,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2019-03,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2019-03,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2019-03,INFO,IHS Markit,ticker reused: Yahoo series starts after the membership began,S&P Global acquired IHS Markit.
+2019-03,XLNX,Xilinx,no Yahoo price history (delisted or unknown symbol),Advanced Micro Devices acquired Xilinx.
+2019-03,LEG,Leggett & Platt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-03,HBI,Hanesbrands,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-03,KSU,Kansas City Southern,no Yahoo price history (delisted or unknown symbol),Canadian Pacific acquired Kansas City Southern.
+2019-03,MXIM,Maxim Integrated,no Yahoo price history (delisted or unknown symbol),Analog Devices acquired Maxim Integrated Products.
+2019-03,ALXN,Alexion Pharmaceuticals,no Yahoo price history (delisted or unknown symbol),AstraZeneca acquired Alexion Pharmaceuticals.
+2019-03,FLIR,FLIR Systems,no Yahoo price history (delisted or unknown symbol),Teledyne Technologies acquired FLIR Systems.
+2019-03,VAR,Varian Medical Systems,no Yahoo price history (delisted or unknown symbol),Siemens Healthineers acquired Varian Medical Systems.
+2019-03,CXO,Concho Resources,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Concho Resources.
+2019-03,TIF,Tiffany & Co,no Yahoo price history (delisted or unknown symbol),LVMH Moet Hennessy-Louis Vuitton SE acquired Tiffany & Co.
+2019-03,NBL,Noble Energy,no Yahoo price history (delisted or unknown symbol),Chevron acquired Noble Energy.
+2019-03,ETFC,E-Trade,no Yahoo price history (delisted or unknown symbol),Morgan Stanley acquired E*Trade.
+2019-03,JWN,Nordstrom,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-03,AGN,Allergan,no Yahoo price history (delisted or unknown symbol),Allergan was acquired by AbbVie.
+2019-03,RTN,Raytheon Company,no Yahoo price history (delisted or unknown symbol),United Technologies corporate spin-off of Otis and Carrier and acquired Raytheon Company.
+2019-03,XEC,Cimarex Energy,no Yahoo price history (delisted or unknown symbol),"Gardner Denver acquired Ingersoll Rand's industrial businesses then changed its name to the ""new"" Ingersoll Rand Inc."
+2019-03,WCG,WellCare,no Yahoo price history (delisted or unknown symbol),Centene acquired Wellcare.
+2019-03,STI,SunTrust Banks,ticker reused: Yahoo series starts after the membership began,BB&T acquired SunTrust to form Truist Financial.
+2019-03,VIAB,Viacom,no Yahoo price history (delisted or unknown symbol),CBS acquired Viacom to form ViacomCBS.
+2019-03,CELG,Celgene,no Yahoo price history (delisted or unknown symbol),Bristol-Myers Squibb acquired Celgene.
+2019-03,TSS,TSYS,no Yahoo price history (delisted or unknown symbol),Global Payments acquired TSS.
+2019-03,APC,Anadarko Petroleum,no Yahoo price history (delisted or unknown symbol),Occidental Petroleum acquired Anadarko Petroleum.
+2019-03,FL,Foot Locker,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-03,RHT,Red Hat,no Yahoo price history (delisted or unknown symbol),IBM acquired Red Hat.
+2019-03,LLL,L3 Technologies,no Yahoo price history (delisted or unknown symbol),L3 was acquired by Harris Corporation.
+2019-03,TFCFA,21st Century Fox,no Yahoo price history (delisted or unknown symbol),21st Century Fox's Class A shares changed ticker from FOXA to TFCFA effective March 19; the company was removed from the index on March 20.
+2019-03,TFCF,21st Century Fox,secondary share class,21st Century Fox's Class B shares changed ticker from FOX to TFCF effective March 19; the company was removed from the index on March 20.
+2019-09,GOOG,Alphabet Inc. (Class C),secondary share class,
+2019-09,AMCR,Amcor,listed too recently for the signal,
+2019-09,DOW,Dow Inc.,listed too recently for the signal,
+2019-09,FOXA,Fox Corporation (Class A),listed too recently for the signal,
+2019-09,FOX,Fox Corporation (Class B),secondary share class,
+2019-09,NWS,News Corp (Class B),secondary share class,
+2019-09,SW,Smurfit Westrock,listed too recently for the signal,
+2019-09,CTVA,Corteva,listed too recently for the signal,Market capitalization changes.
+2019-09,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2019-09,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2019-09,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2019-09,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2019-09,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2019-09,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2019-09,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2019-09,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2019-09,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2019-09,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2019-09,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2019-09,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-09,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2019-09,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-09,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2019-09,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-09,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2019-09,DISH,Dish Network,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-09,FRC,First Republic Bank,no Yahoo price history (delisted or unknown symbol),The Federal Deposit Insurance Corporation (FDIC) placed First Republic Bank into receivership.
+2019-09,SIVB,SVB Financial Group,no Yahoo price history (delisted or unknown symbol),"The FDIC placed SVB's main subsidiary, Silicon Valley Bank, into receivership."
+2019-09,ABMD,Abiomed,no Yahoo price history (delisted or unknown symbol),Johnson & Johnson acquired Abiomed.
+2019-09,TWTR,Twitter,no Yahoo price history (delisted or unknown symbol),Elon Musk acquired Twitter.
+2019-09,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2019-09,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2019-09,DRE,Duke Realty,no Yahoo price history (delisted or unknown symbol),Prologis acquired Duke Realty.
+2019-09,UA,Under Armour (Class C),secondary share class,Market capitalization changes.
+2019-09,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2019-09,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2019-09,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2019-09,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2019-09,INFO,IHS Markit,ticker reused: Yahoo series starts after the membership began,S&P Global acquired IHS Markit.
+2019-09,XLNX,Xilinx,no Yahoo price history (delisted or unknown symbol),Advanced Micro Devices acquired Xilinx.
+2019-09,LEG,Leggett & Platt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-09,HBI,Hanesbrands,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-09,KSU,Kansas City Southern,no Yahoo price history (delisted or unknown symbol),Canadian Pacific acquired Kansas City Southern.
+2019-09,MXIM,Maxim Integrated,no Yahoo price history (delisted or unknown symbol),Analog Devices acquired Maxim Integrated Products.
+2019-09,ALXN,Alexion Pharmaceuticals,no Yahoo price history (delisted or unknown symbol),AstraZeneca acquired Alexion Pharmaceuticals.
+2019-09,FLIR,FLIR Systems,no Yahoo price history (delisted or unknown symbol),Teledyne Technologies acquired FLIR Systems.
+2019-09,VAR,Varian Medical Systems,no Yahoo price history (delisted or unknown symbol),Siemens Healthineers acquired Varian Medical Systems.
+2019-09,CXO,Concho Resources,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Concho Resources.
+2019-09,TIF,Tiffany & Co,no Yahoo price history (delisted or unknown symbol),LVMH Moet Hennessy-Louis Vuitton SE acquired Tiffany & Co.
+2019-09,NBL,Noble Energy,no Yahoo price history (delisted or unknown symbol),Chevron acquired Noble Energy.
+2019-09,ETFC,E-Trade,no Yahoo price history (delisted or unknown symbol),Morgan Stanley acquired E*Trade.
+2019-09,JWN,Nordstrom,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2019-09,AGN,Allergan,no Yahoo price history (delisted or unknown symbol),Allergan was acquired by AbbVie.
+2019-09,RTN,Raytheon Company,no Yahoo price history (delisted or unknown symbol),United Technologies corporate spin-off of Otis and Carrier and acquired Raytheon Company.
+2019-09,XEC,Cimarex Energy,no Yahoo price history (delisted or unknown symbol),"Gardner Denver acquired Ingersoll Rand's industrial businesses then changed its name to the ""new"" Ingersoll Rand Inc."
+2019-09,WCG,WellCare,no Yahoo price history (delisted or unknown symbol),Centene acquired Wellcare.
+2019-09,STI,SunTrust Banks,ticker reused: Yahoo series starts after the membership began,BB&T acquired SunTrust to form Truist Financial.
+2019-09,VIAB,Viacom,no Yahoo price history (delisted or unknown symbol),CBS acquired Viacom to form ViacomCBS.
+2019-09,CELG,Celgene,no Yahoo price history (delisted or unknown symbol),Bristol-Myers Squibb acquired Celgene.
+2019-09,TSS,TSYS,no Yahoo price history (delisted or unknown symbol),Global Payments acquired TSS.
+2020-03,GOOG,Alphabet Inc. (Class C),secondary share class,
+2020-03,AMCR,Amcor,listed too recently for the signal,
+2020-03,FOX,Fox Corporation (Class B),secondary share class,
+2020-03,NWS,News Corp (Class B),secondary share class,
+2020-03,SW,Smurfit Westrock,listed too recently for the signal,
+2020-03,CTVA,Corteva,listed too recently for the signal,Market capitalization changes.
+2020-03,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2020-03,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2020-03,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2020-03,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2020-03,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2020-03,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2020-03,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2020-03,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2020-03,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2020-03,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2020-03,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2020-03,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2020-03,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2020-03,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2020-03,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2020-03,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2020-03,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2020-03,DISH,Dish Network,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2020-03,FRC,First Republic Bank,no Yahoo price history (delisted or unknown symbol),The Federal Deposit Insurance Corporation (FDIC) placed First Republic Bank into receivership.
+2020-03,SIVB,SVB Financial Group,no Yahoo price history (delisted or unknown symbol),"The FDIC placed SVB's main subsidiary, Silicon Valley Bank, into receivership."
+2020-03,ABMD,Abiomed,no Yahoo price history (delisted or unknown symbol),Johnson & Johnson acquired Abiomed.
+2020-03,TWTR,Twitter,no Yahoo price history (delisted or unknown symbol),Elon Musk acquired Twitter.
+2020-03,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2020-03,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2020-03,DRE,Duke Realty,no Yahoo price history (delisted or unknown symbol),Prologis acquired Duke Realty.
+2020-03,UA,Under Armour (Class C),secondary share class,Market capitalization changes.
+2020-03,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2020-03,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2020-03,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2020-03,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2020-03,INFO,IHS Markit,ticker reused: Yahoo series starts after the membership began,S&P Global acquired IHS Markit.
+2020-03,XLNX,Xilinx,no Yahoo price history (delisted or unknown symbol),Advanced Micro Devices acquired Xilinx.
+2020-03,LEG,Leggett & Platt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2020-03,HBI,Hanesbrands,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2020-03,KSU,Kansas City Southern,no Yahoo price history (delisted or unknown symbol),Canadian Pacific acquired Kansas City Southern.
+2020-03,MXIM,Maxim Integrated,no Yahoo price history (delisted or unknown symbol),Analog Devices acquired Maxim Integrated Products.
+2020-03,ALXN,Alexion Pharmaceuticals,no Yahoo price history (delisted or unknown symbol),AstraZeneca acquired Alexion Pharmaceuticals.
+2020-03,FLIR,FLIR Systems,no Yahoo price history (delisted or unknown symbol),Teledyne Technologies acquired FLIR Systems.
+2020-03,VAR,Varian Medical Systems,no Yahoo price history (delisted or unknown symbol),Siemens Healthineers acquired Varian Medical Systems.
+2020-03,CXO,Concho Resources,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Concho Resources.
+2020-03,TIF,Tiffany & Co,no Yahoo price history (delisted or unknown symbol),LVMH Moet Hennessy-Louis Vuitton SE acquired Tiffany & Co.
+2020-03,NBL,Noble Energy,no Yahoo price history (delisted or unknown symbol),Chevron acquired Noble Energy.
+2020-03,ETFC,E-Trade,no Yahoo price history (delisted or unknown symbol),Morgan Stanley acquired E*Trade.
+2020-03,JWN,Nordstrom,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2020-03,AGN,Allergan,no Yahoo price history (delisted or unknown symbol),Allergan was acquired by AbbVie.
+2020-03,RTN,Raytheon Company,no Yahoo price history (delisted or unknown symbol),United Technologies corporate spin-off of Otis and Carrier and acquired Raytheon Company.
+2020-03,XEC,Cimarex Energy,no Yahoo price history (delisted or unknown symbol),"Gardner Denver acquired Ingersoll Rand's industrial businesses then changed its name to the ""new"" Ingersoll Rand Inc."
+2020-09,GOOG,Alphabet Inc. (Class C),secondary share class,
+2020-09,CARR,Carrier Global,listed too recently for the signal,
+2020-09,FOX,Fox Corporation (Class B),secondary share class,
+2020-09,NWS,News Corp (Class B),secondary share class,
+2020-09,OTIS,Otis Worldwide,listed too recently for the signal,
+2020-09,SW,Smurfit Westrock,listed too recently for the signal,
+2020-09,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2020-09,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2020-09,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2020-09,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2020-09,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2020-09,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2020-09,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2020-09,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2020-09,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2020-09,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2020-09,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2020-09,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2020-09,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2020-09,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2020-09,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2020-09,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2020-09,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2020-09,DISH,Dish Network,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2020-09,FRC,First Republic Bank,no Yahoo price history (delisted or unknown symbol),The Federal Deposit Insurance Corporation (FDIC) placed First Republic Bank into receivership.
+2020-09,SIVB,SVB Financial Group,no Yahoo price history (delisted or unknown symbol),"The FDIC placed SVB's main subsidiary, Silicon Valley Bank, into receivership."
+2020-09,ABMD,Abiomed,no Yahoo price history (delisted or unknown symbol),Johnson & Johnson acquired Abiomed.
+2020-09,TWTR,Twitter,no Yahoo price history (delisted or unknown symbol),Elon Musk acquired Twitter.
+2020-09,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2020-09,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2020-09,DRE,Duke Realty,no Yahoo price history (delisted or unknown symbol),Prologis acquired Duke Realty.
+2020-09,UA,Under Armour (Class C),secondary share class,Market capitalization changes.
+2020-09,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2020-09,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2020-09,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2020-09,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2020-09,INFO,IHS Markit,ticker reused: Yahoo series starts after the membership began,S&P Global acquired IHS Markit.
+2020-09,XLNX,Xilinx,no Yahoo price history (delisted or unknown symbol),Advanced Micro Devices acquired Xilinx.
+2020-09,LEG,Leggett & Platt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2020-09,HBI,Hanesbrands,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2020-09,KSU,Kansas City Southern,no Yahoo price history (delisted or unknown symbol),Canadian Pacific acquired Kansas City Southern.
+2020-09,MXIM,Maxim Integrated,no Yahoo price history (delisted or unknown symbol),Analog Devices acquired Maxim Integrated Products.
+2020-09,ALXN,Alexion Pharmaceuticals,no Yahoo price history (delisted or unknown symbol),AstraZeneca acquired Alexion Pharmaceuticals.
+2020-09,FLIR,FLIR Systems,no Yahoo price history (delisted or unknown symbol),Teledyne Technologies acquired FLIR Systems.
+2020-09,VAR,Varian Medical Systems,no Yahoo price history (delisted or unknown symbol),Siemens Healthineers acquired Varian Medical Systems.
+2020-09,CXO,Concho Resources,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Concho Resources.
+2020-09,TIF,Tiffany & Co,no Yahoo price history (delisted or unknown symbol),LVMH Moet Hennessy-Louis Vuitton SE acquired Tiffany & Co.
+2020-09,NBL,Noble Energy,no Yahoo price history (delisted or unknown symbol),Chevron acquired Noble Energy.
+2020-09,ETFC,E-Trade,no Yahoo price history (delisted or unknown symbol),Morgan Stanley acquired E*Trade.
+2021-03,GOOG,Alphabet Inc. (Class C),secondary share class,
+2021-03,FOX,Fox Corporation (Class B),secondary share class,
+2021-03,NWS,News Corp (Class B),secondary share class,
+2021-03,SW,Smurfit Westrock,listed too recently for the signal,
+2021-03,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2021-03,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2021-03,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2021-03,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2021-03,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2021-03,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2021-03,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2021-03,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2021-03,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2021-03,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2021-03,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2021-03,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2021-03,CTLT,Catalent,no Yahoo price history (delisted or unknown symbol),Novo Holdings A/S acquired Catalent.
+2021-03,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2021-03,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2021-03,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2021-03,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2021-03,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2021-03,DISH,Dish Network,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2021-03,FRC,First Republic Bank,no Yahoo price history (delisted or unknown symbol),The Federal Deposit Insurance Corporation (FDIC) placed First Republic Bank into receivership.
+2021-03,SIVB,SVB Financial Group,no Yahoo price history (delisted or unknown symbol),"The FDIC placed SVB's main subsidiary, Silicon Valley Bank, into receivership."
+2021-03,ABMD,Abiomed,no Yahoo price history (delisted or unknown symbol),Johnson & Johnson acquired Abiomed.
+2021-03,TWTR,Twitter,no Yahoo price history (delisted or unknown symbol),Elon Musk acquired Twitter.
+2021-03,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2021-03,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2021-03,DRE,Duke Realty,no Yahoo price history (delisted or unknown symbol),Prologis acquired Duke Realty.
+2021-03,UA,Under Armour (Class C),secondary share class,Market capitalization changes.
+2021-03,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2021-03,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2021-03,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2021-03,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2021-03,INFO,IHS Markit,ticker reused: Yahoo series starts after the membership began,S&P Global acquired IHS Markit.
+2021-03,XLNX,Xilinx,no Yahoo price history (delisted or unknown symbol),Advanced Micro Devices acquired Xilinx.
+2021-03,LEG,Leggett & Platt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2021-03,HBI,Hanesbrands,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2021-03,KSU,Kansas City Southern,no Yahoo price history (delisted or unknown symbol),Canadian Pacific acquired Kansas City Southern.
+2021-03,MXIM,Maxim Integrated,no Yahoo price history (delisted or unknown symbol),Analog Devices acquired Maxim Integrated Products.
+2021-03,ALXN,Alexion Pharmaceuticals,no Yahoo price history (delisted or unknown symbol),AstraZeneca acquired Alexion Pharmaceuticals.
+2021-03,FLIR,FLIR Systems,no Yahoo price history (delisted or unknown symbol),Teledyne Technologies acquired FLIR Systems.
+2021-03,VAR,Varian Medical Systems,no Yahoo price history (delisted or unknown symbol),Siemens Healthineers acquired Varian Medical Systems.
+2021-03,VNT,Vontier,listed too recently for the signal,Market capitalization changes.
+2021-09,GOOG,Alphabet Inc. (Class C),secondary share class,
+2021-09,FOX,Fox Corporation (Class B),secondary share class,
+2021-09,NWS,News Corp (Class B),secondary share class,
+2021-09,SW,Smurfit Westrock,listed too recently for the signal,
+2021-09,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2021-09,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2021-09,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2021-09,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2021-09,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2021-09,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2021-09,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2021-09,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2021-09,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2021-09,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2021-09,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2021-09,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2021-09,CTLT,Catalent,no Yahoo price history (delisted or unknown symbol),Novo Holdings A/S acquired Catalent.
+2021-09,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2021-09,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2021-09,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2021-09,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2021-09,OGN,Organon & Co.,listed too recently for the signal,Market capitalization changes.
+2021-09,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2021-09,DISH,Dish Network,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2021-09,FRC,First Republic Bank,no Yahoo price history (delisted or unknown symbol),The Federal Deposit Insurance Corporation (FDIC) placed First Republic Bank into receivership.
+2021-09,SIVB,SVB Financial Group,no Yahoo price history (delisted or unknown symbol),"The FDIC placed SVB's main subsidiary, Silicon Valley Bank, into receivership."
+2021-09,ABMD,Abiomed,no Yahoo price history (delisted or unknown symbol),Johnson & Johnson acquired Abiomed.
+2021-09,TWTR,Twitter,no Yahoo price history (delisted or unknown symbol),Elon Musk acquired Twitter.
+2021-09,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2021-09,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2021-09,DRE,Duke Realty,no Yahoo price history (delisted or unknown symbol),Prologis acquired Duke Realty.
+2021-09,UA,Under Armour (Class C),secondary share class,Market capitalization changes.
+2021-09,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2021-09,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2021-09,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2021-09,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2021-09,INFO,IHS Markit,ticker reused: Yahoo series starts after the membership began,S&P Global acquired IHS Markit.
+2021-09,XLNX,Xilinx,no Yahoo price history (delisted or unknown symbol),Advanced Micro Devices acquired Xilinx.
+2021-09,LEG,Leggett & Platt,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2021-09,HBI,Hanesbrands,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2021-09,KSU,Kansas City Southern,no Yahoo price history (delisted or unknown symbol),Canadian Pacific acquired Kansas City Southern.
+2022-03,GOOG,Alphabet Inc. (Class C),secondary share class,
+2022-03,CEG,Constellation Energy,listed too recently for the signal,
+2022-03,FOX,Fox Corporation (Class B),secondary share class,
+2022-03,NWS,News Corp (Class B),secondary share class,
+2022-03,SW,Smurfit Westrock,listed too recently for the signal,
+2022-03,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2022-03,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2022-03,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2022-03,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2022-03,DAY,Dayforce,no Yahoo price history (delisted or unknown symbol),Thoma Bravo L.P. acquired Dayforce.
+2022-03,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2022-03,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2022-03,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2022-03,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2022-03,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2022-03,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2022-03,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2022-03,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2022-03,CTLT,Catalent,no Yahoo price history (delisted or unknown symbol),Novo Holdings A/S acquired Catalent.
+2022-03,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2022-03,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2022-03,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2022-03,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2022-03,OGN,Organon & Co.,listed too recently for the signal,Market capitalization changes.
+2022-03,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2022-03,DISH,Dish Network,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2022-03,FRC,First Republic Bank,no Yahoo price history (delisted or unknown symbol),The Federal Deposit Insurance Corporation (FDIC) placed First Republic Bank into receivership.
+2022-03,SBNY,Signature Bank,ticker reused: Yahoo series starts after the membership began,The FDIC placed Signature Bank into FDIC Receivership.
+2022-03,SIVB,SVB Financial Group,no Yahoo price history (delisted or unknown symbol),"The FDIC placed SVB's main subsidiary, Silicon Valley Bank, into receivership."
+2022-03,ABMD,Abiomed,no Yahoo price history (delisted or unknown symbol),Johnson & Johnson acquired Abiomed.
+2022-03,TWTR,Twitter,no Yahoo price history (delisted or unknown symbol),Elon Musk acquired Twitter.
+2022-03,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2022-03,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2022-03,DRE,Duke Realty,no Yahoo price history (delisted or unknown symbol),Prologis acquired Duke Realty.
+2022-03,UA,Under Armour (Class C),secondary share class,Market capitalization changes.
+2022-03,CERN,Cerner,no Yahoo price history (delisted or unknown symbol),Oracle acquired Cerner.
+2022-03,DISCA,"Discovery, Inc.",no Yahoo price history (delisted or unknown symbol),WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2022-03,DISCK,"Discovery, Inc.",secondary share class,WarnerMedia and Discovery merged to create Warner Bros. Discovery.
+2022-03,PBCT,People's United Financial,no Yahoo price history (delisted or unknown symbol),M&T Bank acquired People's United Financial.
+2022-03,INFO,IHS Markit,ticker reused: Yahoo series starts after the membership began,S&P Global acquired IHS Markit.
+2022-09,GOOG,Alphabet Inc. (Class C),secondary share class,
+2022-09,CEG,Constellation Energy,listed too recently for the signal,
+2022-09,FOX,Fox Corporation (Class B),secondary share class,
+2022-09,NWS,News Corp (Class B),secondary share class,
+2022-09,SW,Smurfit Westrock,listed too recently for the signal,
+2022-09,WBD,Warner Bros. Discovery,no Yahoo price history (delisted or unknown symbol),Paramount Skydance acquired Warner Bros. Discovery
+2022-09,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2022-09,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2022-09,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2022-09,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2022-09,DAY,Dayforce,no Yahoo price history (delisted or unknown symbol),Thoma Bravo L.P. acquired Dayforce.
+2022-09,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2022-09,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2022-09,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2022-09,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2022-09,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2022-09,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2022-09,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2022-09,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2022-09,CTLT,Catalent,no Yahoo price history (delisted or unknown symbol),Novo Holdings A/S acquired Catalent.
+2022-09,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2022-09,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2022-09,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2022-09,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2022-09,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2022-09,DISH,Dish Network,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2022-09,FRC,First Republic Bank,no Yahoo price history (delisted or unknown symbol),The Federal Deposit Insurance Corporation (FDIC) placed First Republic Bank into receivership.
+2022-09,SBNY,Signature Bank,ticker reused: Yahoo series starts after the membership began,The FDIC placed Signature Bank into FDIC Receivership.
+2022-09,SIVB,SVB Financial Group,no Yahoo price history (delisted or unknown symbol),"The FDIC placed SVB's main subsidiary, Silicon Valley Bank, into receivership."
+2022-09,ABMD,Abiomed,no Yahoo price history (delisted or unknown symbol),Johnson & Johnson acquired Abiomed.
+2022-09,TWTR,Twitter,no Yahoo price history (delisted or unknown symbol),Elon Musk acquired Twitter.
+2022-09,NLSN,Nielsen Holdings,no Yahoo price history (delisted or unknown symbol),Elliott Investment Management acquired Nielsen Holdings.
+2022-09,CTXS,Citrix Systems,no Yahoo price history (delisted or unknown symbol),Vista Equity Partners acquired Citrix Systems.
+2022-09,DRE,Duke Realty,no Yahoo price history (delisted or unknown symbol),Prologis acquired Duke Realty.
+2023-03,GOOG,Alphabet Inc. (Class C),secondary share class,
+2023-03,FOX,Fox Corporation (Class B),secondary share class,
+2023-03,GEHC,GE HealthCare,listed too recently for the signal,
+2023-03,NWS,News Corp (Class B),secondary share class,
+2023-03,SW,Smurfit Westrock,listed too recently for the signal,
+2023-03,WBD,Warner Bros. Discovery,no Yahoo price history (delisted or unknown symbol),Paramount Skydance acquired Warner Bros. Discovery
+2023-03,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2023-03,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2023-03,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2023-03,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2023-03,DAY,Dayforce,no Yahoo price history (delisted or unknown symbol),Thoma Bravo L.P. acquired Dayforce.
+2023-03,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2023-03,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2023-03,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2023-03,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2023-03,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2023-03,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2023-03,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2023-03,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2023-03,CTLT,Catalent,no Yahoo price history (delisted or unknown symbol),Novo Holdings A/S acquired Catalent.
+2023-03,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2023-03,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2023-03,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2023-03,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2023-03,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2023-03,DISH,Dish Network,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2023-03,FRC,First Republic Bank,no Yahoo price history (delisted or unknown symbol),The Federal Deposit Insurance Corporation (FDIC) placed First Republic Bank into receivership.
+2023-03,SBNY,Signature Bank,ticker reused: Yahoo series starts after the membership began,The FDIC placed Signature Bank into FDIC Receivership.
+2023-03,SIVB,SVB Financial Group,no Yahoo price history (delisted or unknown symbol),"The FDIC placed SVB's main subsidiary, Silicon Valley Bank, into receivership."
+2023-09,GOOG,Alphabet Inc. (Class C),secondary share class,
+2023-09,FOX,Fox Corporation (Class B),secondary share class,
+2023-09,GEHC,GE HealthCare,listed too recently for the signal,
+2023-09,NWS,News Corp (Class B),secondary share class,
+2023-09,SW,Smurfit Westrock,listed too recently for the signal,
+2023-09,KVUE,Kenvue,no Yahoo price history (delisted or unknown symbol),S&P 500 constituent Kimberly-Clark acquired Kenvue.
+2023-09,WBD,Warner Bros. Discovery,no Yahoo price history (delisted or unknown symbol),Paramount Skydance acquired Warner Bros. Discovery
+2023-09,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2023-09,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2023-09,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2023-09,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2023-09,DAY,Dayforce,no Yahoo price history (delisted or unknown symbol),Thoma Bravo L.P. acquired Dayforce.
+2023-09,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2023-09,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2023-09,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2023-09,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2023-09,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2023-09,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2023-09,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2023-09,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2023-09,CTLT,Catalent,no Yahoo price history (delisted or unknown symbol),Novo Holdings A/S acquired Catalent.
+2023-09,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2023-09,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2023-09,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2023-09,SEE,Sealed Air,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2023-09,ATVI,Activision Blizzard,no Yahoo price history (delisted or unknown symbol),Acquisition of Activision Blizzard by Microsoft.
+2024-03,GOOG,Alphabet Inc. (Class C),secondary share class,
+2024-03,FOX,Fox Corporation (Class B),secondary share class,
+2024-03,NWS,News Corp (Class B),secondary share class,
+2024-03,SW,Smurfit Westrock,listed too recently for the signal,
+2024-03,VLTO,Veralto,listed too recently for the signal,
+2024-03,KVUE,Kenvue,no Yahoo price history (delisted or unknown symbol),S&P 500 constituent Kimberly-Clark acquired Kenvue.
+2024-03,WBD,Warner Bros. Discovery,no Yahoo price history (delisted or unknown symbol),Paramount Skydance acquired Warner Bros. Discovery
+2024-03,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2024-03,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2024-03,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2024-03,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2024-03,DAY,Dayforce,no Yahoo price history (delisted or unknown symbol),Thoma Bravo L.P. acquired Dayforce.
+2024-03,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2024-03,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2024-03,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2024-03,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2024-03,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2024-03,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2024-03,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2024-03,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2024-03,CTLT,Catalent,no Yahoo price history (delisted or unknown symbol),Novo Holdings A/S acquired Catalent.
+2024-03,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2024-03,CMA,Comerica,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2024-03,PXD,Pioneer Natural Resources,no Yahoo price history (delisted or unknown symbol),ExxonMobil acquired Pioneer Natural Resources.
+2024-09,GOOG,Alphabet Inc. (Class C),secondary share class,
+2024-09,FOX,Fox Corporation (Class B),secondary share class,
+2024-09,GEV,GE Vernova,listed too recently for the signal,
+2024-09,NWS,News Corp (Class B),secondary share class,
+2024-09,SW,Smurfit Westrock,listed too recently for the signal,
+2024-09,SOLV,Solventum,listed too recently for the signal,
+2024-09,KVUE,Kenvue,no Yahoo price history (delisted or unknown symbol),S&P 500 constituent Kimberly-Clark acquired Kenvue.
+2024-09,WBD,Warner Bros. Discovery,no Yahoo price history (delisted or unknown symbol),Paramount Skydance acquired Warner Bros. Discovery
+2024-09,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2024-09,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2024-09,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2024-09,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2024-09,DAY,Dayforce,no Yahoo price history (delisted or unknown symbol),Thoma Bravo L.P. acquired Dayforce.
+2024-09,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2024-09,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2024-09,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2024-09,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2024-09,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2024-09,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2024-09,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2024-09,QRVO,Qorvo,no Yahoo price history (delisted or unknown symbol),Market capitalization changes.
+2024-09,CTLT,Catalent,no Yahoo price history (delisted or unknown symbol),Novo Holdings A/S acquired Catalent.
+2024-09,MRO,Marathon Oil,no Yahoo price history (delisted or unknown symbol),ConocoPhillips acquired Marathon Oil.
+2025-03,GOOG,Alphabet Inc. (Class C),secondary share class,
+2025-03,FOX,Fox Corporation (Class B),secondary share class,
+2025-03,NWS,News Corp (Class B),secondary share class,
+2025-03,SW,Smurfit Westrock,listed too recently for the signal,
+2025-03,KVUE,Kenvue,no Yahoo price history (delisted or unknown symbol),S&P 500 constituent Kimberly-Clark acquired Kenvue.
+2025-03,WBD,Warner Bros. Discovery,no Yahoo price history (delisted or unknown symbol),Paramount Skydance acquired Warner Bros. Discovery
+2025-03,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2025-03,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2025-03,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2025-03,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2025-03,DAY,Dayforce,no Yahoo price history (delisted or unknown symbol),Thoma Bravo L.P. acquired Dayforce.
+2025-03,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2025-03,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.
+2025-03,WBA,Walgreens Boots Alliance,no Yahoo price history (delisted or unknown symbol),Sycamore Partners acquired Walgreen Boots Alliance.
+2025-03,HES,Hess Corporation,no Yahoo price history (delisted or unknown symbol),Chevron acquired Hess.
+2025-03,ANSS,Ansys,no Yahoo price history (delisted or unknown symbol),Synopsys acquired Ansys.
+2025-03,JNPR,Juniper Networks,no Yahoo price history (delisted or unknown symbol),Hewlett Packard Enterprise acquired Juniper Networks.
+2025-03,DFS,Discover Financial,no Yahoo price history (delisted or unknown symbol),Capital One acquired Discover Financial.
+2025-09,GOOG,Alphabet Inc. (Class C),secondary share class,
+2025-09,FOX,Fox Corporation (Class B),secondary share class,
+2025-09,NWS,News Corp (Class B),secondary share class,
+2025-09,KVUE,Kenvue,no Yahoo price history (delisted or unknown symbol),S&P 500 constituent Kimberly-Clark acquired Kenvue.
+2025-09,WBD,Warner Bros. Discovery,no Yahoo price history (delisted or unknown symbol),Paramount Skydance acquired Warner Bros. Discovery
+2025-09,AVB,AvalonBay Communities,no Yahoo price history (delisted or unknown symbol),Equity Residential (now Vivmark Residential) acquired AvalonBay Communities.
+2025-09,EA,Electronic Arts,no Yahoo price history (delisted or unknown symbol),"An investor consortium comprising Saudi Arabia's Public Investment Fund (PIF), Silver Lake, and Affinity Partners acquired Electronic Arts."
+2025-09,CTRA,Coterra Energy,no Yahoo price history (delisted or unknown symbol),Devon Energy acquired Coterra Energy.
+2025-09,HOLX,Hologic,no Yahoo price history (delisted or unknown symbol),Blackstone Inc. and TPG Inc. acquired Hologic.
+2025-09,DAY,Dayforce,no Yahoo price history (delisted or unknown symbol),Thoma Bravo L.P. acquired Dayforce.
+2025-09,K,Kellanova,no Yahoo price history (delisted or unknown symbol),Mars Inc. acquired Kellanova.
+2025-09,IPG,Interpublic Group,no Yahoo price history (delisted or unknown symbol),Omnicom Group acquired (The) Interpublic Group.

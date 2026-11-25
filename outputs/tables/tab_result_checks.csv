@@ -1,0 +1,24 @@
+check,result,evidence
+"Momentum value and volatility at the first purchase, recomputed from the daily closes",PASS,385 stocks; largest differences 0.0e+00 and 0.0e+00
+"Selection and weights of the first purchase, recomputed without the engine's functions",PASS,77 stocks; largest weight difference 0.0e+00
+Independent recalculation of gross returns from the target weights: Quantile Alpha,PASS,largest difference 6.7e-16
+Independent recalculation of gross returns from the target weights: Cap-weighted universe,PASS,largest difference 5.6e-16
+SPY return equals the ratio of adjusted month-end prices,PASS,largest difference 1.1e-16
+Every cumulative series starts at 1,PASS,first NAV of all series = 1.000
+Net returns compound exactly to the final NAV,PASS,max gap 7.1e-15
+No missing return in the aligned sample,PASS,"120 months, 9 series"
+Target weights are positive and sum to 1 at every trade date,PASS,21 trade dates
+No weight above 9% or above three times the market-value weight on the reference date,PASS,21 of 21 rebalances (the others had a stock that could not be bought)
+Every eligible stock is in exactly one quintile; quintile sizes differ by at most one,PASS,120 monthly cross-sections
+The strategy selects one fifth of the eligible stocks at every rebalance,PASS,77 to 98 stocks
+Cost charged equals 10 bp times the dollars traded at every rebalance,PASS,21 rebalances
+Trades happen only on scheduled dates,PASS,"trade dates = last sessions of March and September, after the first purchase"
+Gross return is never below net return,PASS,all months
+"Measurement period, reference date and trade date are in the right order at every rebalance",PASS,start of period < end of period < reference date < trade date
+The ranking contains only securities that were index members on the reference date,PASS,membership start <= reference date < membership end
+Every stock bought is still an index member on the trade date,PASS,"1,882 purchases checked"
+Every share count used equals the count rebuilt by hand from the counts dated up to the reference date,PASS,"9,367 stock-dates rebuilt without the engine's functions, 0 differences (carried-back first counts are flagged and excluded; units near splits and the count before Yahoo's outage as stated in section 2)"
+First return is earned in the month after the first trade,PASS,"trade 2015-12, first return 2016-01"
+No delisting or stale valuation among held positions,PASS,"0 delisting events, 0 stale valuations"
+The cap-weighted universe moves with SPY,PASS,correlation 0.9994 (gate 0.99)
+The strategy moves with the fund that tracks the index,PASS,correlation with SPMO 0.986

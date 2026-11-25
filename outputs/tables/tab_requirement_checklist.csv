@@ -1,0 +1,21 @@
+requirement,status,evidence
+"Target clientele, objectives, horizon, risk attitude",PASS,Section 0
+Underlying assets and why they suit the client,PASS,Section 0; suitability verdict in section 12
+"Allocation rule: weights, rebalancing, motivation",PASS,Sections 0 and 4; worked example 4.7
+"Data through an API; source, period, frequency, adjustments documented",PASS,Section 2 table; provenance log 11.4
+Start and end dates set explicitly in the code,PASS,Config in section 1
+Decisions use only information available at the time,PASS,"Timing table 4.4; look-ahead test 11.1; timing checks 11.2. Stated exceptions for share counts (section 2): units near splits, the count before Yahoo's outage, first counts carried back by up to 120 days"
+"Cumulative performance vs benchmark, both starting at 1",PASS,Figure in 6.1; NAV check in 11.2
+"Annualised average return, volatility, Sharpe, alpha, information ratio, beta (not annualised)",PASS,Table in 6.2; formula tests in 11.1
+Calculation assumptions stated,PASS,Section 4.8
+Every reported measure interpreted for the client,PASS,"Text after each table (6.2, 6.4, 7, 8, 9, 10)"
+Implementation: rebalancing and transaction costs,PASS,"Sections 4.6, 6.4, 8.1, 8.2, 9.2"
+"Risks and limitations: concentration, look-ahead, survivorship",PASS,"Sections 3.3, 5.2, 6.4, 8.3, 9.1, 9.3"
+Monte Carlo section states and justifies its simulation design (coin flip vs Markov chain),PASS,Section 10
+"Notebook runs start to finish and reproduces every number, table and figure",PASS,This run; all outputs written to outputs/
+Runs in a fresh Google Colab session,GROUP,Built and executed with Colab's package versions; a run inside Colab itself must be confirmed by a group member
+Setup instructions; no separate data files,PASS,Section 1; nothing is read from disk except this session's own cache
+"Generative-AI use disclosed, with how outputs were checked",GROUP,Section 12 states the AI's part; the members' own checks must be filled in
+Moodle group name and all members named,GROUP,Placeholders at the top of the notebook
+"Investor prospectus, PDF, at most 7 content pages",DEFERRED,Next phase; figures and tables are exported to outputs/
+"Optional Streamlit app deployed, source on GitHub, URLs in both deliverables",DEFERRED,Next phase; the engine is ready (section 11.3)

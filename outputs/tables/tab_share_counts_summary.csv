@@ -1,0 +1,26 @@
+,value
+securities with prices,594
+former symbols asked,50
+former symbols without counts on Yahoo,"BHI, CBG, CCE, COH, CSC, DPS, HCN, KORS, LUK, MHFI, WYN"
+securities with share counts,594
+share counts in total,326084
+first count before 2016,535
+first count in 2016 or later,59
+changes of ticker inside the data window,51
+of which the counts agree within 3%,33
+split factors on Yahoo,211
+of which real stock splits,113
+counts read in the other split unit,50
+Yahoo's outage,2017-08-04 to 2018-11-13
+counts left out before the outage,548
+of which identical to the first count after it,70
+stocks with a split inside the outage,8
+of which the count before is already post-split,6
+stocks with a split soon after their first count,5
+of which the first count is already post-split,4
+price restatements without a listed factor,HWM 1.304 (2020-04-01)
+counts not accepted (no second count agreed),278
+splits after the sample,"CMCSA 1.067 (2026-01-05), AMCR 0.2 (2026-01-15), BDX 1.272 (2026-02-10), BKNG 25 (2026-04-06), CVNA 5 (2026-05-08), FDX 1.241 (2026-06-01), KLAC 10 (2026-06-12), POM 0.0555556 (2026-06-22), DD 0.333333 (2026-06-24), HON 0.9535 (2026-06-29), SPGI 1.057 (2026-07-01), CRWD 4 (2026-07-02), MNST 2 (2026-08-11), APH 2 (2026-09-03), CTVA 6.665 (2026-10-01)"
+"largest market values, end of 2015-11 (USD billion)","AAPL 660, GOOGL 525, MSFT 434, XOM 340, BRK-B 331, AMZN 312, META 295, GE 283"
+"largest market values, end of 2020-08 (USD billion)","AAPL 2,207, AMZN 1,729, MSFT 1,707, GOOGL 1,110, META 835, BRK-B 520, V 465, TSLA 464"
+"largest market values, end of 2025-08 (USD billion)","NVDA 4,280, MSFT 3,766, AAPL 3,556, GOOGL 2,579, AMZN 2,442, META 1,856, AVGO 1,399, BRK-B 1,085"

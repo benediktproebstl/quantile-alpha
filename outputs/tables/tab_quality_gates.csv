@@ -1,0 +1,10 @@
+gate,requirement,result,passed
+Membership replay,0 unmatched change-log entries,0 unmatched,PASS
+Reconstructed index size,500-505 tickers at every reference date,503-505,PASS
+Membership agrees with a second table,>= 95% of today's members,99.2%,PASS
+Eligible securities,>= 400 at every rebalance,minimum 385,FAIL
+Coverage: index issuers that can be ranked,>= 95% at every rebalance,minimum 77.0%,FAIL
+"Share count dated on or before the reference date, first purchase",>= 95% of eligible stocks,90.1%,FAIL
+"Share count dated on or before the reference date, later rebalances",>= 95% of eligible stocks,minimum 98.9%,PASS
+Stale valuations of eligible stocks while held,0,0,PASS
+"Prices positive, dates sorted and unique, December 2025 included",all true,all true,PASS
