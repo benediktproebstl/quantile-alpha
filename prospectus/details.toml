@@ -6,7 +6,7 @@
 
 course = "2270 Financial Modeling · Group assignment"
 moodle_group = "BC"          # the group's name on Moodle
-submission_date = ""         # e.g. "12 December 2026"
+submission_date = "4 December 2026"
 
 # All members of the group. This repository is public, so student numbers are not written here:
 # they go into prospectus/details.local.toml, which git ignores (see tools/make_submission.py).

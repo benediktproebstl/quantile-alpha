@@ -73,12 +73,11 @@ S1 to S5 were confirmed on 25 November 2026 (reported by Benedikt Proebstl). S6 
 
 ## Open points for the group
 
-1. Enter the submission date in `prospectus/details.toml`.
-2. If the Colab run was made before the notebook of 25 November 2026 was pushed, repeat it once from the link at the top: section 12.6 is new.
-3. Read the prospectus and make it yours: every member should be able to explain each page.
-4. Deploy the app on Streamlit (steps above), check the link, and enter it in the notebook and in `prospectus/details.toml`. Without a working link the app earns no marks.
-5. Rebuild the prospectus (`python prospectus/build_prospectus.py`) and check that the word "Draft" is gone.
-6. Run `python tools/make_submission.py` and submit the two files it writes into `submission/` on Moodle: `investor_prospectus.pdf` and `Financial_Modeling_Quantile_Alpha.ipynb`.
-7. Optional: obtain a FRED API key and run once with it, to exercise the official API route.
+1. If the Colab run was made before the notebook of 25 November 2026 was pushed, repeat it once from the link at the top: section 12.6 is new.
+2. Read the prospectus and make it yours: every member should be able to explain each page.
+3. Deploy the app on Streamlit (steps above), check the link, and enter it in the notebook and in `prospectus/details.toml`. Without a working link the app earns no marks.
+4. Rebuild the prospectus (`python prospectus/build_prospectus.py`) and check that the word "Draft" is gone.
+5. Run `python tools/make_submission.py` and submit the two files it writes into `submission/` on Moodle: `investor_prospectus.pdf` and `Financial_Modeling_Quantile_Alpha.ipynb`.
+6. Optional: obtain a FRED API key and run once with it, to exercise the official API route.
 
 The prospectus presents the result together with its reservations (not statistically significant, 93% of the final lead earned in 2024 and 2025, dependent on a few very large companies, in-sample): they are on pages 1, 4, 5 and 7. Whether that balance is right is for the group to judge when reading it.

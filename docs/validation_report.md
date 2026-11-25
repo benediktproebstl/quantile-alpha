@@ -138,7 +138,9 @@ Checked afterwards by the AI assistant: every page looked at as an image; the PD
 | The first page shows the engine's figures; every control reruns the engine; all three benchmarks and all four periods; an impossible combination is explained; the reset restores the prospectus settings | PASS (`tests/test_tracker_app.py`, run without a browser) |
 | With the prospectus settings the app shows the figures of this notebook run | PASS: 17.80% a year stored with the data, 17.80% in the notebook |
 | The route without a snapshot (download through the engine) | PASS on this computer, with the downloads of the notebook run |
-| `requirements.txt` installed into empty environments with Python 3.11, 3.12 and 3.13 (25 November 2026) | PASS: the app's tests pass in each of the three |
+| The notebook's library versions installed into empty environments with Python 3.11, 3.12 and 3.13 (25 November 2026) | PASS: the app's tests pass in each of the three |
+| `requirements.txt` as committed (lower bounds, so the newest versions are installed: pandas 3.1.1, numpy 2.5.5, scipy 1.18.1, yfinance 1.8.0) in an empty environment with Python 3.13 | PASS: all engine and app tests; the prospectus settings give the same average return as stored with the snapshot, to the last digit |
+| First deployment on Streamlit's servers (25 November 2026) | Did not finish building within ten minutes while `requirements.txt` pinned pandas 2.2.3, a version without ready-made packages for Python 3.14 and later. The pins were replaced by lower bounds |
 | Looked at in a browser: layout, typeface, colours, charts, every control clicked once | Done by the AI assistant, on this computer |
 
 ## 11. Not tested

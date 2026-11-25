@@ -1,12 +1,17 @@
 # What the engine and the tracker app need. Streamlit installs this file when the app is deployed.
-# The versions are those of the committed notebook run (Google Colab's versions on 24 November 2026).
-numpy==2.4.6
-pandas==2.2.3
-scipy==1.16.3
-statsmodels==0.15.0
-yfinance==0.2.66
-requests==2.32.4
-lxml==6.1.3
+#
+# The lower bounds are the versions of the committed notebook run (Google Colab's versions on 24 November 2026).
+# They are bounds, not exact pins, so that a host with a newer Python can install ready-made packages:
+# pandas 2.2.3, for example, exists only up to Python 3.13 and would have to be compiled on anything newer.
+# The engine, the notebook and the app's tests also pass with the newest versions (pandas 3.1.1, yfinance 1.8.0);
+# see docs/validation_report.md. requirements-dev.txt pins the notebook's exact versions.
+numpy>=2.4.6,<3
+pandas>=2.2.3,<4
+scipy>=1.16.3,<2
+statsmodels>=0.15.0,<1
+yfinance>=0.2.66,<2
+requests>=2.32.4,<3
+lxml>=6.1.3,<7
 pyarrow>=18
 streamlit==1.67.0
 plotly==7.2.0

@@ -4,7 +4,7 @@ A rules-based U.S. large-cap momentum strategy, built for the group assignment o
 
 Repository: <https://github.com/benediktproebstl/quantile-alpha> · [Open the notebook in Google Colab](https://colab.research.google.com/github/benediktproebstl/quantile-alpha/blob/main/Financial_Modeling_Quantile_Alpha.ipynb)
 
-**Status (25 November 2026).** The notebook runs from start to finish and reproduces every number, table and figure. The investor prospectus (`investor_prospectus.pdf`, a cover and seven pages) and the tracker app (`tracker_app.py`) are built. Still open: the submission date, the deployment of the app on Streamlit and its link (see the list at the end).
+**Status (25 November 2026).** The notebook runs from start to finish and reproduces every number, table and figure. The investor prospectus (`investor_prospectus.pdf`, a cover and seven pages) and the tracker app (`tracker_app.py`) are built. Still open: the deployment of the app on Streamlit and its link (see the list at the end).
 
 ## The strategy
 
@@ -51,7 +51,7 @@ pytest
 jupyter notebook Financial_Modeling_Quantile_Alpha.ipynb
 ```
 
-`requirements.txt` lists what the engine and the app need (it is what Streamlit installs); `requirements-dev.txt` adds what the notebook, the tests and the prospectus build need.
+`requirements.txt` lists what the engine and the app need, with the notebook's versions as lower bounds (it is what Streamlit installs, on whatever Python its servers run). `requirements-dev.txt` pins the exact versions of the committed notebook run and adds what the notebook, the tests and the prospectus build need; it needs Python 3.11, 3.12 or 3.13.
 
 Downloads are cached in `~/.cache/quantile_alpha` and reused until the end of the day (UTC). Set the environment variable `QA_USE_CACHE=0` to download again at once.
 
@@ -86,7 +86,7 @@ streamlit run tracker_app.py
 **Deploying it (needs the Streamlit account of a group member).**
 
 1. Sign in at <https://share.streamlit.io> with the GitHub account that owns this repository.
-2. *Create app* → repository `benediktproebstl/quantile-alpha`, branch `main`, main file `tracker_app.py`. Under *Advanced settings* choose Python 3.12. A FRED key is not needed; if you have one, add `FRED_API_KEY = "..."` under *Secrets*.
+2. *Create app* → repository `benediktproebstl/quantile-alpha`, branch `main`, main file `tracker_app.py`. Under *Advanced settings* choose Python 3.12 or 3.13 (both tested). A FRED key is not needed; if you have one, add `FRED_API_KEY = "..."` under *Secrets*.
 3. Open the link Streamlit gives you and check that the page shows the figures above.
 4. Enter the link as `app_url` in `prospectus/details.toml` and at the top of the notebook, then rebuild the prospectus.
 
@@ -144,7 +144,6 @@ The only market data stored in this repository are in `app_data/`: monthly retur
 
 Reported by Benedikt Proebstl for the group on 25 November 2026: the decisions S1 to S5 are confirmed; the notebook ran from start to finish in Google Colab; the members did their own checks of the AI-written code and results; the fund fees quoted were checked. The group is BC, with 6 members.
 
-- [ ] Enter the submission date in `prospectus/details.toml`.
 - [ ] If the Colab run was made before the notebook of 25 November 2026 was pushed, repeat it once from the link at the top: section 12.6 is new.
 - [ ] Read the prospectus and make it yours: every member should be able to explain each page.
 - [ ] Deploy the app on Streamlit (steps above), check the link, and enter it in the notebook and in `prospectus/details.toml`. Without a working link the app earns no marks.
