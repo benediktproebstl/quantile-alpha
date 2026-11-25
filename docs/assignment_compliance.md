@@ -1,6 +1,6 @@
 # Compliance matrix
 
-Status meanings: **PASS** = verified, with the evidence named. **GROUP** = needs a decision, a detail or a check from the group members. **DEFERRED** = belongs to the next project phase. **NOT TESTED** = not executed.
+Status meanings: **PASS** = verified, with the evidence named. **CONFIRMED by the group** = reported by the group members; not verified by the AI assistant. **GROUP** = needs a decision, a detail or a check from the group members. **NOT TESTED** = not executed.
 
 ## Assignment brief (2270 Financial Modeling, group assignment)
 
@@ -20,14 +20,16 @@ Status meanings: **PASS** = verified, with the evidence named. **GROUP** = needs
 | Implementation: rebalancing and transaction costs | PASS | Sections 4.6, 6.4, 8.1, 8.2, 9.2 |
 | Risks and limitations: concentration, look-ahead bias, survivorship bias | PASS | Sections 3.3, 5.2, 6.4, 8.3, 9.1, 9.3, 12.3 |
 | Start and end dates set explicitly in the code | PASS | `Config` in section 1 |
-| Notebook reproduces every number, table and figure | PASS | All tables and figures are written to `outputs/` by the notebook (18 figures, 44 tables) |
-| Notebook runs start to finish in a fresh Google Colab session | NOT TESTED in Colab | Runs start to finish in a clean environment with Colab's package versions; see `validation_report.md` |
+| Notebook reproduces every number, table and figure | PASS | All tables and figures are written to `outputs/` by the notebook (18 figures, 45 tables) |
+| Notebook runs start to finish in a fresh Google Colab session | CONFIRMED by the group | The group reports a complete run in Google Colab on 25 November 2026. Runs start to finish in a clean environment with Colab's package versions; see `validation_report.md` |
 | Setup instructions; data through an API; no separate data files | PASS | Section 1 |
-| Generative-AI use disclosed: tools, purpose, how outputs were checked | GROUP | Section 12.5 and `ai_usage_log.md` state the AI's part; the members' own checks must be filled in |
-| Moodle group name and all members named | GROUP | Placeholders at the top of the notebook |
-| Prospectus: PDF, at most 7 content pages plus optional cover, references and app evidence inside | DEFERRED | Next phase; figures and tables are ready in `outputs/` |
-| Two files, under 50 MB in total | PASS for the notebook (2.2 MB) | Prospectus pending |
-| Optional app: deployed on Streamlit, source on GitHub, both URLs in prospectus and notebook | DEFERRED | `app_handoff.md`; placeholders at the top of the notebook |
+| Generative-AI use disclosed: tools, purpose, how outputs were checked | PASS | Section 12.5 of the notebook, page 7 of the prospectus and `ai_usage_log.md` state the AI's part and the checks the group reports. The group states that it used no other AI tool |
+| Moodle group name and all members named | PASS | Group BC and its 6 members: top of the notebook and cover of the prospectus. Student numbers appear only in the copies for Moodle (`tools/make_submission.py`), not in this public repository |
+| Prospectus: PDF, at most 7 content pages plus optional cover, references and app evidence inside | PASS for the page count; GROUP for the details | `investor_prospectus.pdf`: a cover and 7 content pages (the build script counts them and stops if a page overflows); references, AI disclosure and the app's screenshot and links are on page 7. Still placeholders: submission date, app link |
+| Prospectus: every number, table and figure reproduced by the notebook | PASS | Notebook section 12.6 writes the five figures and `tab_prospectus_key_figures.csv` (223 numbers with their source sections); `prospectus/build_prospectus.py` prints them and calculates nothing. The app screenshot is the one exhibit that does not come from the notebook |
+| Two files, under 50 MB in total | PASS | Notebook 2.4 MB, prospectus 0.4 MB |
+| Optional app: lets the user change a meaningful assumption and see performance and the benchmark comparison; calculations consistent with the notebook | PASS | `tracker_app.py`: six assumptions and three benchmarks; every change calls the notebook's `run_backtest`; `tests/test_tracker_app.py` compares its figures with the engine's |
+| Optional app: deployed on Streamlit, source on GitHub, both URLs in prospectus and notebook | GROUP | Source, dependencies (`requirements.txt`) and run instructions (`README.md`) are in the repository. Deployment needs the Streamlit account of a group member; the URL is a placeholder in the notebook and the prospectus until the deployment has been checked |
 
 Lecture 5 adds one expectation that is not in the brief: the Monte Carlo section must **state and justify its simulation design** (independent coin flip or Markov chain). PASS: notebook section 10 states nine design decisions with reasons, runs both designs, and shows how the choice changes the risk figures.
 
@@ -47,5 +49,5 @@ Lecture 5 adds one expectation that is not in the brief: the Monte Carlo section
 | Statement that the result is in-sample | PASS | Sections 8, 9.3 and 12.3 |
 | Sector exposure with today's labels, clearly restricted | PASS | Section 9.1 |
 | Risk and bias audit; retail example with USD 100,000 | PASS | Sections 9.2 and 9.3 |
-| Central configuration; calculation separate from plotting; reusable backtest function for the app | PASS | `Config`; engine cells; `run_backtest`; `app_handoff.md` |
+| Central configuration; calculation separate from plotting; reusable backtest function for the app | PASS | `Config`; engine cells; `run_backtest`; `tracker_app.md` |
 | Automated tests, including one that rewrites future data | PASS | 46 tests |

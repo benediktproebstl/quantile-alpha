@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="234pt" height="144pt" viewBox="0 0 234 144" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 144 
+L 234 144 
+L 234 0 
+L 0 0 
+L 0 144 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 4.68 119.52 
+L 229.32 119.52 
+L 229.32 5.76 
+L 4.68 5.76 
+L 4.68 119.52 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 7.5px; font-family: 'Inter'; fill: #71717a" transform="translate(24.201087 128.47625)">Q1</text>
+      <text style="font-size: 7.5px; font-family: 'Inter'; fill: #71717a" transform="translate(5.95265 136.554219)">lowest score</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle; fill: #71717a" x="72.79693" y="128.47625" transform="rotate(-0 72.79693 128.47625)">Q2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle; fill: #71717a" x="117" y="128.47625" transform="rotate(-0 117 128.47625)">Q3</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle; fill: #71717a" x="161.20307" y="128.47625" transform="rotate(-0 161.20307 128.47625)">Q4</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 7.5px; font-family: 'Inter'; fill: #71717a" transform="translate(200.313757 128.47625)">Q5</text>
+      <text style="font-size: 7.5px; font-family: 'Inter'; fill: #71717a" transform="translate(181.348717 136.769375)">highest score</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_3">
+    <path d="M 14.890909 119.52 
+L 42.296812 119.52 
+L 42.296812 34.536875 
+L 14.890909 34.536875 
+z
+" clip-path="url(#pe20ef91acd)" style="fill: #d4d4d8"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 59.093979 119.52 
+L 86.499882 119.52 
+L 86.499882 41.459086 
+L 59.093979 41.459086 
+z
+" clip-path="url(#pe20ef91acd)" style="fill: #d4d4d8"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 103.297048 119.52 
+L 130.702952 119.52 
+L 130.702952 48.359632 
+L 103.297048 48.359632 
+z
+" clip-path="url(#pe20ef91acd)" style="fill: #d4d4d8"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 147.500118 119.52 
+L 174.906021 119.52 
+L 174.906021 44.299297 
+L 147.500118 44.299297 
+z
+" clip-path="url(#pe20ef91acd)" style="fill: #d4d4d8"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 191.703188 119.52 
+L 219.109091 119.52 
+L 219.109091 15.170909 
+L 191.703188 15.170909 
+z
+" clip-path="url(#pe20ef91acd)"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 4.68 31.699545 
+L 229.32 31.699545 
+" clip-path="url(#pe20ef91acd)" style="fill: none; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #71717a"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 4.68 119.52 
+L 229.32 119.52 
+" clip-path="url(#pe20ef91acd)" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 4.68 119.52 
+L 229.32 119.52 
+" style="fill: none; stroke: #e4e4e7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="28.593861" y="43.993125" transform="rotate(-0 28.593861 43.993125)">14.4%</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="72.79693" y="50.915336" transform="rotate(-0 72.79693 50.915336)">13.3%</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="117" y="57.815882" transform="rotate(-0 117 57.815882)">12.1%</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="161.20307" y="53.755547" transform="rotate(-0 161.20307 53.755547)">12.8%</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Inter'; text-anchor: middle; fill: #ffffff" x="205.406139" y="24.627159" transform="rotate(-0 205.406139 24.627159)">17.7%</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: start; fill: #71717a" x="14.890909" y="27.169076" transform="rotate(-0 14.890909 27.169076)">S&amp;P 500 (SPY) 14.9%</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe20ef91acd">
+   <rect x="4.68" y="5.76" width="224.64" height="113.76"/>
+  </clipPath>
+ </defs>
+</svg>

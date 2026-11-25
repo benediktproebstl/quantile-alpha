@@ -13,3 +13,11 @@ qa_cache/
 
 # operating system
 .DS_Store
+
+# local tooling
+.claude/
+prospectus/build/
+
+# personal data: student numbers, and the two files for Moodle that contain them, stay out of the public repository
+prospectus/details.local.toml
+submission/

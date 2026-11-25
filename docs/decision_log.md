@@ -13,9 +13,11 @@ Who decided what, when, and why. "Group" means a decision recorded in the group'
 | G5 | Primary benchmark: SPY | Strategy specification |
 | G6 | Sample ends December 2025 | Strategy specification |
 | G7 | Target client: U.S. retail investor, USD, horizon of at least ten years, high risk tolerance | Strategy specification |
-| G8 | App and prospectus are built in a later phase | Strategy specification; instruction of 24 Nov 2026 |
+| G8 | App and prospectus are built after the notebook (both were built on 25 November 2026) | Strategy specification; instructions of 24 and 25 Nov 2026 |
 
-## Decisions taken in the session of 24 November 2026 (to be confirmed by all members)
+## Decisions taken in the session of 24 and 25 November 2026
+
+S1 to S5 were confirmed on 25 November 2026 (reported by Benedikt Proebstl). S6 and S7 were decided by the same member on 25 November 2026.
 
 | # | Decision | Why | Alternatives that were offered |
 |---|---|---|---|
@@ -24,6 +26,8 @@ Who decided what, when, and why. "Group" means a decision recorded in the group'
 | S3 | The strategy applies the published construction rules of the S&P 500 Momentum index, the index tracked by the SPMO fund: risk-adjusted 12-month momentum without the most recent month; the best fifth, with the 20% buffer rule; weights = market value × momentum score, at most 9% per stock and three times the market-value weight; rebalanced at the end of March and September. | The member's choice, made knowing that the fund on this index had done better than the S&P 500 over the sample period. The notebook therefore treats the result as in-sample (section 8). | (a) a simpler rule: plain momentum with weights by market value only; (b) holding the SPMO fund itself |
 | S4 | Sample: January 2016 to December 2025. | Yahoo's share counts, which the weights need, start in October 2015. | – |
 | S5 | The GitHub repository is public (`benediktproebstl/quantile-alpha`). | The member's choice; no reason was recorded. Consequences: anyone, including other groups, can see the work before the deadline; the notebook opens in Colab directly from its link; the app submission requires a public repository in any case. | Private repository with invited collaborators |
+| S6 | The investor prospectus and the tracker app share one design: a white page, light-grey tiles with a hairline border and rounded corners, the typeface Inter with tabular figures, green for gains, highlights and progress bars, and orange for risk notices and losses only. The app is one centred column of at most 900 pixels without Streamlit's menu. | The member's instruction of 25 November 2026: a clean neobank look for both deliverables. It replaces the navy and teal design of the strategy specification. | The design of the strategy specification |
+| S7 | The public repository holds a data snapshot for the app (`app_data/`): monthly returns, momentum scores and index weights of S&P 500 stocks derived from the Yahoo Finance downloads. Daily prices and share counts are not stored. | The member's choice of 25 November 2026, made after being told that Yahoo's terms restrict redistributing its data and that without the snapshot the app has to download for five to fifteen minutes after every restart of the server, which a grader would have to sit through. | The app downloads everything at each start; no market data in the repository |
 
 ## Implementation choices made by the AI assistant (please review)
 
@@ -64,13 +68,17 @@ Who decided what, when, and why. "Group" means a decision recorded in the group'
 | N2 | No independent third-party membership dataset was downloaded to cross-check Wikipedia. | It would have been a further data source. The reconstruction is checked internally instead (index size, second Wikipedia table). |
 | N3 | No free-float adjustment, no daily (third-Friday) trading, no removal of stocks between rebalances. | Not possible with the data sources, or outside a monthly engine. Listed in the notebook, section 4.5, and measured against the real fund in section 5.2. |
 | N4 | No tax model, no sector-neutral strategy, no factor model beyond the market model, no machine learning. | Out of scope. |
-| N5 | No prospectus PDF, no Streamlit app. | Next phase. |
+| N5 | The app does not let the user change the settings of the momentum score (look-back, risk adjustment, share of the index held). | They need the daily prices, which the app's data do not hold. The notebook covers them in section 8.1. |
+| N6 | The app was not deployed by the AI assistant. | Deployment needs a group member's Streamlit account. |
 
 ## Open points for the group
 
-1. Confirm S1 to S5 (all members).
-2. Decide how the prospectus presents the result together with its reservations: not statistically significant, 93% of the final lead earned in 2024 and 2025, dependent on a few very large companies, in-sample. The notebook's own conclusion is in section 12.
-3. Fill in the Moodle group name, the members, and the members' own verification steps in the AI disclosure (notebook, top and section 12.5).
-4. Run the notebook once in Google Colab and note the date in `validation_report.md`.
-5. Check the fund fees quoted (SPY 0.09%, SPMO 0.13%) and read S&P's methodology before quoting it in the prospectus.
-6. Optional: obtain a FRED API key and run once with it, to exercise the official API route.
+1. Enter the submission date in `prospectus/details.toml`.
+2. If the Colab run was made before the notebook of 25 November 2026 was pushed, repeat it once from the link at the top: section 12.6 is new.
+3. Read the prospectus and make it yours: every member should be able to explain each page.
+4. Deploy the app on Streamlit (steps above), check the link, and enter it in the notebook and in `prospectus/details.toml`. Without a working link the app earns no marks.
+5. Rebuild the prospectus (`python prospectus/build_prospectus.py`) and check that the word "Draft" is gone.
+6. Run `python tools/make_submission.py` and submit the two files it writes into `submission/` on Moodle: `investor_prospectus.pdf` and `Financial_Modeling_Quantile_Alpha.ipynb`.
+7. Optional: obtain a FRED API key and run once with it, to exercise the official API route.
+
+The prospectus presents the result together with its reservations (not statistically significant, 93% of the final lead earned in 2024 and 2025, dependent on a few very large companies, in-sample): they are on pages 1, 4, 5 and 7. Whether that balance is right is for the group to judge when reading it.

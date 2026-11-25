@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Quantile Alpha: Investor prospectus</title>
+<style>
+{{ fonts_css }}
+{{ css }}
+</style>
+</head>
+<body>
+{#- Every number below is printed from the notebook's key-figure table (k.<key>). Nothing is calculated here. -#}
+{%- macro todo(text) -%}<span class="todo">{{ text }}</span>{%- endmacro -%}
+{%- macro footer(n) -%}
+<div class="page-footer">
+  <span><b>Quantile Alpha</b> &nbsp;·&nbsp; Investor prospectus{% if d.moodle_group %} &nbsp;·&nbsp; Group {{ d.moodle_group }}{% endif %}{% if draft %} &nbsp;·&nbsp; Draft{% endif %}</span>
+  <span>{{ n }} / 7</span>
+</div>
+{%- endmacro -%}
+
+<!-- ============================== cover ============================== -->
+<section class="page cover" data-page="cover">
+  <div class="top">
+    <div class="mark"><i></i><span>Investor prospectus</span></div>
+    {% if draft %}<span class="pill">Draft</span>{% endif %}
+  </div>
+
+  <div class="title">
+    <div class="accent"></div>
+    <h1>Quantile<br>Alpha</h1>
+    <p>A rules-based U.S. large-cap momentum strategy</p>
+  </div>
+
+  <div class="bottom">
+    <dl class="rows">
+      <div><dt>Course</dt><dd>{{ d.course }}</dd></div>
+      <div><dt>Moodle group</dt><dd>{% if d.moodle_group %}{{ d.moodle_group }}{% else %}{{ todo("to be completed by the group") }}{% endif %}</dd></div>
+      <div><dt>Group members</dt><dd>{% if d.members %}<div class="members">{% for m in d.members %}<span>{{ m.name }}{% if m.number %}<i>{{ m.number }}</i>{% endif %}</span>{% endfor %}</div>{% else %}{{ todo("to be completed by the group") }}{% endif %}</dd></div>
+      <div><dt>Submission date</dt><dd>{% if d.submission_date %}{{ d.submission_date }}{% else %}{{ todo("to be completed by the group") }}{% endif %}</dd></div>
+    </dl>
+    <p class="small legal">This document describes the backtest of an investment rule on historical data from {{ k.sample_first }} to {{ k.sample_last }}. It is a course assignment and not an offer or investment advice. No return is guaranteed, capital is at risk, and past performance is not a reliable guide to future performance.</p>
+  </div>
+</section>
+
+<!-- ============================== 1 at a glance ============================== -->
+<section class="page" data-page="1">
+<div class="page-body">
+  <p class="eyebrow">At a glance</p>
+  <h1>The strongest {{ k.rule_fraction }} of the S&amp;P&nbsp;500, held by a published rule.</h1>
+  <p class="lead">Quantile Alpha is a long-only portfolio of U.S. large-cap stocks. {{ k.rule_trades_per_year | capitalize }} a year it buys the {{ k.rule_fraction }} of the S&amp;P 500 with the strongest risk-adjusted price momentum and weights each stock by company size and momentum score. <b>The objective is long-term capital growth above an S&amp;P 500 index fund, after trading costs,</b> for investors who can carry full equity risk.</p>
+
+  <div class="grid g4">
+    <div class="card kpi"><div class="label">Return per year, net</div><div class="value pos">{{ k.ret_s }}</div><div class="sub">index fund: {{ k.ret_spy }}</div></div>
+    <div class="card kpi"><div class="label">Lead over the index fund</div><div class="value pos">+{{ k.lead_pp }}</div><div class="sub">percentage points a year</div></div>
+    <div class="card kpi"><div class="label">$1 invested became</div><div class="value">${{ k.value_s }}</div><div class="sub">index fund: ${{ k.value_spy }}</div></div>
+    <div class="card kpi"><div class="label">Sharpe ratio</div><div class="value">{{ k.sharpe_s }}</div><div class="sub">index fund: {{ k.sharpe_spy }}</div></div>
+  </div>
+  <p class="small mt-s">Backtest from {{ k.sample_first }} to {{ k.sample_last }} ({{ k.n_months }} monthly returns), after {{ k.cost_bp }} basis points on every dollar traded, before taxes. The index fund is SPY with dividends reinvested; its returns are net of the fund&rsquo;s own fee. Every figure in this prospectus is produced by the accompanying notebook.</p>
+
+  <div class="grid g2 mt">
+    <div>
+      <h2>Who it is for</h2>
+      <dl class="rows text">
+        <div><dt>Client</dt><dd>U.S. retail investor with USD as home currency</dd></div>
+        <div><dt>Objective</dt><dd>Long-term growth above the index fund</dd></div>
+        <div><dt>Horizon</dt><dd>Ten years or more, no withdrawals planned</dd></div>
+        <div><dt>Attitude to risk</dt><dd>High: able to sit through a loss of a quarter of the portfolio and years behind the market</dd></div>
+        <div><dt>Role</dt><dd>A satellite next to a diversified core holding</dd></div>
+      </dl>
+    </div>
+    <div>
+      <h2>The portfolio</h2>
+      <dl class="rows text">
+        <div><dt>Assets</dt><dd>About {{ k.holdings_avg }} S&amp;P 500 stocks, long only, in USD</dd></div>
+        <div><dt>Weights</dt><dd>Company size times momentum score, at most {{ k.weight_limit }} per stock when set</dd></div>
+        <div><dt>Rebalancing</dt><dd>{{ k.rule_trades_per_year | capitalize }} a year, at the end of {{ k.rule_trade_months }}</dd></div>
+        <div><dt>Benchmark</dt><dd>S&amp;P 500 index fund (SPY)</dd></div>
+        <div><dt>Trading costs</dt><dd>{{ k.cost_bp }} basis points per dollar traded, {{ k.cost_pa }} a year</dd></div>
+      </dl>
+    </div>
+  </div>
+
+  <div class="grid g2 mt">
+    <div>
+      <h2>Why these assets suit this client</h2>
+      <p>S&amp;P 500 stocks are the most liquid equities in the client&rsquo;s home market. They trade at tight spreads, are offered in fractional shares by every large U.S. retail broker, carry no currency risk for a USD investor, and are companies the client knows. The rule uses only public prices and share counts, so every holding can be checked line by line.</p>
+    </div>
+    <div>
+      <h2>Who it is not for</h2>
+      <p>Anyone who needs the money within a few years, cannot tolerate a large temporary loss, would abandon the rule after a bad stretch, or has only a small amount to invest: the portfolio needs about {{ k.retail_positions }} positions and fractional shares (page 7).</p>
+    </div>
+  </div>
+
+  <div class="card risk cols mt">
+    <h2>Read this before investing</h2>
+    <ul>
+      <li><b>Concentrated.</b> About {{ k.holdings_avg }} stocks are held, but the ten largest carry {{ k.top10_avg }} of the portfolio on average. When a few very large companies fall, the portfolio falls with them.</li>
+      <li><b>Not proven.</b> The lead is within what chance can produce in {{ k.n_years }} years (t-statistic of alpha: {{ k.alpha_t }}), and {{ k.late_share }} of it was earned in 2024 and 2025.</li>
+      <li><b>Not steady.</b> The portfolio was behind the index fund in {{ k.years_behind }} of {{ k.n_years }} calendar years, by up to {{ k.worst_gap }} points in a single year, and once lost {{ k.mdd_s | replace("−", "") }} from peak to trough.</li>
+      <li><b>No guarantee.</b> Capital is not protected and no return is promised. Past performance is not a reliable guide to future performance.</li>
+    </ul>
+  </div>
+</div>
+{{ footer(1) }}
+</section>
+
+<!-- ============================== 2 strategy ============================== -->
+<section class="page" data-page="2">
+<div class="page-body">
+  <p class="eyebrow">Investment strategy</p>
+  <h1>One rule, four steps, two trading days a year.</h1>
+  <p class="lead">The portfolio applies the published construction rules of the S&amp;P 500 Momentum index to the members of the S&amp;P 500. Nothing is left to judgement: the same data always give the same portfolio.</p>
+
+  <div class="grid g-wide-left">
+    <div>
+      <h2>The allocation rule</h2>
+      <div class="step"><div class="n">1</div><div><h3>Score every index member</h3><p>The price change over {{ k.rule_lookback }} months, leaving out the most recent month, divided by the volatility of the stock&rsquo;s daily price changes. Scores are standardised across the index and capped at &plusmn;{{ k.rule_winsor }}.</p></div></div>
+      <div class="step"><div class="n">2</div><div><h3>Select the best {{ k.rule_fraction }}</h3><p>About {{ k.holdings_avg }} stocks. A {{ k.rule_buffer }} buffer favours stocks already held: a holding stays while it ranks within 1.2 times the target number, which avoids trades over small changes in rank.</p></div></div>
+      <div class="step"><div class="n">3</div><div><h3>Weight by size and score</h3><p>Each stock&rsquo;s weight is its market value times its momentum score. When the weights are set, no stock may exceed {{ k.weight_limit }} of the portfolio or {{ k.rule_cap_multiple }} times its market-value weight.</p></div></div>
+      <div class="step"><div class="n">4</div><div><h3>Trade {{ k.rule_trades_per_year }} a year</h3><p>Scores and weights are fixed at the end of {{ k.rule_reference_months }} and traded one month later, at the last close of {{ k.rule_trade_months }}. In between nothing is traded and the weights drift with prices.</p></div></div>
+      <p class="small mt-s">Always fully invested in USD. No leverage, no short positions, no derivatives and no market timing. Dividends are reinvested.</p>
+    </div>
+
+    <div class="card">
+      <h2>Largest holdings</h2>
+      <p class="small" style="margin-bottom:2.4mm">After the rebalance of {{ k.last_rebalance }}</p>
+      {% for h in top10 %}
+      <div class="holding">
+        <div class="line"><span><span class="rank">{{ loop.index }}</span>{{ h.name }}</span><span class="w">{{ h.weight }}</span></div>
+        <div class="bar"><i style="width: {{ h.width }}%"></i></div>
+      </div>
+      {% endfor %}
+      <dl class="rows" style="margin-top:2.6mm">
+        <div><dt>Holdings</dt><dd>{{ k.holdings_last }}</dd></div>
+        <div><dt>Ten largest together</dt><dd>{{ k.top10_last }}</dd></div>
+      </dl>
+    </div>
+  </div>
+
+  <div class="grid g2 mt">
+    <div>
+      <h2>Why momentum</h2>
+      <p>Stocks that outperformed over the past three to twelve months have, on average, continued to outperform in the following months (Jegadeesh and Titman, 1993), a pattern found in many countries and asset classes (Asness, Moskowitz and Pedersen, 2013). Investors may absorb news only gradually (Hong and Stein, 1999), or the return may be a reward for rare, sharp losses (Daniel and Moskowitz, 2016); neither explanation is settled. The most recent month is left out because very recent winners tend to reverse (Jegadeesh, 1990). Dividing by volatility favours stocks that rose steadily over stocks that jumped.</p>
+    </div>
+    <div>
+      <h2>Why this rule</h2>
+      <p><b>Its parameters are the index provider&rsquo;s, not ours:</b> twelve months, one month skipped, the best fifth, a {{ k.weight_limit }} limit, two rebalances a year. <b>Weighting by size keeps it cheap to run:</b> the largest positions are the most liquid stocks, and trading costs take {{ k.cost_pa }} a year. <b>And it can be checked against real money:</b> a fund has tracked the same index since 2015, which lets the backtest be compared with a real portfolio (page 5).</p>
+      <p>Because weights follow company size, a few very large companies make up a large part of the portfolio. That is this strategy&rsquo;s main specific risk (page 6).</p>
+    </div>
+  </div>
+</div>
+{{ footer(2) }}
+</section>
+
+<!-- ============================== 3 data and method ============================== -->
+<section class="page" data-page="3">
+<div class="page-body">
+  <p class="eyebrow">Data and method</p>
+  <h1>Public data, retrieved through APIs, used only as known at the time.</h1>
+
+  <table class="text">
+    <thead><tr><th>Source</th><th>Data</th><th>Sample and frequency</th><th>Adjustments</th></tr></thead>
+    <tbody>
+      <tr><td>Yahoo Finance</td><td>Prices of S&amp;P 500 members, of the index fund SPY and of the momentum fund SPMO; shares outstanding</td><td>Daily, {{ k.data_from }} to {{ k.sample_last }}; returns are measured from month-end to month-end</td><td>Returns from prices adjusted for dividends and splits. Market value from the unadjusted close times shares outstanding. Spin-offs that Yahoo counts twice are corrected.</td></tr>
+      <tr><td>FRED</td><td>3-month Treasury yield (DGS3MO); NBER recession indicator (USREC)</td><td>Daily yield; monthly indicator from {{ k.mc_regime_from }}</td><td>The annual yield <i>y</i> becomes a monthly return, (1 + <i>y</i>)<sup>1/12</sup> &minus; 1, using the last yield published before the month began.</td></tr>
+      <tr><td>Wikipedia</td><td>Dates on which companies joined and left the S&amp;P 500</td><td>Two pinned page revisions, read through the MediaWiki API</td><td>Rebuilt into the index membership on every date: a stock can be selected only while it was a member.</td></tr>
+      <tr><td>S&amp;P Dow Jones Indices</td><td>Methodology of the S&amp;P Momentum indices</td><td>Edition of November 2026</td><td>Rules only, no data.</td></tr>
+    </tbody>
+  </table>
+  <p class="small mt-s">Sample of the backtest: {{ k.sample_first }} to {{ k.sample_last }}, {{ k.n_months }} monthly returns in USD. The start is set by the data: Yahoo Finance reports share counts, which the weights need, from October 2015. Data retrieved on {{ k.data_retrieved }}.</p>
+
+  <h2 class="mt">No look-ahead bias: every decision uses only data known on the day</h2>
+  <div class="timeline">
+    <div><div class="when">End of {{ k.rule_reference_months }}</div><h3>Reference date</h3><p>Scores, market values and target weights are fixed from data up to this day.</p></div>
+    <div><div class="when">End of {{ k.rule_trade_months }}</div><h3>Trade date</h3><p>Orders are filled at the closing price. Every dollar bought or sold costs {{ k.cost_bp }} basis points, the first purchase included.</p></div>
+    <div><div class="when">The following six months</div><h3>Holding period</h3><p>The new holdings earn returns from the month after the trade. Weights drift with prices until the next trade.</p></div>
+  </div>
+
+  <div class="grid g-wide-left mt">
+    <div class="card">
+      <h2>How the measures are calculated</h2>
+      <table class="text">
+        <tbody>
+          <tr><td>Returns</td><td>Monthly simple returns after trading costs, dividends reinvested</td></tr>
+          <tr><td>Average return</td><td>12 &times; mean monthly return (arithmetic)</td></tr>
+          <tr><td>Volatility</td><td>&radic;12 &times; standard deviation of monthly returns</td></tr>
+          <tr><td>Sharpe ratio</td><td>&radic;12 &times; mean of the return above the risk-free rate, divided by its standard deviation</td></tr>
+          <tr><td>Alpha and beta</td><td>Regression of the strategy&rsquo;s excess return on SPY&rsquo;s excess return. Alpha is multiplied by 12; <b>beta is not annualised</b></td></tr>
+          <tr><td>Information ratio</td><td>Annual return difference to SPY divided by the tracking error, the annualised standard deviation of that difference</td></tr>
+          <tr><td>Significance</td><td>Newey&ndash;West standard errors</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card risk">
+      <h2>Limits of the data</h2>
+      <ul>
+        <li><b>Survivorship bias.</b> Yahoo Finance no longer carries most companies that were acquired or went bankrupt. At the first purchase {{ k.coverage_first }} of the index members could be ranked, at the last {{ k.coverage_last }}. The remaining stocks are survivors, which flatters stock portfolios: by about {{ k.bias_pp }} points a year, measured on the whole universe. SPY is not affected.</li>
+        <li><b>Approximate market values.</b> Share counts are total shares, not the free float the index uses.</li>
+        <li><b>Checks.</b> {{ k.tests }} automated tests and {{ k.checks }} checks of the results pass. {{ k.gates_passed }} of {{ k.gates_total }} data-quality gates are met; the others fail because of the missing companies and the share counts at the first purchase.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{{ footer(3) }}
+</section>
+
+<!-- ============================== 4 performance ============================== -->
+<section class="page" data-page="4">
+<div class="page-body">
+  <p class="eyebrow">Performance</p>
+  <h1 class="wide">$1 grew to ${{ k.value_s }}. In the index fund it grew to ${{ k.value_spy }}.</h1>
+
+  <figure>
+    {{ fig.cumulative }}
+    <figcaption>Value of $1 invested on {{ k.first_trade }}, month by month, after trading costs. All series start at 1. The cap-weighted universe holds every index member that can be ranked, by market value, on the same calendar and at the same costs: it shows what the data deliver without the momentum rule.</figcaption>
+  </figure>
+
+  <table class="mt perf">
+    <thead><tr><th>{{ k.sample_first }} to {{ k.sample_last }}</th><th class="strong">Quantile Alpha</th><th>S&amp;P 500 index fund (SPY)</th><th>Cap-weighted universe</th></tr></thead>
+    <tbody>
+      <tr><td>Average return per year</td><td class="strong pos">{{ k.ret_s }}</td><td>{{ k.ret_spy }}</td><td>{{ k.ret_uni }}</td></tr>
+      <tr><td>Volatility per year</td><td class="strong">{{ k.vol_s }}</td><td>{{ k.vol_spy }}</td><td>{{ k.vol_uni }}</td></tr>
+      <tr><td>Sharpe ratio</td><td class="strong">{{ k.sharpe_s }}</td><td>{{ k.sharpe_spy }}</td><td>{{ k.sharpe_uni }}</td></tr>
+      <tr><td>Alpha per year against SPY</td><td class="strong pos">{{ k.alpha_s }}</td><td>&ndash;</td><td>{{ k.alpha_uni }}</td></tr>
+      <tr><td>Beta against SPY <span class="muted">(not annualised)</span></td><td class="strong">{{ k.beta_s }}</td><td>1.00</td><td>{{ k.beta_uni }}</td></tr>
+      <tr><td>Information ratio against SPY</td><td class="strong">{{ k.ir_s }}</td><td>&ndash;</td><td>{{ k.ir_uni }}</td></tr>
+      <tr><td>Maximum drawdown</td><td class="strong">{{ k.mdd_s }}</td><td>{{ k.mdd_spy }}</td><td>{{ k.mdd_uni }}</td></tr>
+    </tbody>
+  </table>
+
+  <h2 class="mt">What each measure means for the client</h2>
+  <div class="grid g2" style="gap: 2.4mm 6mm">
+    <p><b>Average return {{ k.ret_s }}.</b> In an average year the portfolio returned {{ k.lead_pp }} points more than the index fund, after trading costs. Compounded, $10,000 grew to {{ k.usd10k_s }} instead of {{ k.usd10k_spy }}.</p>
+    <p><b>Volatility {{ k.vol_s }}.</b> A typical year deviates from the average by about {{ k.vol_s_pts }} points, up or down. The ride was a little rougher than the index fund&rsquo;s ({{ k.vol_spy }}).</p>
+    <p><b>Sharpe ratio {{ k.sharpe_s }}.</b> For every point of volatility the portfolio earned {{ k.sharpe_s }} points above Treasury bills, the index fund {{ k.sharpe_spy }}. The extra return more than paid for the extra risk.</p>
+    <p><b>Beta {{ k.beta_s }}.</b> When the index fund moved 1%, the portfolio moved {{ k.beta_s }}% on average. This is a full equity investment: it gives no protection when the market falls.</p>
+    <p><b>Alpha {{ k.alpha_s }} per year.</b> The return that market exposure does not explain. It is an estimate with a wide margin: its 95% confidence interval runs from {{ k.alpha_ci_low }} to {{ k.alpha_ci_high }} (t&nbsp;=&nbsp;{{ k.alpha_t }}), so it cannot be told apart from zero statistically.</p>
+    <p><b>Information ratio {{ k.ir_s }}.</b> The lead of {{ k.lead_pp }} points came with a tracking error of {{ k.te_s }}: in a single year the portfolio can easily be several points ahead of or behind the index. The lead needs many years to show.</p>
+  </div>
+  <p style="margin-top: 2.4mm"><b>Maximum drawdown {{ k.mdd_s }}.</b> From {{ k.dd_peak }} to {{ k.dd_trough }} the portfolio lost {{ k.mdd_s | replace("−", "") }}, about as much as the index fund at its worst ({{ k.mdd_spy | replace("−", "") }}). The previous high was regained in {{ k.dd_recovered }}, {{ k.dd_months }} months after the peak. A client must be able to wait that long without selling.</p>
+</div>
+{{ footer(4) }}
+</section>
+
+<!-- ============================== 5 evidence ============================== -->
+<section class="page" data-page="5">
+<div class="page-body">
+  <p class="eyebrow">Evidence</p>
+  <h1>Is the result believable, and where does it come from?</h1>
+
+  <div class="grid g2">
+    <figure>
+      <h3>Lead over the index fund by calendar year</h3>
+      {{ fig.years }}
+      <figcaption>Strategy minus SPY, percentage points. <b>Ahead in {{ k.years_ahead }} of {{ k.n_years }} years</b> and in {{ k.months_ahead }} of all months. Best year {{ k.best_gap_year }} (+{{ k.best_gap }}), worst {{ k.worst_gap_year }} (&minus;{{ k.worst_gap }}).</figcaption>
+    </figure>
+    <figure>
+      <h3>Return per year by momentum score group</h3>
+      {{ fig.groups }}
+      <figcaption>The index sorted into five groups by score, each weighted like the strategy. <b>Only the top group stands out.</b> The gap between the top and the bottom group, {{ k.spread_pp }} points a year, has a t-statistic of {{ k.spread_t }}.</figcaption>
+    </figure>
+  </div>
+
+  <table class="years mt">
+    <thead><tr><th>Return by calendar year</th>{% for y in years %}<th>{{ y.year }}</th>{% endfor %}</tr></thead>
+    <tbody>
+      <tr><td class="strong">Quantile Alpha</td>{% for y in years %}<td class="strong">{{ y.s }}</td>{% endfor %}</tr>
+      <tr><td>S&amp;P 500 index fund (SPY)</td>{% for y in years %}<td>{{ y.spy }}</td>{% endfor %}</tr>
+    </tbody>
+  </table>
+
+  <div class="grid g3 mt">
+    <div class="card">
+      <h2>Check against real money</h2>
+      <div class="kpi compact"><div class="value">{{ k.spmo_backtest }} <span class="muted" style="font-weight:500">vs</span> {{ k.spmo_fund }}</div><div class="sub">backtest before costs vs the real fund, a year</div></div>
+      <p class="mt-s">The fund SPMO has tracked the same index with real money since 2015. Its monthly returns and the backtest&rsquo;s have a correlation of {{ k.spmo_corr }}. The fund has none of the backtest&rsquo;s data problems, so it is the stronger evidence that the rule earned this return.</p>
+    </div>
+    <div class="card">
+      <h2>When the lead was earned</h2>
+      <div class="kpi compact"><div class="value">{{ k.late_share }}</div><div class="sub">of the lead came in 2024 and 2025</div></div>
+      <p class="mt-s">At the end of 2023 a dollar in the strategy was worth {{ k.lead_2023 }} more than a dollar in the index fund; at the end of 2025, {{ k.lead_end }} more. Over rolling twelve-month windows the strategy was ahead {{ k.rolling12_ahead }} of the time.</p>
+    </div>
+    <div class="card">
+      <h2>What the lead depends on</h2>
+      <div class="kpi compact"><div class="value">{{ k.sens_equal }}</div><div class="sub">a year with equal weights, {{ k.sens_equal_vs_spy }} vs the index fund</div></div>
+      <p class="mt-s">The same stocks held in equal amounts trailed the index fund. The lead depends on weighting by size: the score pointed, among the largest companies, to those that went on to do best.</p>
+    </div>
+  </div>
+
+  <div class="grid g2 mt">
+    <div>
+      <h2>How much could be chance?</h2>
+      <p>Ten years is a short sample. Resampling the {{ k.n_months }} months in blocks gives a 95% interval for the lead from {{ k.boot_low }} to {{ k.boot_high }} points a year, and {{ k.boot_below }} of the resampled decades end behind the index fund. The sign of the lead is therefore likely, not established.</p>
+    </div>
+    <div>
+      <h2>Skill or a rising market?</h2>
+      <p>Drawing the same number of stocks at random {{ k.random_n }} times, with the same calendar, size weighting and limits, the strategy ranks at the {{ k.random_pctile }}th percentile before costs. Choosing by score beat choosing at random, but the result rests on few companies and few years.</p>
+    </div>
+  </div>
+</div>
+{{ footer(5) }}
+</section>
+
+<!-- ============================== 6 risk and robustness ============================== -->
+<section class="page" data-page="6">
+<div class="page-body">
+  <p class="eyebrow">Risk and robustness</p>
+  <h1 class="wide">Risks, and how much rests on our choices.</h1>
+
+  <div class="grid g2">
+    <figure>
+      <h3>Loss from the previous high</h3>
+      {{ fig.drawdowns }}
+      <figcaption>Month-end values. The deepest loss, {{ k.mdd_s }}, ran from {{ k.dd_peak }} to {{ k.dd_trough }}.</figcaption>
+    </figure>
+    <div class="card risk compact">
+      <h2>Main risks</h2>
+      <ul>
+        <li><b>Market.</b> With a beta of {{ k.beta_s }} the portfolio falls when the market falls. Its worst month was {{ k.worst_month_s }} (index fund: {{ k.worst_month_spy }}).</li>
+        <li><b>Concentration.</b> The ten largest positions hold {{ k.top10_avg }} on average and {{ k.top10_last }} today. Between rebalances one position reached {{ k.max_weight_reached }}, and one sector, {{ k.sector_max_name }}, {{ k.sector_max }}.</li>
+        <li><b>Momentum reversals.</b> When past winners fall out of favour the strategy lags: in each of the five months in which high scores did worst against low scores, it trailed the index fund by {{ k.worst_rel_low }} to {{ k.worst_rel_high }} points.</li>
+        <li><b>Long waits.</b> The portfolio stayed below a previous high for {{ k.dd_months }} months.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 class="mt">One assumption changed at a time <span class="small" style="font-weight: 400; letter-spacing: 0">&nbsp; return after trading costs; difference to the index fund in points a year</span></h2>
+  <div class="grid g2">
+    {% for half in sens_halves %}
+    <table class="compact">
+      <thead><tr><th>Variant</th><th>Return a year</th><th>vs index fund</th></tr></thead>
+      <tbody>
+        {% for r in half %}
+        <tr><td{% if r.base %} class="strong"{% endif %}>{{ r.label }}</td><td{% if r.base %} class="strong"{% endif %}>{{ r.ret }}</td><td class="strong {{ 'pos' if r.value > 0 else 'neg' }}">{{ r.diff }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endfor %}
+  </div>
+  <p class="mt-s"><b>The lead survives every change but one.</b> It does not hinge on the trading calendar, the buffer, the number of holdings or the cost assumption: it would disappear only at a trading cost of {{ k.break_even_bp }} basis points per dollar, against {{ k.cost_bp }} assumed. <b>It does hinge on weighting by size:</b> with equal weights the same stocks trail the index fund, and without the weight limits the largest position would have reached {{ k.sens_nolimit_maxw }} of the portfolio.</p>
+
+  <div class="grid g2 mt">
+    <figure>
+      <h3>{{ k.mc_start }} over ten years, {{ k.mc_paths }} simulated paths</h3>
+      {{ fig.montecarlo }}
+      <figcaption>Median {{ k.mc_median_s }} (index fund {{ k.mc_median_b }}); nine paths in ten end between {{ k.mc_p5 }} and {{ k.mc_p95 }}. Chance of a loss after one, three and ten years: {{ k.mc_loss1 }}, {{ k.mc_loss3 }}, {{ k.mc_loss10 }}.</figcaption>
+    </figure>
+    <div>
+      <h2>How the simulation is designed, and why</h2>
+      <p><b>The economy switches between expansion and recession by a Markov chain</b> estimated from the NBER record since {{ k.mc_regime_from }} ({{ k.mc_recessions }} recessions): a recession month is followed by another with a probability of {{ k.mc_recession_stays }}. Market returns are drawn from the actual S&amp;P 500 months of each state; the strategy earns the risk-free rate plus alpha plus beta times the market plus a drawn residual.</p>
+      <p><b>Why not a constant growth rate, or an independent draw each month?</b> Recessions come in runs, and losses in a row compound. Independent draws would put the chance of losing more than 30% along the way at {{ k.mc_dd30_coin }}; clustered recessions put it at {{ k.mc_dd30 }}.</p>
+      <p><b>The alpha is the uncertain input.</b> If the historical alpha persists, the chance of ending behind the index fund is {{ k.mc_behind }}; if the true alpha is zero, it is {{ k.mc_behind0 }} and the median is {{ k.mc_median_s0 }}.</p>
+    </div>
+  </div>
+</div>
+{{ footer(6) }}
+</section>
+
+<!-- ============================== 7 implementation, conclusion, disclosures ============================== -->
+<section class="page" data-page="7">
+<div class="page-body">
+  <p class="eyebrow">Implementation and conclusion</p>
+  <h1 class="wide">Running it yourself, and what we conclude.</h1>
+
+  <div class="grid g2">
+    <div class="card">
+      <h2>In a retail account with {{ k.retail_capital }}</h2>
+      <dl class="rows compact">
+        <div><dt>Positions</dt><dd>{{ k.retail_positions }}</dd></div>
+        <div><dt>Largest and smallest position</dt><dd>{{ k.retail_largest }} &nbsp;·&nbsp; {{ k.retail_smallest }}</dd></div>
+        <div><dt>Positions smaller than one share</dt><dd>{{ k.retail_below_one }}</dd></div>
+        <div><dt>Orders per year</dt><dd>about {{ k.retail_orders }}</dd></div>
+        <div><dt>Turnover per year, one way</dt><dd>{{ k.turnover }}</dd></div>
+        <div><dt>Trading cost per year</dt><dd>about {{ k.retail_cost_usd }} &nbsp;·&nbsp; {{ k.cost_pa }}</dd></div>
+      </dl>
+      <p class="small mt-s">Holdings of {{ k.last_rebalance }}, costs at {{ k.cost_bp }} basis points per dollar traded. The account is rebalanced at the end of {{ k.rule_trade_months }} and needs fractional shares. Every rebalance realises gains: in a taxable account part of them is taxed as short-term income, which the backtest does not model. A tax-advantaged account avoids this.</p>
+    </div>
+    <div>
+      <h2>Conclusion</h2>
+      <p>Over the {{ k.n_years }} years to {{ k.sample_last }} the rule returned {{ k.ret_s }} a year after trading costs, {{ k.lead_pp }} points more than the S&amp;P 500 index fund, with similar volatility and a similar worst loss. A real fund on the same index confirms the return.</p>
+      <p>The evidence has limits. It is one decade; {{ k.late_share }} of the lead was earned in two years, by a few very large companies; and the alpha is not statistically significant.</p>
+      <p><b>We therefore offer Quantile Alpha as a satellite:</b> a limited part of the equity allocation for an investor with a horizon of ten years or more who accepts concentration and long stretches behind the index. It does not replace a diversified core holding.</p>
+    </div>
+  </div>
+
+  <div class="grid mt" style="grid-template-columns: 1fr 1.3fr">
+    <div class="card risk compact">
+      <h2>Limitations</h2>
+      <ul>
+        <li><b>In-sample.</b> The rule set was chosen knowing how momentum had performed in this period. There is no hold-out sample.</li>
+        <li><b>Survivorship bias.</b> Companies missing from the data overstate stock-portfolio returns by about {{ k.bias_pp }} points a year (page 3).</li>
+        <li><b>Simplified trading.</b> Month-end closing prices, a flat cost of {{ k.cost_bp }} basis points, no taxes.</li>
+        <li><b>One decade, one market.</b> Nothing here speaks for other periods or countries.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Interactive tracker</h2>
+      <p>A web app reruns the backtest with the notebook&rsquo;s engine. Change the trading cost, the weighting, the weight limit, the buffer, the number of holdings or the trading months, pick a benchmark, and every measure and chart updates.</p>
+      <div class="tracker mt-s">
+        {% if screenshot %}<div class="shot"><img src="{{ screenshot }}" alt="Screenshot of the tracker app"></div>{% else %}<div class="shot empty">screenshot<br>to be added</div>{% endif %}
+        <div>
+          <p class="small" style="margin-bottom: 0.3mm">App</p>
+          <p class="link">{% if d.app_url %}{{ d.app_url_text }}{% else %}{{ todo("link to be added once the app is deployed") }}{% endif %}</p>
+          <p class="small" style="margin: 1.8mm 0 0.3mm">Source code</p>
+          <p class="link">{{ d.repository_url_text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid mt fine" style="grid-template-columns: 1fr 1.3fr; gap: 6mm">
+    <div>
+      <h3>Use of generative AI</h3>
+      <p><b>Tool.</b> Claude Code (Anthropic), model Claude Fable 5.2.{% if d.other_ai_tools and d.other_ai_tools | lower != "none" %} Also used: {{ d.other_ai_tools }}.{% elif d.other_ai_tools %} No other AI tool was used.{% else %} {{ todo("Other AI tools: to be completed by the group.") }}{% endif %}</p>
+      <p><b>Purpose.</b> Reading the brief and the lecture material, designing the data pipeline, writing the Python code of the notebook and the app and their automated tests, and drafting the text and layout of this prospectus.</p>
+      <p><b>How the output was checked.</b> {{ k.tests }} automated tests on made-up data with answers computed by hand; a second, independent calculation of the first purchase and of all returns; the comparison with the real fund; every reference checked against Crossref; two reviews by separate AI instances asked to find errors. {% if d.group_checks %}{{ d.group_checks }}{% else %}{{ todo("Checks by the group members: to be completed by the group.") }}{% endif %}</p>
+      <p>The group remains responsible for the code, the strategy and the conclusions.</p>
+    </div>
+    <div>
+      <h3>References</h3>
+      <div class="refs">
+        <p>Asness, C. S., Moskowitz, T. J., &amp; Pedersen, L. H. (2013). Value and momentum everywhere. <i>Journal of Finance, 68</i>(3), 929&ndash;985.</p>
+        <p>Daniel, K., &amp; Moskowitz, T. J. (2016). Momentum crashes. <i>Journal of Financial Economics, 122</i>(2), 221&ndash;247.</p>
+        <p>Hong, H., &amp; Stein, J. C. (1999). A unified theory of underreaction, momentum trading, and overreaction in asset markets. <i>Journal of Finance, 54</i>(6), 2143&ndash;2184.</p>
+        <p>Jegadeesh, N. (1990). Evidence of predictable behavior of security returns. <i>Journal of Finance, 45</i>(3), 881&ndash;898.</p>
+        <p>Jegadeesh, N., &amp; Titman, S. (1993). Returns to buying winners and selling losers: Implications for stock market efficiency. <i>Journal of Finance, 48</i>(1), 65&ndash;91.</p>
+        <p>Newey, W. K., &amp; West, K. D. (1987). A simple, positive semi-definite, heteroskedasticity and autocorrelation consistent covariance matrix. <i>Econometrica, 55</i>(3), 703&ndash;708.</p>
+        <p>S&amp;P Dow Jones Indices (2026). <i>S&amp;P Momentum Indices Methodology</i>.</p>
+        <p>Data: Yahoo Finance, retrieved with yfinance; FRED, Federal Reserve Bank of St. Louis, series DGS3MO and USREC; Wikipedia, &ldquo;List of S&amp;P 500 companies&rdquo; and &ldquo;Historical components of the S&amp;P 500&rdquo; (CC BY-SA 4.0).</p>
+      </div>
+    </div>
+  </div>
+</div>
+{{ footer(7) }}
+</section>
+
+<script>
+/* Layout report read by build_prospectus.py: does any page overflow, and is the typeface loaded? */
+(function () {
+  function report() {
+    var mm = 96 / 25.4;
+    var pages = Array.prototype.map.call(document.querySelectorAll(".page-body"), function (el) {
+      var box = el.getBoundingClientRect();
+      var last = el.lastElementChild ? el.lastElementChild.getBoundingClientRect().bottom : box.top;
+      return { page: el.parentElement.dataset.page, overflow: el.scrollHeight > el.clientHeight + 1,
+               free_mm: Math.round((box.bottom - last) / mm * 10) / 10 };
+    });
+    var pre = document.createElement("pre");
+    pre.id = "layout-report"; pre.hidden = true;
+    pre.textContent = JSON.stringify({ inter: document.fonts.check("10px Inter") && document.fonts.check("700 10px Inter"), pages: pages });
+    document.body.appendChild(pre);
+  }
+  document.fonts.ready.then(report);
+})();
+</script>
+</body>
+</html>

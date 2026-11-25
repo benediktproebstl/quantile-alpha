@@ -1,15 +1,15 @@
 ,Strategy net vs SPY
-alpha per month,0.0028829579387857776
-alpha p.a. (x12),0.034595495265429335
-standard error of alpha p.a.,0.02559751568889146
-t-statistic of alpha,1.3515176896812187
-p-value of alpha,0.17911493126709016
-"95% CI alpha p.a., low",-0.016094554702786007
-"95% CI alpha p.a., high",0.08528554523364468
-beta (not annualised),0.953811952528935
-standard error of beta,0.04932716520524965
-"95% CI beta, low",0.8561307361392674
-"95% CI beta, high",1.0514931689186027
-R squared,0.7823945071490668
+alpha per month,0.0028829504260372155
+alpha p.a. (x12),0.03459540511244659
+standard error of alpha p.a.,0.025597521551694764
+t-statistic of alpha,1.351513858190544
+p-value of alpha,0.17911615433531963
+"95% CI alpha p.a., low",-0.016094656465715444
+"95% CI alpha p.a., high",0.08528546669060862
+beta (not annualised),0.9538123469200026
+standard error of beta,0.04932710342996037
+"95% CI beta, low",0.856131252862226
+"95% CI beta, high",1.0514934409777792
+R squared,0.7823947773935995
 observations,120.0
 Newey-West lags,4.0

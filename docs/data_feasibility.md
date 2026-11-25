@@ -1,6 +1,6 @@
 # Data feasibility and quality report
 
-What Yahoo Finance, FRED and Wikipedia can and cannot deliver for this project, what was found, and what follows from it. All figures below come from the notebook run of 2026-11-25 00:18 UTC (sections 2, 3, 5.2 and 11.4).
+What Yahoo Finance, FRED and Wikipedia can and cannot deliver for this project, what was found, and what follows from it. All figures below come from the notebook run of 2026-11-25 03:16 UTC (sections 2, 3, 5.2 and 11.4).
 
 ## 1. Access tests
 

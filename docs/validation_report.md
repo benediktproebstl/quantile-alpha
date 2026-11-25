@@ -1,6 +1,6 @@
 # Validation report
 
-Status of every verification step for the notebook run of 2026-11-25 00:18 UTC. **PASS** means the step was executed and passed, with the evidence named. **NOT TESTED** means it was not executed; nothing is marked as passed on assumption.
+Status of every verification step for the notebook run of 2026-11-25 03:16 UTC. **PASS** means the step was executed and passed, with the evidence named. **NOT TESTED** means it was not executed; nothing is marked as passed on assumption.
 
 ## 1. Automated tests (synthetic data)
 
@@ -46,9 +46,11 @@ What the tests cover:
 
 | Run | Result |
 |---|---|
-| Fresh kernel, empty cache, live downloads, Colab's package versions, 2026-11-25 00:18 UTC (the committed notebook) | PASS: 92 cells, 0 errors, 7.8 minutes |
-| Fresh kernel, newest package versions (pandas 3.1.1, yfinance 1.8.0), 2026-11-25 00:18 UTC, on the separate live download that a complete run with these versions made at 2026-11-24 23:25 UTC | PASS: 92 cells, 0 errors; 46 of 46 tests; the six required measures of the strategy, SPY and the universe differ from the committed run by at most 1.0e-05 |
-| Inside Google Colab | **NOT TESTED.** To verify: open <https://colab.research.google.com/github/benediktproebstl/quantile-alpha/blob/main/Financial_Modeling_Quantile_Alpha.ipynb>, choose Runtime → Run all, and compare the table in section 6.2 with the committed version. |
+| Fresh kernel, empty cache, live downloads, Colab's package versions, 2026-11-25 02:14 UTC | PASS: 96 cells, 0 errors, 7.5 minutes |
+| The committed notebook: run again in a fresh kernel at 2026-11-25 03:16 UTC on the downloads of the run above (reused from the cache of the same day), after the group details were entered (1 code cell changed: the requirement checklist) | PASS: 96 cells, 0 errors, 0.6 minutes. Same results as the run above |
+
+| Fresh kernel, newest package versions (pandas 3.1.1, yfinance 1.8.0), 2026-11-25 02:23 UTC, on the separate live download that a complete run with these versions made at 2026-11-24 23:25 UTC | PASS: 96 cells, 0 errors; 46 of 46 tests; the six required measures of the strategy, SPY and the universe differ from the committed run by at most 4.7e-07 |
+| Inside Google Colab | **Reported by the group:** a complete run on 25 November 2026 (Benedikt Proebstl). Not recorded: whether that was before or after section 12.6 was added on the same day. The AI assistant has not run the notebook in Colab. To repeat: open <https://colab.research.google.com/github/benediktproebstl/quantile-alpha/blob/main/Financial_Modeling_Quantile_Alpha.ipynb>, choose Runtime → Run all, and compare the table in section 6.2 with the committed version. |
 
 `python tools/export_engine.py --check` confirms that `quantile_alpha/engine.py` and `tests/test_engine.py` are identical to the notebook's engine and test cells.
 
@@ -116,15 +118,38 @@ On 24 November 2026 the engine, the tests and the executed notebook were given t
 
 **Not reviewed again.** The corrections made after the second review were tested (section 1) and compared with the run before them, table by table, but they were not given to a third review.
 
-## 10. Not tested
+## 10. Prospectus and tracker app
+
+**Prospectus.** `python prospectus/build_prospectus.py` was run on the outputs of this notebook run. The script
+
+* prints 223 key figures from `outputs/tables/tab_prospectus_key_figures.csv` and calculates none itself;
+* checks 24 statements of the text against those figures (for example "the strategy returned more than the index fund", "alpha is positive but not statistically significant", "equal weights trail the index fund") and stops if one no longer holds;
+* asks the browser, page by page, whether the content fits, and stops if a page overflows;
+* counts the pages of the PDF: a cover and 7 content pages.
+
+Checked afterwards by the AI assistant: every page looked at as an image; the PDF is A4, its text can be selected, and the typeface Inter is embedded. The PDF is 0.43 MB.
+
+**App.**
+
+| Check | Result |
+|---|---|
+| A backtest on the app's data files gives the same monthly returns as a backtest on the full data | PASS: largest difference 4.4e-16 (`tools/make_app_snapshot.py`) |
+| The same on a synthetic market, including a round trip through the files and every assumption the app changes | PASS (`tests/test_app_data.py`) |
+| The first page shows the engine's figures; every control reruns the engine; all three benchmarks and all four periods; an impossible combination is explained; the reset restores the prospectus settings | PASS (`tests/test_tracker_app.py`, run without a browser) |
+| With the prospectus settings the app shows the figures of this notebook run | PASS: 17.80% a year stored with the data, 17.80% in the notebook |
+| The route without a snapshot (download through the engine) | PASS on this computer, with the downloads of the notebook run |
+| `requirements.txt` installed into empty environments with Python 3.11, 3.12 and 3.13 (25 November 2026) | PASS: the app's tests pass in each of the three |
+| Looked at in a browser: layout, typeface, colours, charts, every control clicked once | Done by the AI assistant, on this computer |
+
+## 11. Not tested
 
 | Item | Why | How to test |
 |---|---|---|
-| Google Colab run | No Google session was available to the AI assistant | Section 3 above |
 | Official FRED API route (with key) | No key available | Add a `FRED_API_KEY` secret in Colab or the environment and run; the notebook prints the route used |
-| Fund fees | Not looked up | Compare 0.09% (SPY) and 0.13% (SPMO) with the providers' current fact sheets |
 | Free-float weights | No data source | Compare the strategy's largest weights at one rebalance with the fund's published holdings of that date |
 | Yahoo's share counts company by company | Checked in aggregate, for the largest and for the renamed companies only | Compare the market values in `outputs/tables/tab_holdings.csv` for one rebalance with the companies' reported share counts |
-| Streamlit app | Not built | Next phase |
+| The app on Streamlit's servers | Deployment needs a group member's Streamlit account | Deploy (README), open the link, check that the prospectus settings show the notebook's figures |
+| The app's download route on Streamlit's servers | Tested only on this computer; Yahoo may limit requests from shared servers | Delete `app_data/` in a test deployment and watch the first start |
+| The prospectus on paper and in other PDF readers | Checked as page images only | Open the PDF in Acrobat and print one page |
 | Wikipedia change log against an independent membership source | Would need a further data source | Compare a few past quarter-ends with S&P's own announcements |
-| Runs on the group members' own computers | – | `pip install -r requirements.txt`, then `pytest` and run the notebook |
+| Runs on the group members' own computers | – | `pip install -r requirements-dev.txt`, then `pytest` and run the notebook |

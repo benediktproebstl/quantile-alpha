@@ -1,0 +1,52 @@
+# Look of the tracker app: the same light, flat style as the investor prospectus.
+# The light theme is set here, so the app looks the same whatever the visitor's system setting is.
+
+[theme]
+base = "light"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F5F7"
+textColor = "#000000"
+primaryColor = "#000000"
+borderColor = "#E4E4E7"
+linkColor = "#000000"
+greenColor = "#00C805"
+orangeColor = "#F16034"
+redColor = "#F16034"
+baseRadius = "12px"
+baseFontSize = 15
+font = "Inter, sans-serif"
+headingFont = "Inter, sans-serif"
+
+# Inter is served with the app from the folder static/ (SIL Open Font License, see static/OFL.txt)
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/Inter-Regular.ttf"
+weight = 400
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/Inter-Medium.ttf"
+weight = 500
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/Inter-SemiBold.ttf"
+weight = 600
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/Inter-Bold.ttf"
+weight = 700
+style = "normal"
+
+[server]
+enableStaticServing = true
+
+[client]
+toolbarMode = "minimal"          # no Streamlit menu for visitors
+
+[browser]
+gatherUsageStats = false

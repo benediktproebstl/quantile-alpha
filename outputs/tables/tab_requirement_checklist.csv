@@ -13,9 +13,9 @@ Implementation: rebalancing and transaction costs,PASS,"Sections 4.6, 6.4, 8.1, 
 "Risks and limitations: concentration, look-ahead, survivorship",PASS,"Sections 3.3, 5.2, 6.4, 8.3, 9.1, 9.3"
 Monte Carlo section states and justifies its simulation design (coin flip vs Markov chain),PASS,Section 10
 "Notebook runs start to finish and reproduces every number, table and figure",PASS,This run; all outputs written to outputs/
-Runs in a fresh Google Colab session,GROUP,Built and executed with Colab's package versions; a run inside Colab itself must be confirmed by a group member
+Runs in a fresh Google Colab session,CONFIRMED,The group reports complete runs in Google Colab on 25 November 2026. The run saved here was made with Colab's package versions on another computer
 Setup instructions; no separate data files,PASS,Section 1; nothing is read from disk except this session's own cache
-"Generative-AI use disclosed, with how outputs were checked",GROUP,Section 12 states the AI's part; the members' own checks must be filled in
-Moodle group name and all members named,GROUP,Placeholders at the top of the notebook
-"Investor prospectus, PDF, at most 7 content pages",DEFERRED,Next phase; figures and tables are exported to outputs/
-"Optional Streamlit app deployed, source on GitHub, URLs in both deliverables",DEFERRED,Next phase; the engine is ready (section 11.3)
+"Generative-AI use disclosed, with how outputs were checked",PASS,"Section 12.5: the tool, its purpose, the AI's own checks and the checks the group reports. The group states that it used no other AI tool"
+Moodle group name and all members named,PASS,Table at the top of the notebook
+"Investor prospectus, PDF, at most 7 content pages",OUTSIDE,Built from the figures and key figures of section 12.6 by prospectus/build_prospectus.py: a cover and 7 content pages; the script counts them and stops if a page overflows. This run cannot inspect the PDF itself
+"Optional Streamlit app deployed, source on GitHub, URLs in both deliverables",OUTSIDE,tracker_app.py runs this notebook's engine (section 11.3) and is in the repository. The link of the deployed app stands at the top of this notebook once the deployment has been checked

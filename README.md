@@ -1,10 +1,10 @@
 # Quantile Alpha
 
-A rules-based U.S. large-cap momentum strategy, built for the group assignment of **2270 Financial Modeling**: the best fifth of the S&P 500 by risk-adjusted momentum, weighted by company size and momentum score, following the published construction rules of the S&P 500 Momentum index. This repository holds the research notebook, the calculation engine exported from it, the tests and the project documentation.
+A rules-based U.S. large-cap momentum strategy, built for the group assignment of **2270 Financial Modeling**: the best fifth of the S&P 500 by risk-adjusted momentum, weighted by company size and momentum score, following the published construction rules of the S&P 500 Momentum index. This repository holds the research notebook, the calculation engine exported from it, the investor prospectus, the tracker app, the tests and the project documentation.
 
 Repository: <https://github.com/benediktproebstl/quantile-alpha> · [Open the notebook in Google Colab](https://colab.research.google.com/github/benediktproebstl/quantile-alpha/blob/main/Financial_Modeling_Quantile_Alpha.ipynb)
 
-**Status (25 November 2026): research phase.** The notebook runs from start to finish and reproduces every number, table and figure. The investor prospectus (PDF) and the optional Streamlit app come next.
+**Status (25 November 2026).** The notebook runs from start to finish and reproduces every number, table and figure. The investor prospectus (`investor_prospectus.pdf`, a cover and seven pages) and the tracker app (`tracker_app.py`) are built. Still open: the submission date, the deployment of the app on Streamlit and its link (see the list at the end).
 
 ## The strategy
 
@@ -35,12 +35,12 @@ One data limitation matters more than the others: Yahoo Finance no longer carrie
 
 ## Run it
 
-**Google Colab.** [Open the notebook in Colab](https://colab.research.google.com/github/benediktproebstl/quantile-alpha/blob/main/Financial_Modeling_Quantile_Alpha.ipynb), then *Runtime → Run all*. No key, no data file and no installation are needed. A full run takes about five to fifteen minutes, most of it Yahoo downloads (the committed run took 7.8).
+**Google Colab.** [Open the notebook in Colab](https://colab.research.google.com/github/benediktproebstl/quantile-alpha/blob/main/Financial_Modeling_Quantile_Alpha.ipynb), then *Runtime → Run all*. No key, no data file and no installation are needed. A full run takes about five to fifteen minutes, most of it Yahoo downloads (the run with fresh downloads on 2026-11-25 took 7.5 minutes).
 
 **Your own computer.**
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 ```
 
 ```bash
@@ -51,26 +51,71 @@ pytest
 jupyter notebook Financial_Modeling_Quantile_Alpha.ipynb
 ```
 
+`requirements.txt` lists what the engine and the app need (it is what Streamlit installs); `requirements-dev.txt` adds what the notebook, the tests and the prospectus build need.
+
 Downloads are cached in `~/.cache/quantile_alpha` and reused until the end of the day (UTC). Set the environment variable `QA_USE_CACHE=0` to download again at once.
 
 A FRED API key is optional. With `FRED_API_KEY` set (environment variable or Colab secret) the official FRED API is used; without it, FRED's official key-less CSV endpoint. The notebook prints which route it took.
+
+## The investor prospectus
+
+`investor_prospectus.pdf` is built from what the notebook writes: the figures in `outputs/prospectus/` and the table `outputs/tables/tab_prospectus_key_figures.csv`, which holds every number the prospectus quotes (223 of them, each with the notebook section it comes from). The build script calculates nothing. It stops if a sentence of the text no longer fits the numbers, or if a page overflows.
+
+```bash
+python prospectus/build_prospectus.py
+```
+
+**Student numbers.** This repository is public, so the notebook and the prospectus in it name the group members without their student numbers. The numbers are in `prospectus/details.local.toml`, which git ignores. `python tools/make_submission.py` writes the two files for Moodle, with the numbers, into `submission/` (ignored as well).
+
+The script needs Google Chrome, Chromium or Microsoft Edge to print the PDF. The group's name, its members, the submission date, the link of the deployed app and the members' own checks of the AI's work are entered in `prospectus/details.toml`; while one of them is missing, the cover and the page footers say "Draft".
+
+## The tracker app
+
+`tracker_app.py` is a Streamlit app around the same strategy. The user chooses the benchmark (the S&P 500 fund SPY, the cap-weighted universe or the momentum fund SPMO) and changes an assumption: the trading cost, the weighting, the weight limit per stock, the number of stocks held, the rebalancing months or the buffer rule. Every change runs `run_backtest` from `quantile_alpha/engine.py` again, the code exported from the notebook, so the app's figures are the notebook's: with the prospectus settings it shows 17.8% a year against 14.9% for SPY.
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+streamlit run tracker_app.py
+```
+
+**Data.** The app starts from the snapshot in `app_data/` (3.1 MB, written by `python tools/make_app_snapshot.py` from the downloads of 2026-11-25 02:14 UTC): monthly returns, momentum scores and index weights of the S&P 500 stocks, which is what a backtest reads. Daily prices and share counts are not stored. Without that folder the app retrieves everything from Yahoo Finance, FRED and Wikipedia through the engine, which takes five to fifteen minutes at the first start.
+
+**Deploying it (needs the Streamlit account of a group member).**
+
+1. Sign in at <https://share.streamlit.io> with the GitHub account that owns this repository.
+2. *Create app* → repository `benediktproebstl/quantile-alpha`, branch `main`, main file `tracker_app.py`. Under *Advanced settings* choose Python 3.12. A FRED key is not needed; if you have one, add `FRED_API_KEY = "..."` under *Secrets*.
+3. Open the link Streamlit gives you and check that the page shows the figures above.
+4. Enter the link as `app_url` in `prospectus/details.toml` and at the top of the notebook, then rebuild the prospectus.
+
+More in `docs/tracker_app.md`.
 
 ## What is in the repository
 
 | Path | Content |
 |---|---|
 | `Financial_Modeling_Quantile_Alpha.ipynb` | The deliverable: the notebook with all outputs. **The single source of truth for the code.** |
-| `quantile_alpha/engine.py` | The calculation engine, exported from the notebook cells marked `# [engine]`. Used by the tests and by the future app. Do not edit by hand. |
+| `quantile_alpha/engine.py` | The calculation engine, exported from the notebook cells marked `# [engine]`. Used by the tests and by the app. Do not edit by hand. |
+| `investor_prospectus.pdf` | The second deliverable: the prospectus, a cover and seven pages. |
+| `prospectus/` | Text and layout of the prospectus (`template.html`, `style.css`), the group's details (`details.toml`) and the build script. |
+| `tracker_app.py`, `.streamlit/config.toml` | The Streamlit app and its theme. |
+| `quantile_alpha/app_data.py`, `tools/make_app_snapshot.py`, `app_data/` | The app's data: download through the engine, the part a backtest reads, and the stored snapshot. |
+| `static/` | The typeface Inter (SIL Open Font License), used by the prospectus, its figures and the app. |
 | `tests/test_engine.py` | 46 tests on synthetic data, exported from the notebook cell marked `# [tests]`. |
-| `tools/export_engine.py` | Re-exports the two files above after the notebook was changed. |
-| `outputs/figures`, `outputs/tables` | Every figure (PNG, 200 dpi) and table (CSV, full precision) of the notebook, for the prospectus. |
+| `tests/test_app_data.py`, `tests/test_tracker_app.py` | Tests of the app: its data files give the same backtest as the full data, its first page shows the engine's figures, and every control runs. |
+| `tools/export_engine.py` | Re-exports the engine and its tests after the notebook was changed. |
+| `tools/make_submission.py` | Writes the two files for Moodle, with the student numbers, into `submission/` (not in the repository). |
+| `outputs/figures`, `outputs/tables` | Every figure (PNG, 200 dpi) and table (CSV, full precision) of the notebook. |
+| `outputs/prospectus` | The five figures of the prospectus, as the notebook draws them (SVG and PNG). |
 | `docs/methodology.md` | The rules and conventions on one page. |
 | `docs/decision_log.md` | Who decided what and why, including the open points for the group. |
 | `docs/data_feasibility.md` | What Yahoo, FRED and Wikipedia can and cannot deliver; ticker mapping; share counts; coverage; bias estimate. |
 | `docs/assignment_compliance.md` | Requirement by requirement: where it is met, what is still open. |
 | `docs/validation_report.md` | What was tested, in which environment, and what was not tested. |
 | `docs/ai_usage_log.md` | AI disclosure: tools, purpose, checks. The members' own checks still have to be filled in. |
-| `docs/app_handoff.md` | How the Streamlit app should call the engine. |
+| `docs/tracker_app.md` | How the app works, how it is tested and deployed, and what it cannot do. |
 
 ## Changing the notebook
 
@@ -93,18 +138,18 @@ pytest
 * **Wikipedia**, through its API at two pinned page revisions: the dates on which companies entered and left the S&P 500. Ticker lists only; no prices. Text licensed CC BY-SA 4.0.
 * **Index rules**: *S&P Momentum Indices Methodology*, S&P Dow Jones Indices, edition of November 2026. Rules only, no data. This project is not sponsored or endorsed by S&P Dow Jones Indices or by Invesco.
 
-No market data are stored in this repository.
+The only market data stored in this repository are in `app_data/`: monthly returns, momentum scores and index weights derived from the downloads, for the app. The notebook does not read them; it retrieves everything through the APIs.
 
 ## Before submission: open points for the group
 
-- [ ] Confirm the decisions taken on 24 November 2026 (`docs/decision_log.md`, S1 to S5).
-- [ ] Fill in the Moodle group name and all members at the top of the notebook.
-- [ ] Run the notebook once in Google Colab and record it in `docs/validation_report.md`.
-- [ ] Do and record your own checks of the AI-written code (`docs/ai_usage_log.md`, section 6) and complete the AI disclosure in section 12.5 of the notebook.
-- [ ] Check the fund fees quoted in the notebook (0.09% for SPY, 0.13% for SPMO) against the providers' current figures, and read S&P's methodology before quoting it.
-- [ ] Decide how the prospectus presents the result together with its reservations (notebook, section 12).
-- [ ] Write the prospectus (at most 7 content pages) from `outputs/`.
-- [ ] Optional, up to 2 extra marks: build and deploy the Streamlit app (`docs/app_handoff.md`), then add both URLs to the notebook and the prospectus.
+Reported by Benedikt Proebstl for the group on 25 November 2026: the decisions S1 to S5 are confirmed; the notebook ran from start to finish in Google Colab; the members did their own checks of the AI-written code and results; the fund fees quoted were checked. The group is BC, with 6 members.
+
+- [ ] Enter the submission date in `prospectus/details.toml`.
+- [ ] If the Colab run was made before the notebook of 25 November 2026 was pushed, repeat it once from the link at the top: section 12.6 is new.
+- [ ] Read the prospectus and make it yours: every member should be able to explain each page.
+- [ ] Deploy the app on Streamlit (steps above), check the link, and enter it in the notebook and in `prospectus/details.toml`. Without a working link the app earns no marks.
+- [ ] Rebuild the prospectus (`python prospectus/build_prospectus.py`) and check that the word "Draft" is gone.
+- [ ] Run `python tools/make_submission.py` and submit the two files it writes into `submission/` on Moodle: `investor_prospectus.pdf` and `Financial_Modeling_Quantile_Alpha.ipynb`.
 
 ## Use of AI
 

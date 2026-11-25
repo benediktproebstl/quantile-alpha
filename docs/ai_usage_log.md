@@ -9,7 +9,7 @@ The assignment requires disclosing all generative-AI use: the tools, their purpo
 | Tool | Version | Used by | When |
 |---|---|---|---|
 | Claude Code (Anthropic) | model Claude Fable 5.2 | one group member | 24 and 25 November 2026 |
-| *Other tools used by the group (for example to draft the strategy specification)* | *to be completed* | *to be completed* | *to be completed* |
+| Other tools used by the group | None, as stated by the group | – | – |
 
 ## 2. What the AI assistant did
 
@@ -24,6 +24,8 @@ The assignment requires disclosing all generative-AI use: the tools, their purpo
 | Wrote the notebook's explanatory text, tables and figures | `Financial_Modeling_Quantile_Alpha.ipynb` |
 | Looked up and verified the references | Section 12.4 of the notebook |
 | Wrote the repository documentation | `README.md`, `docs/` |
+| Drafted the investor prospectus: text, layout in the group's design (white page, light-grey tiles, Inter, one green and one orange accent), and the script that builds the PDF from the notebook's figures and key figures | `investor_prospectus.pdf`, `prospectus/`, notebook section 12.6 |
+| Wrote the tracker app, its data layer and their tests; ran it locally and exercised every control | `tracker_app.py`, `quantile_alpha/app_data.py`, `tests/test_app_data.py`, `tests/test_tracker_app.py` |
 
 ## 3. Assumptions the AI introduced
 
@@ -51,8 +53,8 @@ Every implementation choice that was left open is listed in `docs/decision_log.m
 | Reused-ticker check | Yahoo's company name compared with the index member's name for former members with Yahoo data | Wrong-company series found and blocked; see `data_feasibility.md`, section 4 |
 | Reference check | Authors, title, journal, volume, pages and DOI of every journal reference compared with Crossref | 19 of 19 confirmed; two candidates without a DOI record were not used |
 | App entry point | `prepare_data` + `run_backtest` reproduce the notebook's returns and the six required measures exactly | Passed (section 11.3) |
-| Full run, environment 1 | Fresh environment with Google Colab's package versions (pandas 2.2.3, yfinance 0.2.66, numpy 2.4.6), live downloads | Completed without error in 7.8 minutes |
-| Full run, environment 2 | Newest package versions, on a separate live download made with them | PASS: 92 cells, 0 errors; 46 of 46 tests; the six required measures of the strategy, SPY and the universe differ from the committed run by at most 1.0e-05 |
+| Full run, environment 1 | Fresh environment with Google Colab's package versions (pandas 2.2.3, yfinance 0.2.66, numpy 2.4.6), live downloads | Completed without error in 7.5 minutes; run once more on the same downloads for the committed notebook |
+| Full run, environment 2 | Newest package versions, on a separate live download made with them | PASS: 96 cells, 0 errors; 46 of 46 tests; the six required measures of the strategy, SPY and the universe differ from the committed run by at most 4.7e-07 |
 | Independent review by a second AI instance | Engine, tests and executed notebook examined for errors; findings and actions in `validation_report.md`, section 9 | Errors in the share-count data and several unstated assumptions found and corrected; not a review by a person |
 
 Errors the AI made and found during the build, for transparency:
@@ -78,17 +80,26 @@ Errors the AI made and found during the build, for transparency:
 
 | Item | Status |
 |---|---|
-| A run inside Google Colab itself | NOT TESTED. The environment was reproduced locally with Colab's package versions. |
+| A run inside Google Colab itself | Not possible for the AI assistant; the environment was reproduced locally with Colab's package versions. The group reports a complete run in Colab on 25 November 2026 (section 6). |
 | The official FRED API route with a key | NOT TESTED. No key was available; the key-less official endpoint was used. |
 | Completeness and correctness of every entry in Wikipedia's change log | Checked only through the index size and the second table. |
 | Yahoo's price adjustments and share counts for individual companies | Checked in aggregate (against SPY), for the largest companies and for the renamed companies (notebook, section 3.2). Single wrong counts remain possible; two are named in `data_feasibility.md`, section 5. |
 | The free-float factors the index uses | No data source. |
-| The funds' fees (SPY 0.09%, SPMO 0.13%) | Not looked up. |
-| The Streamlit app | Not built yet. |
+| The funds' fees (SPY 0.09%, SPMO 0.13%) | Not looked up by the AI assistant. The group reports having checked them on 25 November 2026 (section 6). |
+| The app on Streamlit's servers | NOT TESTED: the app is not deployed. It was run and tested on this computer only. |
 
 ## 6. Checks by the group members
 
-*To be completed by the group before submission. The assignment makes the group responsible for understanding the code and for the conclusions.*
+Reported by Benedikt Proebstl for the group. The AI assistant records the report as it was given; it did not observe these checks.
+
+| What was checked | Result | Date |
+|---|---|---|
+| A complete run of the notebook in Google Colab | Successful | 25 November 2026 |
+| The fund fees quoted in the notebook (SPY 0.09%, SPMO 0.13%) | Checked | 25 November 2026 |
+| The decisions S1 to S5 of `decision_log.md` | Confirmed | 25 November 2026 |
+| The members’ own checks of the AI-written code and results | Done. Which checks, by whom and how was not recorded here | 25 November 2026 |
+
+The members can add the details below; the assignment makes the group responsible for understanding the code and for the conclusions.
 
 | Member | What was checked | How | Date | Result |
 |---|---|---|---|---|

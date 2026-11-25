@@ -1,0 +1,40 @@
+# Details the group fills in before the prospectus is submitted.
+# An empty value is printed as "to be completed by the group" and keeps the word "Draft"
+# on the cover and in the page footers. After editing, rebuild the PDF:
+#
+#     python prospectus/build_prospectus.py
+
+course = "2270 Financial Modeling · Group assignment"
+moodle_group = "BC"          # the group's name on Moodle
+submission_date = ""         # e.g. "12 December 2026"
+
+# All members of the group. This repository is public, so student numbers are not written here:
+# they go into prospectus/details.local.toml, which git ignores (see tools/make_submission.py).
+members = [
+    "Benedikt Proebstl",
+    "Leo Johannes Oskar Heppe",
+    "Elias Jannis Wolf",
+    "Fabian Oscar Bergvall",
+    "Frederik Ronning",
+    "Mareike Adriana Czakert",
+]
+
+# The deployed Streamlit app. Enter the link only after the deployment has been opened in a
+# browser and checked; the prospectus must not name an app that is not reachable.
+app_url = ""
+repository_url = "https://github.com/benediktproebstl/quantile-alpha"
+
+# AI disclosure, in the group's words:
+# what the members themselves did to check the AI's output (one or two sentences) ...
+group_checks = "The group ran the notebook from start to finish in Google Colab, checked the fund fees quoted, and carried out its own checks of the AI-written code and results."
+# ... and any other AI tool the group used, with its purpose, e.g. "ChatGPT (first draft of the strategy idea)".
+# Write "none" if there was none; while this is empty the documentation lists it as open.
+other_ai_tools = "none"
+
+# What the group has confirmed, and when. Used by the project documentation (README, docs/).
+[confirmations]
+reported_by = "Benedikt Proebstl"
+decisions = "25 November 2026"       # decisions S1 to S5 of docs/decision_log.md
+colab_run = "25 November 2026"       # a complete run of the notebook in Google Colab
+fund_fees = "25 November 2026"       # the fees quoted for SPY and SPMO
+own_checks = "25 November 2026"      # the members' own checks of the AI-written code and results
