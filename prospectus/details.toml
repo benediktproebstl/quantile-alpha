@@ -21,7 +21,8 @@ members = [
 
 # The deployed Streamlit app. Enter the link only after the deployment has been opened in a
 # browser and checked; the prospectus must not name an app that is not reachable.
-app_url = ""
+# Opened and checked on 25 November 2026.
+app_url = "https://quantile-alpha.streamlit.app"
 repository_url = "https://github.com/benediktproebstl/quantile-alpha"
 
 # AI disclosure, in the group's words:

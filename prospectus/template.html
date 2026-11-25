@@ -400,9 +400,9 @@
         {% if screenshot %}<div class="shot"><img src="{{ screenshot }}" alt="Screenshot of the tracker app"></div>{% else %}<div class="shot empty">screenshot<br>to be added</div>{% endif %}
         <div>
           <p class="small" style="margin-bottom: 0.3mm">App</p>
-          <p class="link">{% if d.app_url %}{{ d.app_url_text }}{% else %}{{ todo("link to be added once the app is deployed") }}{% endif %}</p>
+          <p class="link">{% if d.app_url %}<a href="{{ d.app_url }}">{{ d.app_url_text }}</a>{% else %}{{ todo("link to be added once the app is deployed") }}{% endif %}</p>
           <p class="small" style="margin: 1.8mm 0 0.3mm">Source code</p>
-          <p class="link">{{ d.repository_url_text }}</p>
+          <p class="link"><a href="{{ d.repository_url }}">{{ d.repository_url_text }}</a></p>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ A rules-based U.S. large-cap momentum strategy, built for the group assignment o
 
 Repository: <https://github.com/benediktproebstl/quantile-alpha> · [Open the notebook in Google Colab](https://colab.research.google.com/github/benediktproebstl/quantile-alpha/blob/main/Financial_Modeling_Quantile_Alpha.ipynb)
 
-**Status (25 November 2026).** The notebook runs from start to finish and reproduces every number, table and figure. The investor prospectus (`investor_prospectus.pdf`, a cover and seven pages) and the tracker app (`tracker_app.py`) are built. Still open: the deployment of the app on Streamlit and its link (see the list at the end).
+**Status (25 November 2026).** The notebook runs from start to finish and reproduces every number, table and figure. The investor prospectus (`investor_prospectus.pdf`, a cover and seven pages) and the tracker app (`tracker_app.py`) are built. The app is deployed at <https://quantile-alpha.streamlit.app>.
 
 ## The strategy
 
@@ -146,8 +146,6 @@ Reported by Benedikt Proebstl for the group on 25 November 2026: the decisions S
 
 - [ ] If the Colab run was made before the notebook of 25 November 2026 was pushed, repeat it once from the link at the top: section 12.6 is new.
 - [ ] Read the prospectus and make it yours: every member should be able to explain each page.
-- [ ] Deploy the app on Streamlit (steps above), check the link, and enter it in the notebook and in `prospectus/details.toml`. Without a working link the app earns no marks.
-- [ ] Rebuild the prospectus (`python prospectus/build_prospectus.py`) and check that the word "Draft" is gone.
 - [ ] Run `python tools/make_submission.py` and submit the two files it writes into `submission/` on Moodle: `investor_prospectus.pdf` and `Financial_Modeling_Quantile_Alpha.ipynb`.
 
 ## Use of AI

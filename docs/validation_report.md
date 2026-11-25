@@ -140,7 +140,9 @@ Checked afterwards by the AI assistant: every page looked at as an image; the PD
 | The route without a snapshot (download through the engine) | PASS on this computer, with the downloads of the notebook run |
 | The notebook's library versions installed into empty environments with Python 3.11, 3.12 and 3.13 (25 November 2026) | PASS: the app's tests pass in each of the three |
 | `requirements.txt` as committed (lower bounds, so the newest versions are installed: pandas 3.1.1, numpy 2.5.5, scipy 1.18.1, yfinance 1.8.0) in an empty environment with Python 3.13 | PASS: all engine and app tests; the prospectus settings give the same average return as stored with the snapshot, to the last digit |
-| First deployment on Streamlit's servers (25 November 2026) | Did not finish building within ten minutes while `requirements.txt` pinned pandas 2.2.3, a version without ready-made packages for Python 3.14 and later. The pins were replaced by lower bounds |
+| First deployment on Streamlit's servers (25 November 2026) | Did not finish building within ten minutes while `requirements.txt` pinned pandas 2.2.3, a version without ready-made packages for Python 3.14 and later. The pins were replaced by lower bounds; the next build finished in under a minute |
+| The deployed app, <https://quantile-alpha.streamlit.app>, opened in a browser by the AI assistant on 25 November 2026 | PASS: the first page shows the figures of the notebook (value of 10,000 dollars, average return, Sharpe ratio, largest loss, and the table of measures against SPY); choosing equal weights reruns the backtest and shows the average return of the notebook’s sensitivity table; no error message |
+
 | Looked at in a browser: layout, typeface, colours, charts, every control clicked once | Done by the AI assistant, on this computer |
 
 ## 11. Not tested
@@ -150,7 +152,6 @@ Checked afterwards by the AI assistant: every page looked at as an image; the PD
 | Official FRED API route (with key) | No key available | Add a `FRED_API_KEY` secret in Colab or the environment and run; the notebook prints the route used |
 | Free-float weights | No data source | Compare the strategy's largest weights at one rebalance with the fund's published holdings of that date |
 | Yahoo's share counts company by company | Checked in aggregate, for the largest and for the renamed companies only | Compare the market values in `outputs/tables/tab_holdings.csv` for one rebalance with the companies' reported share counts |
-| The app on Streamlit's servers | Deployment needs a group member's Streamlit account | Deploy (README), open the link, check that the prospectus settings show the notebook's figures |
 | The app's download route on Streamlit's servers | Tested only on this computer; Yahoo may limit requests from shared servers | Delete `app_data/` in a test deployment and watch the first start |
 | The prospectus on paper and in other PDF readers | Checked as page images only | Open the PDF in Acrobat and print one page |
 | Wikipedia change log against an independent membership source | Would need a further data source | Compare a few past quarter-ends with S&P's own announcements |

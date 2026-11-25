@@ -86,7 +86,7 @@ Errors the AI made and found during the build, for transparency:
 | Yahoo's price adjustments and share counts for individual companies | Checked in aggregate (against SPY), for the largest companies and for the renamed companies (notebook, section 3.2). Single wrong counts remain possible; two are named in `data_feasibility.md`, section 5. |
 | The free-float factors the index uses | No data source. |
 | The funds' fees (SPY 0.09%, SPMO 0.13%) | Not looked up by the AI assistant. The group reports having checked them on 25 November 2026 (section 6). |
-| The app on Streamlit's servers | NOT TESTED: the app is not deployed. It was run and tested on this computer only. |
+| The app on Streamlit's servers | Deployed by a group member. The AI assistant opened the public link and checked the first page and one change of an assumption (`validation_report.md`, section 10). It has no access to the server or its logs. |
 
 ## 6. Checks by the group members
 
