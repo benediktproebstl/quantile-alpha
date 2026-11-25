@@ -35,7 +35,7 @@ One data limitation matters more than the others: Yahoo Finance no longer carrie
 
 ## Run it
 
-**Google Colab.** [Open the notebook in Colab](https://colab.research.google.com/github/benediktproebstl/quantile-alpha/blob/main/Financial_Modeling_Quantile_Alpha.ipynb), then *Runtime → Run all*. No key, no data file and no installation are needed. A full run takes about five to fifteen minutes, most of it Yahoo downloads (the run with fresh downloads on 2026-11-25 took 7.5 minutes).
+**Google Colab.** [Open the notebook in Colab](https://colab.research.google.com/github/benediktproebstl/quantile-alpha/blob/main/Financial_Modeling_Quantile_Alpha.ipynb), then *Runtime → Run all*. No key, no data file and no installation are needed. A full run takes about five to fifteen minutes, most of it Yahoo downloads (the committed run took 4.8 minutes).
 
 **Your own computer.**
 
@@ -81,7 +81,7 @@ pip install -r requirements.txt
 streamlit run tracker_app.py
 ```
 
-**Data.** The app starts from the snapshot in `app_data/` (3.1 MB, written by `python tools/make_app_snapshot.py` from the downloads of 2026-11-25 02:14 UTC): monthly returns, momentum scores and index weights of the S&P 500 stocks, which is what a backtest reads. Daily prices and share counts are not stored. Without that folder the app retrieves everything from Yahoo Finance, FRED and Wikipedia through the engine, which takes five to fifteen minutes at the first start.
+**Data.** The app starts from the snapshot in `app_data/` (3.1 MB, written by `python tools/make_app_snapshot.py` from the downloads of 2026-11-25 03:19 UTC): monthly returns, momentum scores and index weights of the S&P 500 stocks, which is what a backtest reads. Daily prices and share counts are not stored. Without that folder the app retrieves everything from Yahoo Finance, FRED and Wikipedia through the engine, which takes five to fifteen minutes at the first start.
 
 **Deploying it (needs the Streamlit account of a group member).**
 

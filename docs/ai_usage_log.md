@@ -53,8 +53,8 @@ Every implementation choice that was left open is listed in `docs/decision_log.m
 | Reused-ticker check | Yahoo's company name compared with the index member's name for former members with Yahoo data | Wrong-company series found and blocked; see `data_feasibility.md`, section 4 |
 | Reference check | Authors, title, journal, volume, pages and DOI of every journal reference compared with Crossref | 19 of 19 confirmed; two candidates without a DOI record were not used |
 | App entry point | `prepare_data` + `run_backtest` reproduce the notebook's returns and the six required measures exactly | Passed (section 11.3) |
-| Full run, environment 1 | Fresh environment with Google Colab's package versions (pandas 2.2.3, yfinance 0.2.66, numpy 2.4.6), live downloads | Completed without error in 7.5 minutes; run once more on the same downloads for the committed notebook |
-| Full run, environment 2 | Newest package versions, on a separate live download made with them | PASS: 96 cells, 0 errors; 46 of 46 tests; the six required measures of the strategy, SPY and the universe differ from the committed run by at most 4.7e-07 |
+| Full run, environment 1 | Fresh environment with Google Colab's package versions (pandas 2.2.3, yfinance 0.2.66, numpy 2.4.6), live downloads | Completed without error in 4.8 minutes |
+| Full run, environment 2 | Newest package versions, on a separate live download made with them | PASS: 96 cells, 0 errors; 46 of 46 tests; the six required measures of the strategy, SPY and the universe differ from the committed run by at most 5.4e-04 |
 | Independent review by a second AI instance | Engine, tests and executed notebook examined for errors; findings and actions in `validation_report.md`, section 9 | Errors in the share-count data and several unstated assumptions found and corrected; not a review by a person |
 
 Errors the AI made and found during the build, for transparency:

@@ -102,88 +102,88 @@ z
    </g>
    <g id="matplotlib.axis_2"/>
    <g id="patch_3">
-    <path d="M 14.890909 88.920474 
-L 28.05258 88.920474 
-L 28.05258 107.577762 
-L 14.890909 107.577762 
+    <path d="M 14.890909 88.920486 
+L 28.05258 88.920486 
+L 28.05258 107.577732 
+L 14.890909 107.577732 
 z
 " clip-path="url(#p4f67bdc265)" style="fill: #f16034"/>
    </g>
    <g id="patch_4">
-    <path d="M 36.11941 88.920474 
-L 49.281081 88.920474 
-L 49.281081 61.083541 
-L 36.11941 61.083541 
+    <path d="M 36.11941 88.920486 
+L 49.281081 88.920486 
+L 49.281081 61.083512 
+L 36.11941 61.083512 
 z
 " clip-path="url(#p4f67bdc265)" style="fill: #00c805"/>
    </g>
    <g id="patch_5">
-    <path d="M 57.347912 88.920474 
-L 70.509582 88.920474 
-L 70.509582 74.553912 
-L 57.347912 74.553912 
+    <path d="M 57.347912 88.920486 
+L 70.509582 88.920486 
+L 70.509582 74.553876 
+L 57.347912 74.553876 
 z
 " clip-path="url(#p4f67bdc265)" style="fill: #00c805"/>
    </g>
    <g id="patch_6">
-    <path d="M 78.576413 88.920474 
-L 91.738084 88.920474 
-L 91.738084 111.937663 
-L 78.576413 111.937663 
+    <path d="M 78.576413 88.920486 
+L 91.738084 88.920486 
+L 91.738084 111.93767 
+L 78.576413 111.93767 
 z
 " clip-path="url(#p4f67bdc265)" style="fill: #f16034"/>
    </g>
    <g id="patch_7">
-    <path d="M 99.804914 88.920474 
-L 112.966585 88.920474 
-L 112.966585 76.189155 
-L 99.804914 76.189155 
+    <path d="M 99.804914 88.920486 
+L 112.966585 88.920486 
+L 112.966585 76.189139 
+L 99.804914 76.189139 
 z
 " clip-path="url(#p4f67bdc265)" style="fill: #00c805"/>
    </g>
    <g id="patch_8">
-    <path d="M 121.033415 88.920474 
-L 134.195086 88.920474 
-L 134.195086 99.315781 
-L 121.033415 99.315781 
+    <path d="M 121.033415 88.920486 
+L 134.195086 88.920486 
+L 134.195086 99.315741 
+L 121.033415 99.315741 
 z
 " clip-path="url(#p4f67bdc265)" style="fill: #f16034"/>
    </g>
    <g id="patch_9">
-    <path d="M 142.261916 88.920474 
-L 155.423587 88.920474 
-L 155.423587 71.544236 
-L 142.261916 71.544236 
+    <path d="M 142.261916 88.920486 
+L 155.423587 88.920486 
+L 155.423587 71.54429 
+L 142.261916 71.54429 
 z
 " clip-path="url(#p4f67bdc265)" style="fill: #00c805"/>
    </g>
    <g id="patch_10">
-    <path d="M 163.490418 88.920474 
-L 176.652088 88.920474 
-L 176.652088 112.411494 
-L 163.490418 112.411494 
+    <path d="M 163.490418 88.920486 
+L 176.652088 88.920486 
+L 176.652088 112.411495 
+L 163.490418 112.411495 
 z
 " clip-path="url(#p4f67bdc265)" style="fill: #f16034"/>
    </g>
    <g id="patch_11">
-    <path d="M 184.718919 88.920474 
-L 197.88059 88.920474 
+    <path d="M 184.718919 88.920486 
+L 197.88059 88.920486 
 L 197.88059 18.645141 
 L 184.718919 18.645141 
 z
 " clip-path="url(#p4f67bdc265)" style="fill: #00c805"/>
    </g>
    <g id="patch_12">
-    <path d="M 205.94742 88.920474 
-L 219.109091 88.920474 
-L 219.109091 64.726135 
-L 205.94742 64.726135 
+    <path d="M 205.94742 88.920486 
+L 219.109091 88.920486 
+L 219.109091 64.72641 
+L 205.94742 64.72641 
 z
 " clip-path="url(#p4f67bdc265)" style="fill: #00c805"/>
    </g>
    <g id="line2d_11">
-    <path d="M 4.68 88.920474 
-L 229.32 88.920474 
+    <path d="M 4.68 88.920486 
+L 229.32 88.920486 
 " clip-path="url(#p4f67bdc265)" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
    </g>
    <g id="patch_13">
@@ -192,34 +192,34 @@ L 229.32 128.16
 " style="fill: none; stroke: #e4e4e7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_11">
-    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="21.471744" y="115.534012" transform="rotate(-0 21.471744 115.534012)">−6.5</text>
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="21.471744" y="115.533982" transform="rotate(-0 21.471744 115.533982)">−6.5</text>
    </g>
    <g id="text_12">
-    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="42.700246" y="57.053072" transform="rotate(-0 42.700246 57.053072)">+9.7</text>
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="42.700246" y="57.053043" transform="rotate(-0 42.700246 57.053043)">+9.7</text>
    </g>
    <g id="text_13">
-    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="63.928747" y="70.523444" transform="rotate(-0 63.928747 70.523444)">+5.0</text>
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="63.928747" y="70.523407" transform="rotate(-0 63.928747 70.523407)">+5.0</text>
    </g>
    <g id="text_14">
-    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="85.157248" y="119.893913" transform="rotate(-0 85.157248 119.893913)">−8.0</text>
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="85.157248" y="119.89392" transform="rotate(-0 85.157248 119.89392)">−8.0</text>
    </g>
    <g id="text_15">
-    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="106.385749" y="72.158686" transform="rotate(-0 106.385749 72.158686)">+4.4</text>
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="106.385749" y="72.15867" transform="rotate(-0 106.385749 72.15867)">+4.4</text>
    </g>
    <g id="text_16">
-    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="127.614251" y="107.272031" transform="rotate(-0 127.614251 107.272031)">−3.6</text>
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="127.614251" y="107.271991" transform="rotate(-0 127.614251 107.271991)">−3.6</text>
    </g>
    <g id="text_17">
-    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="148.842752" y="67.513767" transform="rotate(-0 148.842752 67.513767)">+6.1</text>
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="148.842752" y="67.513821" transform="rotate(-0 148.842752 67.513821)">+6.1</text>
    </g>
    <g id="text_18">
-    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="170.071253" y="120.367744" transform="rotate(-0 170.071253 120.367744)">−8.2</text>
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="170.071253" y="120.367745" transform="rotate(-0 170.071253 120.367745)">−8.2</text>
    </g>
    <g id="text_19">
-    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="191.299754" y="14.614673" transform="rotate(-0 191.299754 14.614673)">+24.5</text>
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="191.299754" y="14.614672" transform="rotate(-0 191.299754 14.614672)">+24.5</text>
    </g>
    <g id="text_20">
-    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="212.528256" y="60.695667" transform="rotate(-0 212.528256 60.695667)">+8.4</text>
+    <text style="font-size: 7.5px; font-family: 'Inter'; text-anchor: middle" x="212.528256" y="60.695941" transform="rotate(-0 212.528256 60.695941)">+8.4</text>
    </g>
   </g>
  </g>

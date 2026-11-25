@@ -1,6 +1,6 @@
 # Validation report
 
-Status of every verification step for the notebook run of 2026-11-25 03:16 UTC. **PASS** means the step was executed and passed, with the evidence named. **NOT TESTED** means it was not executed; nothing is marked as passed on assumption.
+Status of every verification step for the notebook run of 2026-11-25 03:19 UTC. **PASS** means the step was executed and passed, with the evidence named. **NOT TESTED** means it was not executed; nothing is marked as passed on assumption.
 
 ## 1. Automated tests (synthetic data)
 
@@ -46,11 +46,11 @@ What the tests cover:
 
 | Run | Result |
 |---|---|
-| Fresh kernel, empty cache, live downloads, Colab's package versions, 2026-11-25 02:14 UTC | PASS: 96 cells, 0 errors, 7.5 minutes |
-| The committed notebook: run again in a fresh kernel at 2026-11-25 03:16 UTC on the downloads of the run above (reused from the cache of the same day), after the group details were entered (1 code cell changed: the requirement checklist) | PASS: 96 cells, 0 errors, 0.6 minutes. Same results as the run above |
+| Fresh kernel, empty cache, live downloads, Colab's package versions, 2026-11-25 03:19 UTC (the committed notebook) | PASS: 96 cells, 0 errors, 4.8 minutes |
 
-| Fresh kernel, newest package versions (pandas 3.1.1, yfinance 1.8.0), 2026-11-25 02:23 UTC, on the separate live download that a complete run with these versions made at 2026-11-24 23:25 UTC | PASS: 96 cells, 0 errors; 46 of 46 tests; the six required measures of the strategy, SPY and the universe differ from the committed run by at most 4.7e-07 |
+| Fresh kernel, newest package versions (pandas 3.1.1, yfinance 1.8.0), 2026-11-25 02:23 UTC, on the separate live download that a complete run with these versions made at 2026-11-24 23:25 UTC | PASS: 96 cells, 0 errors; 46 of 46 tests; the six required measures of the strategy, SPY and the universe differ from the committed run by at most 5.4e-04 |
 | Inside Google Colab | **Reported by the group:** a complete run on 25 November 2026 (Benedikt Proebstl). Not recorded: whether that was before or after section 12.6 was added on the same day. The AI assistant has not run the notebook in Colab. To repeat: open <https://colab.research.google.com/github/benediktproebstl/quantile-alpha/blob/main/Financial_Modeling_Quantile_Alpha.ipynb>, choose Runtime → Run all, and compare the table in section 6.2 with the committed version. |
+| Outside the repository folder, as Google Colab runs it (25 November 2026, after the push; Colab's package versions; the downloads of the day) | PASS: no errors. The typeface of the prospectus figures was fetched from the public repository. Without access to it the notebook uses matplotlib's default typeface, as the run with the newest package versions showed |
 
 `python tools/export_engine.py --check` confirms that `quantile_alpha/engine.py` and `tests/test_engine.py` are identical to the notebook's engine and test cells.
 
@@ -133,7 +133,7 @@ Checked afterwards by the AI assistant: every page looked at as an image; the PD
 
 | Check | Result |
 |---|---|
-| A backtest on the app's data files gives the same monthly returns as a backtest on the full data | PASS: largest difference 4.4e-16 (`tools/make_app_snapshot.py`) |
+| A backtest on the app's data files gives the same monthly returns as a backtest on the full data | PASS: largest difference 6.7e-16 (`tools/make_app_snapshot.py`) |
 | The same on a synthetic market, including a round trip through the files and every assumption the app changes | PASS (`tests/test_app_data.py`) |
 | The first page shows the engine's figures; every control reruns the engine; all three benchmarks and all four periods; an impossible combination is explained; the reset restores the prospectus settings | PASS (`tests/test_tracker_app.py`, run without a browser) |
 | With the prospectus settings the app shows the figures of this notebook run | PASS: 17.80% a year stored with the data, 17.80% in the notebook |
